@@ -238,7 +238,19 @@
                             <xs:element name="isla" maxOccurs="unbounded" minOccurs="1">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element type="xs:byte" name="climatologia"/>
+                                        <xs:element name="climatologia" default="Despejado">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:enumeration value="Despejado" />
+                                                    <xs:enumeration value="Lluvia" />
+                                                    <xs:enumeration value="Nublado" />
+                                                    <xs:enumeration value="Nieve" />
+                                                    <xs:enumeration value="Granizo" />
+                                                    <xs:enumeration value="Tormenta" />
+                                                    <xs:enumeration value="Calima" />
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
                                         <xs:element name="vecinos">
                                             <xs:complexType>
                                                 <xs:sequence>

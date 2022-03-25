@@ -127,7 +127,7 @@
 
                 <muebles>
                     <mueble id="Muebles.xml#mu1">
-                        
+
                     </mueble>
                 </muebles>
 
@@ -137,7 +137,7 @@
 
         <isla id="Islas.xml#i11">
 
-            <climatologia>1</climatologia>
+            <climatologia>Despejado</climatologia>
 
             <vecinos>
                 <vecino id="Vecinos.xml#vec1"></vecino>
