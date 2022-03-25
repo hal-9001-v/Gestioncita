@@ -109,7 +109,7 @@
                                     <xs:attribute type="xs:string" name="id" use="required" />
                                 </xs:complexType>
                             </xs:element>
-                            <xs:element name="casa" maxOccurs="11" minOccurs="3">
+                            <xs:element name="casa" maxOccurs="unbounded" minOccurs="3">
                                 <xs:complexType>
                                     <xs:sequence>
                                         <xs:element name="colorTejado" default="Rojo">
