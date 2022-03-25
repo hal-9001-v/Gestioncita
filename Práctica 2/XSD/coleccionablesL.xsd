@@ -2,30 +2,49 @@
   <xs:element name="coleccionables">
     <xs:complexType>
       <xs:sequence>
-        <xs:element name="coleccionable" maxOccurs = "unbounded" minOccurs = "0">
+        <xs:element name="coleccionable" maxOccurs="unbounded" minOccurs="0">
           <xs:complexType>
-            <xs:sequence>
-              <xs:element type="xs:float" name="tamano"/>
-            </xs:sequence>
-            <xs:attribute type="xs:string" name="id"/>
-            <xs:attribute type="xs:string" name="tipoEsp" maxOccurs = "1"/>
-            <xs:attribute type="xs:string" name="estacion" maxOccurs = "1"/>
-            <xs:attribute type="xs:string" name="localizacion" maxOccurs = "1">
-               <xs:simpleType>
-                  <xs:restriction base = "xs:string">
-                    <xs:enumeration value = "Cascada"/>
-                    <xs:enumeration value = "Estanque"/>
-                    <xs:enumeration value = "Mar"/>
-                    <xs:enumeration value = "Boca del río"/>
-                    <xs:enumeration value = "Aire"/>
-                    <xs:enumeration value = "Tierra"/>
-                    <xs:enumeration value = "Flor"/>
-                    <xs:enumeration value = "Árbol"/>
-                    <xs:enumeration value = "Bajo tierra"/>
-                  </xs:restriction>
-                </xs:simpleType>
-            </xs:attribute>
-            <xs:attribute type="xs:byte" name="rareza" maxOccurs = "1"/>
+            <xs:simpleContent>
+              <xs:extension base="xs:string">
+                <xs:attribute type="xs:string" name="id" use="required" />
+                <xs:attribute type="xs:short" name="tamanio" use="required" />
+                <xs:attribute name="tipoEsp" use="required">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:enumeration value="Fosil" />
+                      <xs:enumeration value="Pez" />
+                      <xs:enumeration value="Insecto" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:attribute>
+                <xs:attribute name="estacion" use="required">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:enumeration value="Verano" />
+                      <xs:enumeration value="Otonio" />
+                      <xs:enumeration value="Invierno" />
+                      <xs:enumeration value="Primavera" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:attribute>
+                <xs:attribute name="localizacion" use="required">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:enumeration value="Cascada" />
+                      <xs:enumeration value="Estanque" />
+                      <xs:enumeration value="Mar" />
+                      <xs:enumeration value="Boca del rio" />
+                      <xs:enumeration value="Aire" />
+                      <xs:enumeration value="Tierra" />
+                      <xs:enumeration value="Flor" />
+                      <xs:enumeration value="Arbol" />
+                      <xs:enumeration value="Bajo tierra" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:attribute>
+                <xs:attribute type="xs:byte" name="rareza" use="required"/>
+              </xs:extension>
+            </xs:simpleContent>
           </xs:complexType>
         </xs:element>
       </xs:sequence>

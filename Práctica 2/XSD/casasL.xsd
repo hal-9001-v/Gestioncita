@@ -2,131 +2,13 @@
   <xs:element name="casas">
     <xs:complexType>
       <xs:sequence>
-        <xs:element name="casa">
+        <xs:element name="casa" maxOccurs="unbounded" minOccurs="0">
           <xs:complexType>
-            <xs:sequence>
-              <xs:element type="xs:string" name="colorTejado" default = "Rojo">
-                <xs:simpleType>
-                  <xs:restriction base = "xs:string">
-                    <xs:enumeration value = "Rojo"/>
-                    <xs:enumeration value = "Rosa"/>
-                    <xs:enumeration value = "Amarillo"/>
-                    <xs:enumeration value = "Azul"/>
-                    <xs:enumeration value = "Marrón"/>
-                    <xs:enumeration value = "Morado"/>
-                    <xs:enumeration value = "Violeta"/>
-                    <xs:enumeration value = "Verde"/>
-                    <xs:enumeration value = "Lima"/>
-                    <xs:enumeration value = "Blanco"/>
-                    <xs:enumeration value = "Negro"/>
-                    <xs:enumeration value = "Gris"/>
-                    <xs:enumeration value = "Cian"/>
-                  </xs:restriction>
-                </xs:simpleType>
-              </xs:element>
-              <xs:element type="xs:string" name="colorFachada" default = "Blanco" >
-                <xs:simpleType>
-                  <xs:restriction base = "xs:string">
-                    <xs:enumeration value = "Rojo"/>
-                    <xs:enumeration value = "Rosa"/>
-                    <xs:enumeration value = "Amarillo"/>
-                    <xs:enumeration value = "Azul"/>
-                    <xs:enumeration value = "Marrón"/>
-                    <xs:enumeration value = "Morado"/>
-                    <xs:enumeration value = "Violeta"/>
-                    <xs:enumeration value = "Verde"/>
-                    <xs:enumeration value = "Lima"/>
-                    <xs:enumeration value = "Blanco"/>
-                    <xs:enumeration value = "Negro"/>
-                    <xs:enumeration value = "Gris"/>
-                    <xs:enumeration value = "Cian"/>
-
-                  </xs:restriction>
-                </xs:simpleType>
-              </xs:element>
-              <xs:element name="inventarioCasa">
-                <xs:complexType>
-                  <xs:sequence>
-                    <xs:element name="coleccionables">
-                      <xs:complexType>
-                        <xs:sequence>
-                          <xs:element name="coleccionable">
-                            <xs:complexType>
-                              <xs:simpleContent>
-                                <xs:extension base="xs:string">
-                                  <xs:attribute type="xs:string" name="id"/>
-                                </xs:extension>
-                              </xs:simpleContent>
-                            </xs:complexType>
-                          </xs:element>
-                        </xs:sequence>
-                      </xs:complexType>
-                    </xs:element>
-                    <xs:element name="equipables">
-                      <xs:complexType>
-                        <xs:sequence>
-                          <xs:element name="equipable">
-                            <xs:complexType>
-                              <xs:simpleContent>
-                                <xs:extension base="xs:string">
-                                  <xs:attribute type="xs:string" name="id"/>
-                                </xs:extension>
-                              </xs:simpleContent>
-                            </xs:complexType>
-                          </xs:element>
-                        </xs:sequence>
-                      </xs:complexType>
-                    </xs:element>
-                    <xs:element name="props">
-                      <xs:complexType>
-                        <xs:sequence>
-                          <xs:element name="prop">
-                            <xs:complexType>
-                              <xs:simpleContent>
-                                <xs:extension base="xs:string">
-                                  <xs:attribute type="xs:string" name="id"/>
-                                </xs:extension>
-                              </xs:simpleContent>
-                            </xs:complexType>
-                          </xs:element>
-                        </xs:sequence>
-                      </xs:complexType>
-                    </xs:element>
-                    <xs:element name="materiales">
-                      <xs:complexType>
-                        <xs:sequence>
-                          <xs:element name="material">
-                            <xs:complexType>
-                              <xs:simpleContent>
-                                <xs:extension base="xs:string">
-                                  <xs:attribute type="xs:string" name="id"/>
-                                </xs:extension>
-                              </xs:simpleContent>
-                            </xs:complexType>
-                          </xs:element>
-                        </xs:sequence>
-                      </xs:complexType>
-                    </xs:element>
-                    <xs:element name="muebles">
-                      <xs:complexType>
-                        <xs:sequence>
-                          <xs:element name="mueble">
-                            <xs:complexType>
-                              <xs:simpleContent>
-                                <xs:extension base="xs:string">
-                                  <xs:attribute type="xs:string" name="id"/>
-                                </xs:extension>
-                              </xs:simpleContent>
-                            </xs:complexType>
-                          </xs:element>
-                        </xs:sequence>
-                      </xs:complexType>
-                    </xs:element>
-                  </xs:sequence>
-                </xs:complexType>
-              </xs:element>
-            </xs:sequence>
-            <xs:attribute type="xs:string" name="id"/>
+            <xs:simpleContent>
+              <xs:extension base="xs:string">
+                <xs:attribute type="xs:string" name="id" use="required"/>
+              </xs:extension>
+            </xs:simpleContent>
           </xs:complexType>
         </xs:element>
       </xs:sequence>

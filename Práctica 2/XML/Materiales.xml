@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <materiales>
-    <material id = "mat1" tipoEsp = "1"> </material>
+    <material id = "mat1" tipoEsp = "Piedra"> </material>
 </materiales>
