@@ -1,0 +1,49 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="props">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="prop" maxOccurs="unbounded" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="crecimiento" default="1">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:byte">
+                                        <xs:enumeration value="1" />
+                                        <xs:enumeration value="2" />
+                                        <xs:enumeration value="3" />
+                                        <xs:enumeration value="4" />
+                                        <xs:enumeration value="5" />
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute type="xs:string" name="id" use="required" />
+                        <xs:attribute type="xs:string" name="nombre" use="required" />
+                        <xs:attribute type="xs:byte" name="stack" default="1" />
+                        <xs:attribute type="xs:byte" name="precio" use="required" />
+                        <xs:attribute name="tipo" use="required">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:enumeration value="Hierba" />
+                                    <xs:enumeration value="Flor" />
+                                    <xs:enumeration value="Piedra" />
+                                    <xs:enumeration value="Arbusto" />
+                                    <xs:enumeration value="Arbol" />
+                                    <xs:enumeration value="Fruta" />
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:attribute>
+                        <xs:attribute name="comestible" use="required">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:enumeration value="Si" />
+                                    <xs:enumeration value="No" />
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:attribute>                        
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

@@ -2,21 +2,21 @@
   <xs:element name="materiales">
     <xs:complexType>
       <xs:sequence>
-        <xs:element name="material">
+        <xs:element name="material" maxOccurs="unbounded" minOccurs="0">
           <xs:complexType>
             <xs:simpleContent>
               <xs:extension base="xs:string">
-                <xs:attribute type="xs:string" name="id" use = "required"/>
-                <xs:attribute type="xs:string" name="tipoEsp">
+                <xs:attribute type="xs:string" name="id" use="required" />
+                <xs:attribute name="tipoEsp" use="required">
                   <xs:simpleType>
-                  <xs:restriction base = "xs:string">
-                    <xs:enumeration value = "Piedra"/>
-                    <xs:enumeration value = "Pepita"/>
-                    <xs:enumeration value = "Madera"/>
-                    <xs:enumeration value = "Madera"/>
-                    <xs:enumeration value = "Madera blanda"/>
-                  </xs:restriction>
-                </xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:enumeration value="Piedra" />
+                      <xs:enumeration value="Pepita" />
+                      <xs:enumeration value="Madera" />
+                      <xs:enumeration value="Madera Dura" />
+                      <xs:enumeration value="Madera blanda" />
+                    </xs:restriction>
+                  </xs:simpleType>
                 </xs:attribute>
               </xs:extension>
             </xs:simpleContent>
