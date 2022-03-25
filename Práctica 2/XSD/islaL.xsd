@@ -1,0 +1,148 @@
+
+
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="islas">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="isla">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element type="xs:string" name="fecha"/>
+            <xs:element type="xs:string" name="hora"/>
+            <xs:element type="xs:string" name="climatologia"/>
+            <xs:element name="edificios">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="edificio" maxOccurs="unbounded" minOccurs="0">
+                    <xs:complexType>
+                      <xs:simpleContent>
+                        <xs:extension base="xs:string">
+                          <xs:attribute type="xs:string" name="id" use="optional"/>
+                        </xs:extension>
+                      </xs:simpleContent>
+                    </xs:complexType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="personajes">
+              <xs:complexType>
+                <xs:choice maxOccurs="40" minOccurs="3">
+                  <xs:element name="personaje">
+                    <xs:complexType>
+                      <xs:simpleContent>
+                        <xs:extension base="xs:string">
+                          <xs:attribute type="xs:string" name="id" use="required"/>
+                        </xs:extension>
+                      </xs:simpleContent>
+                    </xs:complexType>
+                  </xs:element>
+                </xs:choice>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="vecinos">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="vecino">
+                    <xs:complexType>
+                      <xs:simpleContent>
+                        <xs:extension base="xs:string">
+                          <xs:attribute type="xs:string" name="id" use ="required"/>
+                        </xs:extension>
+                      </xs:simpleContent>
+                    </xs:complexType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="inventarioIsla">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="coleccionables">
+                    <xs:complexType>
+                      <xs:sequence>
+                        <xs:element name="coleccionable">
+                          <xs:complexType>
+                            <xs:simpleContent>
+                              <xs:extension base="xs:string">
+                                <xs:attribute type="xs:string" name="id" use="required" />
+                              </xs:extension>
+                            </xs:simpleContent>
+                          </xs:complexType>
+                        </xs:element>
+                      </xs:sequence>
+                    </xs:complexType>
+                  </xs:element>
+                  <xs:element name="equipables">
+                    <xs:complexType>
+                      <xs:sequence>
+                        <xs:element name="equipable">
+                          <xs:complexType>
+                            <xs:simpleContent>
+                              <xs:extension base="xs:string">
+                                <xs:attribute type="xs:string" name="id" use="required"/>
+                              </xs:extension>
+                            </xs:simpleContent>
+                          </xs:complexType>
+                        </xs:element>
+                      </xs:sequence>
+                    </xs:complexType>
+                  </xs:element>
+                  <xs:element name="props">
+                    <xs:complexType>
+                      <xs:sequence>
+                        <xs:element name="prop">
+                          <xs:complexType>
+                            <xs:simpleContent>
+                              <xs:extension base="xs:string">
+                                <xs:attribute type="xs:string" name="id" use="required"/>
+                              </xs:extension>
+                            </xs:simpleContent>
+                          </xs:complexType>
+                        </xs:element>
+                      </xs:sequence>
+                    </xs:complexType>
+                  </xs:element>
+                  <xs:element name="materiales">
+                    <xs:complexType>
+                      <xs:sequence>
+                        <xs:element name="material">
+                          <xs:complexType>
+                            <xs:simpleContent>
+                              <xs:extension base="xs:string">
+                                <xs:attribute type="xs:string" name="id" use="required"/>
+                              </xs:extension>
+                            </xs:simpleContent>
+                          </xs:complexType>
+                        </xs:element>
+                      </xs:sequence>
+                    </xs:complexType>
+                  </xs:element>
+                  <xs:element name="muebles">
+                    <xs:complexType>
+                      <xs:sequence>
+                        <xs:element name="mueble">
+                          <xs:complexType>
+                            <xs:simpleContent>
+                              <xs:extension base="xs:string">
+                                <xs:attribute type="xs:string" name="id" use="required"/>
+                              </xs:extension>
+                            </xs:simpleContent>
+                          </xs:complexType>
+                        </xs:element>
+                      </xs:sequence>
+                    </xs:complexType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+          <xs:attribute type="xs:string" name="id" use = "required"/>
+          <xs:attribute type="xs:string" name="nombre" use="required"/>
+          <xs:attribute type="xs:string" name="hemisferio" use ="required" />
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+</xs:schema>

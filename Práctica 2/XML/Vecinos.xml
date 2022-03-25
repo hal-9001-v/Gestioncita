@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vecinos>
+    <vecino id = "vec1" personalidad = "alegre" nombre = "Joselito" casa = "Casas.xml#c1">
+    </vecino>
+</vecinos>

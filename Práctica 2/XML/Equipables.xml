@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<equipables>
+	<equipable id = "equi1" nombre = "fedora" stack = "1" precio = "1500" tipo = "ropa" lugar_eq = "cabeza">
+    </equipable>
+</equipables>

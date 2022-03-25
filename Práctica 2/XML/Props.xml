@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<props>
+	<prop id = "prop1" nombre = "paco" stack = "10" precio = "10" tipo = "5" comestible = "Si">
+        <crecimiento>5</crecimiento>
+    </prop>
+    
+</props>

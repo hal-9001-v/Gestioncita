@@ -1,0 +1,59 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="muebles">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="mueble">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element type="xs:string" name="color"/>
+                        </xs:sequence>
+                        <xs:attribute type="xs:string" name="id" use="required"/>
+                        <xs:attribute type="xs:string" name="nombre"/>
+                        <xs:attribute type="xs:byte" name="stack" fixed="1"/>
+                        <xs:attribute type="xs:byte" name="precio"/>
+                        <xs:attribute name="tipo">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:enumeration value="Sillas y sofás"/>
+                                    <xs:enumeration value="Camas"/>
+                                    <xs:enumeration value="Lamparas"/>
+                                    <xs:enumeration value="Almacenamiento"/>
+                                    <xs:enumeration value="Relojes"/>
+                                    <xs:enumeration value="Televisiones"/>
+                                    <xs:enumeration value="Mesas"/>
+                                    <xs:enumeration value="Decoraciones"/>
+                                    <xs:enumeration value="Reproductores de musica"/>
+                                    <xs:enumeration value="Muebles de pared"/>
+                                    <xs:enumeration value="Coleccionables"/>
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:attribute>
+                        <xs:attribute name="conjunto">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:enumeration value=""/>
+                                    <xs:enumeration value="Congelado"/>
+                                    <xs:enumeration value="Dorado"/>
+                                    <xs:enumeration value="Setas"/>
+                                    <xs:enumeration value="Flor de cerezo"/>
+                                    <xs:enumeration value="Bambu"/>
+                                    <xs:enumeration value="Mimbre"/>
+                                    <xs:enumeration value="Restaurante"/>
+                                    <xs:enumeration value="Imperial"/>
+                                    <xs:enumeration value="Flores"/>
+                                    <xs:enumeration value="Linda"/>
+                                    <xs:enumeration value="Mariana"/>
+                                    <xs:enumeration value="Veraniego"/>
+                                    <xs:enumeration value="Frutas"/>
+                                    <xs:enumeration value="Zodiaco"/>
+                                    <xs:enumeration value="Universitario"/>
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:attribute>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

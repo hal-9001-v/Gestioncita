@@ -1,0 +1,39 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="equipables">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="equipable">
+          <xs:complexType>
+            <xs:simpleContent>
+              <xs:extension base="xs:string">
+                <xs:attribute type="xs:string" name="id" use = "required"/>
+                <xs:attribute type="xs:string" name="nombre"/>
+                <xs:attribute type="xs:short" name="stack"/>
+                <xs:attribute type="xs:short" name="precio"/>
+                <xs:attribute type="xs:string" name="tipo">
+                  <xs:simpleType>
+                  <xs:restriction base = "xs:string">
+                    <xs:enumeration value = "Herramienta"/>
+                    <xs:enumeration value = "Ropa"/>
+                  </xs:restriction>
+                </xs:simpleType>
+                </xs:attribute>
+                <xs:attribute type="xs:string" name="lugar_eq">
+                  <xs:simpleType>
+                    <xs:restriction base = "xs:string">
+                      <xs:enumeration value = "Mano"/>
+                      <xs:enumeration value = "Pie"/>
+                      <xs:enumeration value = "Espalda"/>
+                      <xs:enumeration value = "Torso"/>
+                      <xs:enumeration value = "Cabeza"/>
+                    </xs:restriction>
+                </xs:simpleType>
+                </xs:attribute>
+              </xs:extension>
+            </xs:simpleContent>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

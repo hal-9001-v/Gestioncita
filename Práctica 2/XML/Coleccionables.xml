@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coleccionables>
+   <coleccionable id = "col1" tipoEsp = "1" estacion = "verano" localizacion = "mar" rareza = "1">
+   </coleccionable> 
+</coleccionables>
