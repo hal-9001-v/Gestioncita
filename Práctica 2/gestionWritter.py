@@ -28,8 +28,9 @@ size_of_casas = size_of_jugadores + size_of_vecinos
 casas_of_jugadores_start = 0
 casas_of_vecinos_start = size_de_personajes
 
-#This would be called casas_left but it is unresolved reference then dont make questions ¯\_(ツ)_/¯
+# This would be called casas_left but it is unresolved reference then dont make questions ¯\_(ツ)_/¯
 casas_avaliable = 30
+
 
 def insert_new_entry(file, tag, attributes, sub_elements):
     tree = etree.parse(file)
@@ -43,10 +44,12 @@ def insert_new_entry(file, tag, attributes, sub_elements):
 
     return new_element
 
+
 def create_casas():
     casa_size = 30
     for i in range(casa_size):
         insert_new_entry(casa_file, "casa", {"id": "c" + str(i)}, [])
+
 
 def create_coleccionables():
     # Coleccionables
@@ -69,12 +72,14 @@ def create_coleccionables():
                     insert_new_entry(coleccionable_file, "coleccionable", attributes, [])
                     id_count += 1
 
+
 def create_edificios():
     # Care to give some correlation if global variable size_edificio!
     edificio_types = ["Ayuntamiento", "Peluqueria", "Supermercado", "Museo", "Aerodromo"]
     for i in range(len(edificio_types)):
         attributes = {"id": "ed" + str(i), "tipo": edificio_types[i]}
         insert_new_entry(edificio_file, "edificio", attributes, [])
+
 
 def create_equipables():
     # Equipables
@@ -117,6 +122,7 @@ def create_equipables():
                       "precio": str(random_price),
                       "tipo": equip_types[1], "lugar_eq": equip_place[0]}
         insert_new_entry(equipable_file, "equipable", attributes, [])
+
 
 def create_islas():
     # Islas
@@ -179,6 +185,7 @@ def create_jugadores():
                           "isla": "Islas.xml#is" + str(size_islas - islas_left),
                           "casa": "Casas.xml#c" + str(casas_of_jugadores_start + i)}, [])
 
+
 def create_materiales():
     # Materiales
     material_type = ["Piedra", "Pepita", "Madera", "Madera Dura", "Madera Blanda"]
@@ -208,7 +215,8 @@ def create_personajes():
     edificios_of_personajes = ["1", "1", "2"]
     for i in range(len(personajes_names)):
         insert_new_entry(personaje_file, "personaje",
-                         {"id": "pj" + str(i), "nombre": personajes_names[i], "edificio": "ed"+edificios_of_personajes[i]},
+                         {"id": "pj" + str(i), "nombre": personajes_names[i],
+                          "edificio": "ed" + edificios_of_personajes[i]},
                          [])
 
 
@@ -232,7 +240,7 @@ def create_vecinos():
     personalidades = ["Alegre", "Atletico", "Esnob", "Dulce", "Grunion", "Presumido", "Perezoso", "Normal"]
     for i in range(len(nombres_vecinos)):
         attributes = {"id": "vec" + str(i), "personalidad": personalidades[i], "nombre": nombres_vecinos[i],
-                      "casa": str(casas_of_vecinos_start + i)}
+                      "casa": "Casas.xml#c" + str(casas_of_vecinos_start + i)}
         insert_new_entry(vecino_file, "vecino", attributes, [])
 
 
