@@ -1,5 +1,2 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <coleccionables>
-   <coleccionable id = "col1" tipoEsp = "Fosil" tamanio="100" estacion = "Verano" localizacion = "Mar" rareza = "10">
-   </coleccionable> 
 </coleccionables>

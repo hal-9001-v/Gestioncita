@@ -18,30 +18,35 @@ personaje_file = xmlPath + "Personajes.xml"
 prop_file = xmlPath + "Props.xml"
 vecino_file = xmlPath + "Vecinos.xml"
 
-use_test_output = True
+size_of_jugadores = 5
+size_edificios = 5
+size_de_personajes = 3
+size_islas = 5
+size_of_vecinos = 8
 
+size_of_casas = size_of_jugadores + size_of_vecinos
+casas_of_jugadores_start = 0
+casas_of_vecinos_start = size_de_personajes
+
+#This would be called casas_left but it is unresolved reference then dont make questions ¯\_(ツ)_/¯
+casas_avaliable = 30
 
 def insert_new_entry(file, tag, attributes, sub_elements):
     tree = etree.parse(file)
     root = tree.getroot()
 
-    # attributes = {"pito": "muy largo", "pelito": "demasiado"}
-
     new_element = etree.SubElement(root, tag, attributes)
     for sub in sub_elements:
         etree.SubElement(new_element, sub.tag, sub.attrib)
 
-    # if not use_test_output:
     tree.write(file, pretty_print=True)
 
     return new_element
-
 
 def create_casas():
     casa_size = 30
     for i in range(casa_size):
         insert_new_entry(casa_file, "casa", {"id": "c" + str(i)}, [])
-
 
 def create_coleccionables():
     # Coleccionables
@@ -64,14 +69,12 @@ def create_coleccionables():
                     insert_new_entry(coleccionable_file, "coleccionable", attributes, [])
                     id_count += 1
 
-
 def create_edificios():
-    # Edificios
+    # Care to give some correlation if global variable size_edificio!
     edificio_types = ["Ayuntamiento", "Peluqueria", "Supermercado", "Museo", "Aerodromo"]
     for i in range(len(edificio_types)):
         attributes = {"id": "ed" + str(i), "tipo": edificio_types[i]}
         insert_new_entry(edificio_file, "edificio", attributes, [])
-
 
 def create_equipables():
     # Equipables
@@ -115,12 +118,14 @@ def create_equipables():
                       "tipo": equip_types[1], "lugar_eq": equip_place[0]}
         insert_new_entry(equipable_file, "equipable", attributes, [])
 
-
 def create_islas():
     # Islas
     isla_names = ["AlcorOn", "SouthPeru", "MostToLess", "TorriHoes", "WestMadriz"]
-    sub_edificios = ["120", "135"]
+
+    edificio_counter = 0
+
     sub_personajes = ["5", "6"]
+    edificios_left = edificio_counter
     for i in range(len(isla_names)):
         if i % 2 == 0:
             hemisferio = "N"
@@ -134,28 +139,44 @@ def create_islas():
 
         new_isla = etree.SubElement(root, "isla", attributes)
 
+        fecha = etree.SubElement(new_isla, "fecha", )
+        random_day = str(random.randrange(1, 28))
+        random_month = str(random.randrange(1, 12))
+        fecha.text = random_day + "-" + random_month + "-2022"
+
+        hora = etree.SubElement(new_isla, "hora", )
+        random_hour = str(random.randrange(0, 23))
+        random_minute = str(random.randrange(10, 59))
+
+        hora.text = random_hour + ":" + random_minute
+
         edificio_group = etree.SubElement(new_isla, "edificios", )
-        for sub in sub_edificios:
-            etree.SubElement(edificio_group, "edificio", {"id": "Edificios.xml#ed" + sub})
+        edificios_in_isla = 0
+
+        while edificios_in_isla <= 2 & edificios_left > 0:
+            etree.SubElement(edificio_group, "edificio",
+                             {"id": "Edificios.xml#ed" + str(size_edificios - edificios_left)})
+            edificios_left -= 1
+            edificios_in_isla += 1
 
         personaje_group = etree.SubElement(new_isla, "personajes", )
-        for sub in sub_personajes:
-            etree.SubElement(personaje_group, "personaje", {"id": "Personajes.xml#ed" + sub})
+        for i in range(size_de_personajes):
+            etree.SubElement(personaje_group, "personaje", {"id": "Personajes.xml#pj" + str(i)})
 
     tree.write(isla_file, pretty_print=True)
 
-
 def create_jugadores():
-    # Jugadores
     jugadores_names = ["Pepito", "Fulanito", "Joselito", "Dio", "Vinsent"]
-    islas_of_jugadores = ["11", "22", "33", "100", "222"]
-    casas_of_jugadores = ["1", "2", "3", "4", "5"]
+
+    islas_left = size_islas
     for i in range(len(jugadores_names)):
+        if islas_left == 0:
+            islas_left = size_islas
+
         insert_new_entry(jugador_file, "jugador",
                          {"id": "j" + str(i), "nombre": jugadores_names[i],
-                          "isla": "Islas.xml#is" + islas_of_jugadores[i],
-                          "casa": "Casas.xml#c" + casas_of_jugadores[i]}, [])
-
+                          "isla": "Islas.xml#is" + str(size_islas - islas_left),
+                          "casa": "Casas.xml#c" + str(casas_of_jugadores_start + i)}, [])
 
 def create_materiales():
     # Materiales
@@ -181,7 +202,7 @@ def create_muebles():
 
 
 def create_personajes():
-    # Personajes
+    # Care to give some correlation with size_of_personajes
     personajes_names = ["Tom Nook", "Canela", "Rafa"]
     edificios_of_personajes = ["41", "42", "43"]
     for i in range(len(personajes_names)):
@@ -208,10 +229,9 @@ def create_vecinos():
     # Vecinos
     nombres_vecinos = ["Paco", "Joshua", "Ankha", "Marcelyn", "Apollo", "Steacy", "Carlos", "Queque"]
     personalidades = ["Alegre", "Atletico", "Esnob", "Dulce", "Grunion", "Presumido", "Perezoso", "Normal"]
-    casas_of_vecinos = ["23", "32", "40", "50", "60", "65", "70", "74"]
     for i in range(len(nombres_vecinos)):
         attributes = {"id": "vec" + str(i), "personalidad": personalidades[i], "nombre": nombres_vecinos[i],
-                      "casa": casas_of_vecinos[i]}
+                      "casa": (casas_of_vecinos_start + i)}
         insert_new_entry(vecino_file, "vecino", attributes, [])
 
 

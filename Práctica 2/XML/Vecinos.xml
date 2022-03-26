@@ -1,7 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <vecinos>
-    <vecino id = "vec1" personalidad = "Alegre" nombre = "Joselito" casa = "Casas.xml#c2">
-    </vecino>
-    <vecino id = "vec2" personalidad = "Grunion" nombre = "Miguelito" casa = "Casas.xml#c3">
-    </vecino>
+
 </vecinos>

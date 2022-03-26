@@ -1,9 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<personajes>
-	<personaje id = "pj1" nombre = "Tom Nook" edificio = "ed41">
-    </personaje>
-    <personaje id = "pj2" nombre = "Canela" edificio = "ed42">
-    </personaje>
-    <personaje id = "pj1" nombre = "Rafa" edificio = "ed43">
-    </personaje>
-</personajes>
+<personajes></personajes>
