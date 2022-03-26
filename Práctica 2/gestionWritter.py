@@ -144,3 +144,49 @@ for i in range(len(jugadores_names)):
     insert_new_entry(jugador_file, "jugador",
                      {"id": "j" + str(i), "nombre": jugadores_names[i], "isla": "Islas.xml#is" + islas_of_jugadores[i],
                       "casa": "Casas.xml#c" + casas_of_jugadores[i]}, [])
+
+# Materiales
+material_type = ["Piedra", "Pepita", "Madera", "Madera Dura", "Madera Blanda"]
+for i in range(len(material_type)):
+    insert_new_entry(materiales_file, "material", {"id": "mat" + str(i), "tipoEsp": material_type[i]}, [])
+
+# Muebles
+muebles_names = ["Mesita", "Sillita", "Lamparita", "Sofita"]
+mueble_tipos = ["Mesa", "Sillas y sofas", "Lampara", "Sillas y sofas"]
+mueble_conjuntos = ["", "Congelado", "Dorado", "Setas", "Flor de cerezo", "Bambu", "Mimbre", "Restaurante", "Imperial",
+                    "Flores", "Linda", "Mariana", "Veraniego", "Frutas", "Zodiaco", "Universitario"]
+for i in range(len(muebles_names)):
+    random_stack = random.randrange(1, 64)
+    random_price = random.randrange(100, 5000)
+
+    attributes = {"id": "mu" + str(i), "nombre": muebles_names[i], "stack": str(random_stack),
+                  "precio": str(random_price), "tipo": mueble_tipos[i], "conjunto": mueble_conjuntos[i]}
+    insert_new_entry(mueble_file, "mueble", attributes, [])
+
+# Personajes
+personajes_names = ["Tom Nook", "Canela", "Rafa"]
+edificios_of_personajes = ["41", "42", "43"]
+for i in range(len(personajes_names)):
+    insert_new_entry(personaje_file, "personaje",
+                     {"id": "pj" + str(i), "nombre": personajes_names[i], "edificio": edificios_of_personajes[i]}, [])
+
+# Props
+props_names = ["Cesped", "Petunia", "Roca", "Romero", "Manzano", "Naranja"]
+props_types = ["Hierba", "Flor", "Piedra", "Arbusto", "Arbol", "Fruta"]
+comestibles = ["No", "No", "No", "No", "No", "Si"]
+for i in range(len(props_names)):
+    random_stack = random.randrange(1, 64)
+    random_price = random.randrange(100, 5000)
+    attributes = {"id": "prop" + str(i), "nombre": props_names[i], "stack": str(random_stack),
+                  "precio": str(random_price),
+                  "tipo": props_types[i], "comestible": comestibles[i]}
+    insert_new_entry(prop_file, "prop", attributes, [])
+
+# Vecinos
+nombres_vecinos = ["Paco", "Joshua", "Ankha", "Marcelyn", "Apollo", "Steacy", "Carlos", "Queque"]
+personalidades = ["Alegre", "Atletico", "Esnob", "Dulce", "Grunion", "Presumido", "Perezoso", "Normal"]
+casas_of_vecinos = ["23", "32", "40", "50", "60", "65", "70", "74"]
+for i in range(len(nombres_vecinos)):
+    attributes = {"id": "vec" + str(i), "personalidad": personalidades[i], "nombre": nombres_vecinos[i],
+                  "casa": casas_of_vecinos[i]}
+    insert_new_entry(vecino_file, "vecino", attributes, [])
