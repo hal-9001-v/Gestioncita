@@ -163,7 +163,8 @@ def create_islas():
         for i in range(size_de_personajes):
             etree.SubElement(personaje_group, "personaje", {"id": "Personajes.xml#pj" + str(i)})
 
-    tree.write(isla_file, pretty_print=True)
+        tree.write(isla_file, pretty_print=True)
+
 
 def create_jugadores():
     jugadores_names = ["Pepito", "Fulanito", "Joselito", "Dio", "Vinsent"]
@@ -204,10 +205,10 @@ def create_muebles():
 def create_personajes():
     # Care to give some correlation with size_of_personajes
     personajes_names = ["Tom Nook", "Canela", "Rafa"]
-    edificios_of_personajes = ["41", "42", "43"]
+    edificios_of_personajes = ["1", "1", "2"]
     for i in range(len(personajes_names)):
         insert_new_entry(personaje_file, "personaje",
-                         {"id": "pj" + str(i), "nombre": personajes_names[i], "edificio": edificios_of_personajes[i]},
+                         {"id": "pj" + str(i), "nombre": personajes_names[i], "edificio": "ed"+edificios_of_personajes[i]},
                          [])
 
 
@@ -231,7 +232,7 @@ def create_vecinos():
     personalidades = ["Alegre", "Atletico", "Esnob", "Dulce", "Grunion", "Presumido", "Perezoso", "Normal"]
     for i in range(len(nombres_vecinos)):
         attributes = {"id": "vec" + str(i), "personalidad": personalidades[i], "nombre": nombres_vecinos[i],
-                      "casa": (casas_of_vecinos_start + i)}
+                      "casa": str(casas_of_vecinos_start + i)}
         insert_new_entry(vecino_file, "vecino", attributes, [])
 
 
