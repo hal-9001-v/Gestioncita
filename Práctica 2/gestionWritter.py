@@ -128,10 +128,8 @@ def create_islas():
     # Islas
     isla_names = ["AlcorOn", "SouthPeru", "MostToLess", "TorriHoes", "WestMadriz"]
 
-    edificio_counter = 0
-
     sub_personajes = ["5", "6"]
-    edificios_left = edificio_counter
+    edificios_left = size_edificios
     for i in range(len(isla_names)):
         if i % 2 == 0:
             hemisferio = "N"
@@ -159,9 +157,9 @@ def create_islas():
         edificio_group = etree.SubElement(new_isla, "edificios", )
         edificios_in_isla = 0
 
-        while edificios_in_isla <= 2 & edificios_left > 0:
+        for i in range(size_edificios):
             etree.SubElement(edificio_group, "edificio",
-                             {"id": "Edificios.xml#ed" + str(size_edificios - edificios_left)})
+                             {"id": "Edificios.xml#ed" + str(i)})
             edificios_left -= 1
             edificios_in_isla += 1
 
@@ -216,7 +214,7 @@ def create_personajes():
     for i in range(len(personajes_names)):
         insert_new_entry(personaje_file, "personaje",
                          {"id": "pj" + str(i), "nombre": personajes_names[i],
-                          "edificio": "ed" + edificios_of_personajes[i]},
+                          "edificio": "Edificios.xml#ed" + edificios_of_personajes[i]},
                          [])
 
 
