@@ -5,7 +5,7 @@
                 <xs:element name="jugada" maxOccurs="unbounded" minOccurs="0">
                     <xs:complexType>
                         <xs:sequence>
-                            <xs:element name="jugador" maxOccurs="unbounded" minOccurs="1">
+                            <xs:element name="jugador" maxOccurs="4" minOccurs="1">
                                 <xs:complexType>
                                     <xs:sequence>
                                         <xs:element type="xs:short" name="bayas" default="0" maxOccurs="1" minOccurs="1" />
@@ -109,7 +109,7 @@
                                     <xs:attribute type="xs:string" name="id" use="required" />
                                 </xs:complexType>
                             </xs:element>
-                            <xs:element name="casa" maxOccurs="unbounded" minOccurs="3">
+                            <xs:element name="casa" maxOccurs="4" minOccurs="1">
                                 <xs:complexType>
                                     <xs:sequence>
                                         <xs:element name="colorTejado" default="Rojo">
