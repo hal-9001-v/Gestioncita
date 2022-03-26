@@ -109,8 +109,7 @@ for tool in tools_names:
                   "tipo": equip_types[1], "lugar_eq": equip_place[0]}
     insert_new_entry(equipable_file, "equipable", attributes, [])
 
-
-#Islas
+# Islas
 isla_names = ["AlcorOn", "SouthPeru", "MostToLess", "TorriHoes", "WestMadriz"]
 sub_edificios = ["120", "135"]
 sub_personajes = ["5", "6"]
@@ -135,7 +134,13 @@ for i in range(len(isla_names)):
     for sub in sub_personajes:
         etree.SubElement(personaje_group, "personaje", {"id": "Personajes.xml#ed" + sub})
 
-#Jugadores
-
-
 tree.write(isla_file, pretty_print=True)
+
+# Jugadores
+jugadores_names = ["Pepito", "Fulanito", "Joselito", "Dio", "Vinsent"]
+islas_of_jugadores = ["11", "22", "33", "100", "222"]
+casas_of_jugadores = ["1", "2", "3", "4", "5"]
+for i in range(len(jugadores_names)):
+    insert_new_entry(jugador_file, "jugador",
+                     {"id": "j" + str(i), "nombre": jugadores_names[i], "isla": "Islas.xml#is" + islas_of_jugadores[i],
+                      "casa": "Casas.xml#c" + casas_of_jugadores[i]}, [])
