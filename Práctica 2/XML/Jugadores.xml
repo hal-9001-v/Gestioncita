@@ -1,2 +1,2 @@
 <jugadores>
-</jugadores>
+<jugador id="j0" nombre="Pepito" isla="Islas.xml#is0" casa="Casas.xml#c0"/><jugador id="j1" nombre="Fulanito" isla="Islas.xml#is0" casa="Casas.xml#c1"/><jugador id="j2" nombre="Joselito" isla="Islas.xml#is0" casa="Casas.xml#c2"/><jugador id="j3" nombre="Dio" isla="Islas.xml#is0" casa="Casas.xml#c3"/><jugador id="j4" nombre="Vinsent" isla="Islas.xml#is0" casa="Casas.xml#c4"/></jugadores>

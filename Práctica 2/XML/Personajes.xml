@@ -1,1 +1,3 @@
-<personajes></personajes>
+<personajes>
+  <personaje id="pj0" nombre="Tom Nook" edificio="Edificios.xml#ed1"/>
+<personaje id="pj1" nombre="Canela" edificio="Edificios.xml#ed1"/><personaje id="pj2" nombre="Rafa" edificio="Edificios.xml#ed2"/></personajes>
