@@ -43,6 +43,8 @@
                   </xs:simpleType>
                 </xs:attribute>
                 <xs:attribute type="xs:byte" name="rareza" use="required"/>
+                <xs:attribute type="xs:byte" name="stack" use="required" fixed="1"/>
+                <xs:attribute type="xs:short" name="precio" use="required"/>
               </xs:extension>
             </xs:simpleContent>
           </xs:complexType>
