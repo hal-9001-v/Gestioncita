@@ -6,7 +6,13 @@
           <xs:complexType>
             <xs:simpleContent>
               <xs:extension base="xs:string">
-                <xs:attribute type="xs:string" name="id" use="required" />
+                <xs:attribute type="xs:string" name="id" use="required">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:ID">
+                      <xs:pattern value = "col[0-9][0-9]"/>
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:attribute>
                 <xs:attribute type="xs:short" name="tamanio" use="required" />
                 <xs:attribute name="tipoEsp" use="required">
                   <xs:simpleType>
@@ -43,6 +49,8 @@
                   </xs:simpleType>
                 </xs:attribute>
                 <xs:attribute type="xs:byte" name="rareza" use="required"/>
+                <xs:attribute type="xs:byte" name="stack" use="required" fixed="1"/>
+                <xs:attribute type="xs:short" name="precio" use="required"/>
               </xs:extension>
             </xs:simpleContent>
           </xs:complexType>
