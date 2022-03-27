@@ -1,20 +1,407 @@
 <props>
-    <prop id="prop000" nombre="Cesped" stack="99" precio="4893" tipo="Hierba" comestible="No">
-        <crecimiento>2</crecimiento>
+    <prop id="prop000" nombre="Ortiga Esplendido" stack="30" precio="3697" tipo="Hierba" comestible="No">
+        <crecimiento>3</crecimiento>
     </prop>
-    <prop id="prop001" nombre="Petunia" stack="10" precio="3393" tipo="Flor" comestible="No">
+    <prop id="prop001" nombre="Margarita como Ninguno" stack="10" precio="1491" tipo="Flor" comestible="No">
+        <crecimiento>1</crecimiento>
+    </prop>
+    <prop id="prop002" nombre="Menhir de Gran Belleza" stack="10" precio="1665" tipo="Piedra" comestible="No">
+        <crecimiento>1</crecimiento>
+    </prop>
+    <prop id="prop003" nombre="San Pedro de Gran Belleza" stack="10" precio="1232" tipo="Arbusto" comestible="No">
         <crecimiento>4</crecimiento>
     </prop>
-    <prop id="prop002" nombre="Roca" stack="30" precio="4632" tipo="Piedra" comestible="No">
+    <prop id="prop004" nombre="Cedro Esplendido" stack="30" precio="2952" tipo="Arbol" comestible="Si">
+        <crecimiento>1</crecimiento>
+    </prop>
+    <prop id="prop005" nombre="Cesped Mediocre" stack="30" precio="3135" tipo="Hierba" comestible="No">
         <crecimiento>2</crecimiento>
     </prop>
-    <prop id="prop003" nombre="Romero" stack="10" precio="3948" tipo="Arbusto" comestible="No">
-        <crecimiento>3</crecimiento>
+    <prop id="prop006" nombre="Margarita Especial" stack="10" precio="2980" tipo="Flor" comestible="No">
+        <crecimiento>4</crecimiento>
     </prop>
-    <prop id="prop004" nombre="Manzano" stack="10" precio="3330" tipo="Arbol" comestible="No">
+    <prop id="prop007" nombre="Carboncillo con Defectos" stack="10" precio="1223" tipo="Piedra" comestible="No">
         <crecimiento>2</crecimiento>
     </prop>
-    <prop id="prop005" nombre="Naranja" stack="10" precio="4340" tipo="Fruta" comestible="Si">
+    <prop id="prop008" nombre="Hiedra Esplendido" stack="10" precio="4205" tipo="Arbusto" comestible="No">
+        <crecimiento>1</crecimiento>
+    </prop>
+    <prop id="prop009" nombre="Pino como Ninguno" stack="30" precio="1972" tipo="Arbol" comestible="Si">
+        <crecimiento>1</crecimiento>
+    </prop>
+    <prop id="prop010" nombre="Hierbajo de Gran Belleza" stack="30" precio="1147" tipo="Hierba" comestible="No">
+        <crecimiento>2</crecimiento>
+    </prop>
+    <prop id="prop011" nombre="Jazmin de Gran Belleza" stack="10" precio="2074" tipo="Flor" comestible="No">
+        <crecimiento>1</crecimiento>
+    </prop>
+    <prop id="prop012" nombre="Caliza Normal" stack="10" precio="950" tipo="Piedra" comestible="No">
+        <crecimiento>1</crecimiento>
+    </prop>
+    <prop id="prop013" nombre="San Pedro de Gran Belleza" stack="10" precio="4385" tipo="Arbusto" comestible="No">
+        <crecimiento>4</crecimiento>
+    </prop>
+    <prop id="prop014" nombre="Naranjo Especial" stack="30" precio="3381" tipo="Arbol" comestible="Si">
+        <crecimiento>4</crecimiento>
+    </prop>
+    <prop id="prop015" nombre="Ortiga Esplendido" stack="30" precio="2575" tipo="Hierba" comestible="No">
         <crecimiento>3</crecimiento>
+    </prop>
+    <prop id="prop016" nombre="Petunia Especial" stack="30" precio="2212" tipo="Flor" comestible="No">
+        <crecimiento>4</crecimiento>
+    </prop>
+    <prop id="prop017" nombre="Caliza Normal" stack="10" precio="2588" tipo="Piedra" comestible="No">
+        <crecimiento>1</crecimiento>
+    </prop>
+    <prop id="prop018" nombre="Hiedra Mediocre" stack="10" precio="1650" tipo="Arbusto" comestible="No">
+        <crecimiento>3</crecimiento>
+    </prop>
+    <prop id="prop019" nombre="Roble como Ninguno" stack="10" precio="1462" tipo="Arbol" comestible="Si">
+        <crecimiento>3</crecimiento>
+    </prop>
+    <prop id="prop020" nombre="Hierbajo Mediocre" stack="30" precio="3479" tipo="Hierba" comestible="No">
+        <crecimiento>2</crecimiento>
+    </prop>
+    <prop id="prop021" nombre="Margarita Mediocre" stack="10" precio="4071" tipo="Flor" comestible="No">
+        <crecimiento>4</crecimiento>
+    </prop>
+    <prop id="prop022" nombre="Piedra de rio Mediocre" stack="30" precio="4223" tipo="Piedra" comestible="No">
+        <crecimiento>2</crecimiento>
+    </prop>
+    <prop id="prop023" nombre="Romero de Gran Belleza" stack="30" precio="4972" tipo="Arbusto" comestible="No">
+        <crecimiento>4</crecimiento>
+    </prop>
+    <prop id="prop024" nombre="Manzano Mediocre" stack="10" precio="1181" tipo="Arbol" comestible="Si">
+        <crecimiento>4</crecimiento>
+    </prop>
+    <prop id="prop025" nombre="Hierbajo como Ninguno" stack="10" precio="865" tipo="Hierba" comestible="No">
+        <crecimiento>3</crecimiento>
+    </prop>
+    <prop id="prop026" nombre="Margarita Esplendido" stack="30" precio="664" tipo="Flor" comestible="No">
+        <crecimiento>1</crecimiento>
+    </prop>
+    <prop id="prop027" nombre="Roca Esplendido" stack="10" precio="1517" tipo="Piedra" comestible="No">
+        <crecimiento>3</crecimiento>
+    </prop>
+    <prop id="prop028" nombre="Romero Especial" stack="30" precio="1192" tipo="Arbusto" comestible="No">
+        <crecimiento>4</crecimiento>
+    </prop>
+    <prop id="prop029" nombre="Manzano Normal" stack="30" precio="3772" tipo="Arbol" comestible="Si">
+        <crecimiento>3</crecimiento>
+    </prop>
+    <prop id="prop030" nombre="Ortiga Normal" stack="10" precio="3909" tipo="Hierba" comestible="No">
+        <crecimiento>3</crecimiento>
+    </prop>
+    <prop id="prop031" nombre="Jazmin como Ninguno" stack="10" precio="4091" tipo="Flor" comestible="No">
+        <crecimiento>4</crecimiento>
+    </prop>
+    <prop id="prop032" nombre="Caliza Normal" stack="30" precio="4647" tipo="Piedra" comestible="No">
+        <crecimiento>3</crecimiento>
+    </prop>
+    <prop id="prop033" nombre="Romero Mediocre" stack="10" precio="4784" tipo="Arbusto" comestible="No">
+        <crecimiento>3</crecimiento>
+    </prop>
+    <prop id="prop034" nombre="Naranjo Normal" stack="30" precio="4250" tipo="Arbol" comestible="Si">
+        <crecimiento>3</crecimiento>
+    </prop>
+    <prop id="prop035" nombre="Ortiga Normal" stack="30" precio="4973" tipo="Hierba" comestible="No">
+        <crecimiento>1</crecimiento>
+    </prop>
+    <prop id="prop036" nombre="Margarita con Defectos" stack="10" precio="2280" tipo="Flor" comestible="No">
+        <crecimiento>2</crecimiento>
+    </prop>
+    <prop id="prop037" nombre="Piedra de rio de Gran Belleza" stack="30" precio="4104" tipo="Piedra" comestible="No">
+        <crecimiento>3</crecimiento>
+    </prop>
+    <prop id="prop038" nombre="Tomillo con Defectos" stack="30" precio="444" tipo="Arbusto" comestible="No">
+        <crecimiento>1</crecimiento>
+    </prop>
+    <prop id="prop039" nombre="Abeto de Gran Belleza" stack="30" precio="4132" tipo="Arbol" comestible="Si">
+        <crecimiento>1</crecimiento>
+    </prop>
+    <prop id="prop040" nombre="Cesped Esplendido" stack="30" precio="1018" tipo="Hierba" comestible="No">
+        <crecimiento>1</crecimiento>
+    </prop>
+    <prop id="prop041" nombre="Jazmin de Gran Belleza" stack="30" precio="3956" tipo="Flor" comestible="No">
+        <crecimiento>3</crecimiento>
+    </prop>
+    <prop id="prop042" nombre="Menhir como Ninguno" stack="30" precio="739" tipo="Piedra" comestible="No">
+        <crecimiento>2</crecimiento>
+    </prop>
+    <prop id="prop043" nombre="Tomillo de Gran Belleza" stack="30" precio="836" tipo="Arbusto" comestible="No">
+        <crecimiento>3</crecimiento>
+    </prop>
+    <prop id="prop044" nombre="Manzano Especial" stack="10" precio="2139" tipo="Arbol" comestible="Si">
+        <crecimiento>1</crecimiento>
+    </prop>
+    <prop id="prop045" nombre="Hierbajo de Gran Belleza" stack="30" precio="4827" tipo="Hierba" comestible="No">
+        <crecimiento>3</crecimiento>
+    </prop>
+    <prop id="prop046" nombre="Margarita Mediocre" stack="30" precio="4501" tipo="Flor" comestible="No">
+        <crecimiento>2</crecimiento>
+    </prop>
+    <prop id="prop047" nombre="Roca con Defectos" stack="10" precio="2289" tipo="Piedra" comestible="No">
+        <crecimiento>1</crecimiento>
+    </prop>
+    <prop id="prop048" nombre="Tomillo de Gran Belleza" stack="30" precio="3288" tipo="Arbusto" comestible="No">
+        <crecimiento>3</crecimiento>
+    </prop>
+    <prop id="prop049" nombre="Abeto Esplendido" stack="30" precio="1896" tipo="Arbol" comestible="Si">
+        <crecimiento>2</crecimiento>
+    </prop>
+    <prop id="prop050" nombre="Hierbajo Esplendido" stack="30" precio="1197" tipo="Hierba" comestible="No">
+        <crecimiento>2</crecimiento>
+    </prop>
+    <prop id="prop051" nombre="Jazmin Especial" stack="10" precio="586" tipo="Flor" comestible="No">
+        <crecimiento>1</crecimiento>
+    </prop>
+    <prop id="prop052" nombre="Menhir con Defectos" stack="10" precio="1059" tipo="Piedra" comestible="No">
+        <crecimiento>1</crecimiento>
+    </prop>
+    <prop id="prop053" nombre="San Pedro Esplendido" stack="30" precio="1442" tipo="Arbusto" comestible="No">
+        <crecimiento>1</crecimiento>
+    </prop>
+    <prop id="prop054" nombre="Pino Normal" stack="10" precio="3765" tipo="Arbol" comestible="Si">
+        <crecimiento>3</crecimiento>
+    </prop>
+    <prop id="prop055" nombre="Hierbajo Mediocre" stack="10" precio="4566" tipo="Hierba" comestible="No">
+        <crecimiento>4</crecimiento>
+    </prop>
+    <prop id="prop056" nombre="Jazmin como Ninguno" stack="10" precio="1248" tipo="Flor" comestible="No">
+        <crecimiento>4</crecimiento>
+    </prop>
+    <prop id="prop057" nombre="Roca Especial" stack="10" precio="427" tipo="Piedra" comestible="No">
+        <crecimiento>2</crecimiento>
+    </prop>
+    <prop id="prop058" nombre="Hiedra de Gran Belleza" stack="30" precio="4867" tipo="Arbusto" comestible="No">
+        <crecimiento>2</crecimiento>
+    </prop>
+    <prop id="prop059" nombre="Cedro Especial" stack="30" precio="1073" tipo="Arbol" comestible="Si">
+        <crecimiento>3</crecimiento>
+    </prop>
+    <prop id="prop060" nombre="Hierbajo como Ninguno" stack="10" precio="2743" tipo="Hierba" comestible="No">
+        <crecimiento>2</crecimiento>
+    </prop>
+    <prop id="prop061" nombre="Jazmin Mediocre" stack="30" precio="4069" tipo="Flor" comestible="No">
+        <crecimiento>4</crecimiento>
+    </prop>
+    <prop id="prop062" nombre="Roca Especial" stack="30" precio="1484" tipo="Piedra" comestible="No">
+        <crecimiento>3</crecimiento>
+    </prop>
+    <prop id="prop063" nombre="Hiedra de Gran Belleza" stack="30" precio="463" tipo="Arbusto" comestible="No">
+        <crecimiento>2</crecimiento>
+    </prop>
+    <prop id="prop064" nombre="Chopo como Ninguno" stack="30" precio="852" tipo="Arbol" comestible="Si">
+        <crecimiento>1</crecimiento>
+    </prop>
+    <prop id="prop065" nombre="Ortiga Especial" stack="10" precio="228" tipo="Hierba" comestible="No">
+        <crecimiento>4</crecimiento>
+    </prop>
+    <prop id="prop066" nombre="Petunia de Gran Belleza" stack="10" precio="2206" tipo="Flor" comestible="No">
+        <crecimiento>1</crecimiento>
+    </prop>
+    <prop id="prop067" nombre="Menhir con Defectos" stack="10" precio="3501" tipo="Piedra" comestible="No">
+        <crecimiento>4</crecimiento>
+    </prop>
+    <prop id="prop068" nombre="Hiedra como Ninguno" stack="30" precio="251" tipo="Arbusto" comestible="No">
+        <crecimiento>4</crecimiento>
+    </prop>
+    <prop id="prop069" nombre="Chopo Especial" stack="30" precio="752" tipo="Arbol" comestible="Si">
+        <crecimiento>3</crecimiento>
+    </prop>
+    <prop id="prop070" nombre="Hierbajo Normal" stack="30" precio="4683" tipo="Hierba" comestible="No">
+        <crecimiento>1</crecimiento>
+    </prop>
+    <prop id="prop071" nombre="Jazmin Esplendido" stack="30" precio="1647" tipo="Flor" comestible="No">
+        <crecimiento>2</crecimiento>
+    </prop>
+    <prop id="prop072" nombre="Piedra de rio de Gran Belleza" stack="30" precio="4365" tipo="Piedra" comestible="No">
+        <crecimiento>2</crecimiento>
+    </prop>
+    <prop id="prop073" nombre="Hiedra Normal" stack="10" precio="4563" tipo="Arbusto" comestible="No">
+        <crecimiento>4</crecimiento>
+    </prop>
+    <prop id="prop074" nombre="Abeto Normal" stack="30" precio="4056" tipo="Arbol" comestible="Si">
+        <crecimiento>3</crecimiento>
+    </prop>
+    <prop id="prop075" nombre="Hierbajo con Defectos" stack="10" precio="1218" tipo="Hierba" comestible="No">
+        <crecimiento>1</crecimiento>
+    </prop>
+    <prop id="prop076" nombre="Rosa Normal" stack="30" precio="4128" tipo="Flor" comestible="No">
+        <crecimiento>4</crecimiento>
+    </prop>
+    <prop id="prop077" nombre="Roca Esplendido" stack="10" precio="1535" tipo="Piedra" comestible="No">
+        <crecimiento>1</crecimiento>
+    </prop>
+    <prop id="prop078" nombre="Romero Mediocre" stack="30" precio="484" tipo="Arbusto" comestible="No">
+        <crecimiento>2</crecimiento>
+    </prop>
+    <prop id="prop079" nombre="Abeto Esplendido" stack="10" precio="246" tipo="Arbol" comestible="Si">
+        <crecimiento>2</crecimiento>
+    </prop>
+    <prop id="prop080" nombre="Hierbajo Normal" stack="30" precio="3316" tipo="Hierba" comestible="No">
+        <crecimiento>3</crecimiento>
+    </prop>
+    <prop id="prop081" nombre="Margarita Especial" stack="30" precio="4952" tipo="Flor" comestible="No">
+        <crecimiento>2</crecimiento>
+    </prop>
+    <prop id="prop082" nombre="Roca de Gran Belleza" stack="10" precio="2166" tipo="Piedra" comestible="No">
+        <crecimiento>4</crecimiento>
+    </prop>
+    <prop id="prop083" nombre="Romero como Ninguno" stack="30" precio="1899" tipo="Arbusto" comestible="No">
+        <crecimiento>1</crecimiento>
+    </prop>
+    <prop id="prop084" nombre="Almendro con Defectos" stack="30" precio="2730" tipo="Arbol" comestible="Si">
+        <crecimiento>1</crecimiento>
+    </prop>
+    <prop id="prop085" nombre="Hierbajo Mediocre" stack="30" precio="3505" tipo="Hierba" comestible="No">
+        <crecimiento>3</crecimiento>
+    </prop>
+    <prop id="prop086" nombre="Jazmin con Defectos" stack="10" precio="771" tipo="Flor" comestible="No">
+        <crecimiento>2</crecimiento>
+    </prop>
+    <prop id="prop087" nombre="Menhir Esplendido" stack="10" precio="3796" tipo="Piedra" comestible="No">
+        <crecimiento>1</crecimiento>
+    </prop>
+    <prop id="prop088" nombre="San Pedro como Ninguno" stack="10" precio="2737" tipo="Arbusto" comestible="No">
+        <crecimiento>1</crecimiento>
+    </prop>
+    <prop id="prop089" nombre="Abeto Mediocre" stack="10" precio="817" tipo="Arbol" comestible="Si">
+        <crecimiento>1</crecimiento>
+    </prop>
+    <prop id="prop090" nombre="Cesped Esplendido" stack="10" precio="3421" tipo="Hierba" comestible="No">
+        <crecimiento>4</crecimiento>
+    </prop>
+    <prop id="prop091" nombre="Rosa con Defectos" stack="10" precio="2503" tipo="Flor" comestible="No">
+        <crecimiento>1</crecimiento>
+    </prop>
+    <prop id="prop092" nombre="Piedra de rio como Ninguno" stack="10" precio="1110" tipo="Piedra" comestible="No">
+        <crecimiento>1</crecimiento>
+    </prop>
+    <prop id="prop093" nombre="San Pedro Mediocre" stack="30" precio="1232" tipo="Arbusto" comestible="No">
+        <crecimiento>3</crecimiento>
+    </prop>
+    <prop id="prop094" nombre="Pino Esplendido" stack="30" precio="1327" tipo="Arbol" comestible="Si">
+        <crecimiento>3</crecimiento>
+    </prop>
+    <prop id="prop095" nombre="Cesped Mediocre" stack="30" precio="3628" tipo="Hierba" comestible="No">
+        <crecimiento>3</crecimiento>
+    </prop>
+    <prop id="prop096" nombre="Rosa Mediocre" stack="10" precio="3398" tipo="Flor" comestible="No">
+        <crecimiento>3</crecimiento>
+    </prop>
+    <prop id="prop097" nombre="Piedra de rio Normal" stack="10" precio="3650" tipo="Piedra" comestible="No">
+        <crecimiento>1</crecimiento>
+    </prop>
+    <prop id="prop098" nombre="San Pedro Especial" stack="10" precio="276" tipo="Arbusto" comestible="No">
+        <crecimiento>4</crecimiento>
+    </prop>
+    <prop id="prop099" nombre="Naranjo Normal" stack="10" precio="1016" tipo="Arbol" comestible="Si">
+        <crecimiento>1</crecimiento>
+    </prop>
+    <prop id="prop100" nombre="Hierbajo Esplendido" stack="30" precio="1540" tipo="Hierba" comestible="No">
+        <crecimiento>3</crecimiento>
+    </prop>
+    <prop id="prop101" nombre="Jazmin Normal" stack="30" precio="2679" tipo="Flor" comestible="No">
+        <crecimiento>1</crecimiento>
+    </prop>
+    <prop id="prop102" nombre="Carboncillo Mediocre" stack="30" precio="2173" tipo="Piedra" comestible="No">
+        <crecimiento>3</crecimiento>
+    </prop>
+    <prop id="prop103" nombre="Hiedra de Gran Belleza" stack="30" precio="858" tipo="Arbusto" comestible="No">
+        <crecimiento>1</crecimiento>
+    </prop>
+    <prop id="prop104" nombre="Pino con Defectos" stack="30" precio="726" tipo="Arbol" comestible="Si">
+        <crecimiento>1</crecimiento>
+    </prop>
+    <prop id="prop105" nombre="Cesped de Gran Belleza" stack="10" precio="3542" tipo="Hierba" comestible="No">
+        <crecimiento>2</crecimiento>
+    </prop>
+    <prop id="prop106" nombre="Petunia Normal" stack="10" precio="2131" tipo="Flor" comestible="No">
+        <crecimiento>4</crecimiento>
+    </prop>
+    <prop id="prop107" nombre="Carboncillo como Ninguno" stack="30" precio="3583" tipo="Piedra" comestible="No">
+        <crecimiento>2</crecimiento>
+    </prop>
+    <prop id="prop108" nombre="Romero como Ninguno" stack="30" precio="676" tipo="Arbusto" comestible="No">
+        <crecimiento>2</crecimiento>
+    </prop>
+    <prop id="prop109" nombre="Naranjo como Ninguno" stack="30" precio="3968" tipo="Arbol" comestible="Si">
+        <crecimiento>2</crecimiento>
+    </prop>
+    <prop id="prop110" nombre="Cesped con Defectos" stack="10" precio="1640" tipo="Hierba" comestible="No">
+        <crecimiento>4</crecimiento>
+    </prop>
+    <prop id="prop111" nombre="Margarita Especial" stack="30" precio="3366" tipo="Flor" comestible="No">
+        <crecimiento>3</crecimiento>
+    </prop>
+    <prop id="prop112" nombre="Piedra de rio Mediocre" stack="30" precio="350" tipo="Piedra" comestible="No">
+        <crecimiento>2</crecimiento>
+    </prop>
+    <prop id="prop113" nombre="Romero con Defectos" stack="30" precio="3398" tipo="Arbusto" comestible="No">
+        <crecimiento>4</crecimiento>
+    </prop>
+    <prop id="prop114" nombre="Chopo como Ninguno" stack="30" precio="1898" tipo="Arbol" comestible="Si">
+        <crecimiento>2</crecimiento>
+    </prop>
+    <prop id="prop115" nombre="Hierbajo Especial" stack="30" precio="2364" tipo="Hierba" comestible="No">
+        <crecimiento>3</crecimiento>
+    </prop>
+    <prop id="prop116" nombre="Petunia como Ninguno" stack="30" precio="271" tipo="Flor" comestible="No">
+        <crecimiento>4</crecimiento>
+    </prop>
+    <prop id="prop117" nombre="Roca como Ninguno" stack="10" precio="2726" tipo="Piedra" comestible="No">
+        <crecimiento>3</crecimiento>
+    </prop>
+    <prop id="prop118" nombre="Romero Esplendido" stack="30" precio="3155" tipo="Arbusto" comestible="No">
+        <crecimiento>2</crecimiento>
+    </prop>
+    <prop id="prop119" nombre="Naranjo con Defectos" stack="10" precio="789" tipo="Arbol" comestible="Si">
+        <crecimiento>2</crecimiento>
+    </prop>
+    <prop id="prop120" nombre="Ortiga de Gran Belleza" stack="10" precio="750" tipo="Hierba" comestible="No">
+        <crecimiento>2</crecimiento>
+    </prop>
+    <prop id="prop121" nombre="Jazmin Mediocre" stack="10" precio="2240" tipo="Flor" comestible="No">
+        <crecimiento>1</crecimiento>
+    </prop>
+    <prop id="prop122" nombre="Carboncillo de Gran Belleza" stack="10" precio="1590" tipo="Piedra" comestible="No">
+        <crecimiento>2</crecimiento>
+    </prop>
+    <prop id="prop123" nombre="San Pedro Mediocre" stack="30" precio="2423" tipo="Arbusto" comestible="No">
+        <crecimiento>1</crecimiento>
+    </prop>
+    <prop id="prop124" nombre="Roble Mediocre" stack="30" precio="2134" tipo="Arbol" comestible="Si">
+        <crecimiento>4</crecimiento>
+    </prop>
+    <prop id="prop125" nombre="Cesped de Gran Belleza" stack="30" precio="1625" tipo="Hierba" comestible="No">
+        <crecimiento>4</crecimiento>
+    </prop>
+    <prop id="prop126" nombre="Rosa con Defectos" stack="30" precio="996" tipo="Flor" comestible="No">
+        <crecimiento>4</crecimiento>
+    </prop>
+    <prop id="prop127" nombre="Caliza de Gran Belleza" stack="30" precio="877" tipo="Piedra" comestible="No">
+        <crecimiento>2</crecimiento>
+    </prop>
+    <prop id="prop128" nombre="Hiedra Normal" stack="30" precio="282" tipo="Arbusto" comestible="No">
+        <crecimiento>2</crecimiento>
+    </prop>
+    <prop id="prop129" nombre="Naranjo Normal" stack="30" precio="430" tipo="Arbol" comestible="Si">
+        <crecimiento>1</crecimiento>
+    </prop>
+    <prop id="prop130" nombre="Cesped Esplendido" stack="10" precio="2633" tipo="Hierba" comestible="No">
+        <crecimiento>1</crecimiento>
+    </prop>
+    <prop id="prop131" nombre="Rosa Normal" stack="10" precio="3127" tipo="Flor" comestible="No">
+        <crecimiento>1</crecimiento>
+    </prop>
+    <prop id="prop132" nombre="Piedra de rio de Gran Belleza" stack="30" precio="2092" tipo="Piedra" comestible="No">
+        <crecimiento>3</crecimiento>
+    </prop>
+    <prop id="prop133" nombre="Romero Esplendido" stack="30" precio="3169" tipo="Arbusto" comestible="No">
+        <crecimiento>3</crecimiento>
+    </prop>
+    <prop id="prop134" nombre="Cedro Esplendido" stack="10" precio="3595" tipo="Arbol" comestible="Si">
+        <crecimiento>1</crecimiento>
     </prop>
 </props>

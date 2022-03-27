@@ -306,9 +306,13 @@ def create_props():
 
     props_types = ["Hierba", "Flor", "Piedra", "Arbusto", "Arbol", "Fruta"]
 
-    names_matrix = [hierba_names, flores_names, arbustos_names, arboles_names, frutas_names]
+    piedras_names = ["Roca", "Menhir", "Caliza", "Carboncillo", "Piedra de rio"]
+
+    names_matrix = [hierba_names, flores_names, piedras_names, arbustos_names, arboles_names, frutas_names]
 
     adjetivos = ["de Gran Belleza", "Normal", "con Defectos", "Esplendido", "como Ninguno", "Especial", "Mediocre"]
+
+    prop_counter = 0
 
     for j in range(27):
         for i in range(5):
@@ -327,7 +331,7 @@ def create_props():
             else:
                 comestible = "No"
 
-            attributes = {"id": "prop" + turn_id(i), "nombre": name, "stack": str(random_stack),
+            attributes = {"id": "prop" + turn_id(prop_counter), "nombre": name, "stack": str(random_stack),
                           "precio": str(random_price),
                           "tipo": props_types[i], "comestible": comestible}
 
@@ -338,6 +342,7 @@ def create_props():
             etree.SubElement(new_element, "crecimiento").text = str(random.randrange(1, 5))
 
             tree.write(prop_file, pretty_print=True)
+            prop_counter += 1
 
 
 def create_vecinos():
