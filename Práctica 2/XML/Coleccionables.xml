@@ -1,602 +1,602 @@
 <coleccionables>
     <coleccionable id="col000" nombre="DinohHueso Peculiar" tamanio="2" tipoEsp="Fosil" estacion="Otonio"
-                   localizacion="Bajo tierra" rareza="2"  precio="1419"/>
+                   localizacion="Bajo tierra" rareza="2"  precio="1419" stack="1"/>
     <coleccionable id="col001" nombre="Trilobites Peculiar" tamanio="2" tipoEsp="Fosil" estacion="Verano"
-                   localizacion="Bajo tierra" rareza="3"  precio="246"/>
+                   localizacion="Bajo tierra" rareza="3"  precio="246" stack="1"/>
     <coleccionable id="col002" nombre="Trilobites Curioso" tamanio="2" tipoEsp="Fosil" estacion="Otonio"
-                   localizacion="Bajo tierra" rareza="1"  precio="4297"/>
+                   localizacion="Bajo tierra" rareza="1"  precio="4297" stack="1"/>
     <coleccionable id="col003" nombre="DinohHueso Peculiar" tamanio="6" tipoEsp="Fosil" estacion="Invierno"
-                   localizacion="Bajo tierra" rareza="2"  precio="2562"/>
+                   localizacion="Bajo tierra" rareza="2"  precio="2562" stack="1"/>
     <coleccionable id="col004" nombre="Tiburon Curioso" tamanio="1" tipoEsp="Pez" estacion="Otonio"
-                   localizacion="Boca del rio" rareza="4"  precio="321"/>
+                   localizacion="Boca del rio" rareza="4"  precio="321" stack="1"/>
     <coleccionable id="col005" nombre="Craneo Peculiar" tamanio="6" tipoEsp="Fosil" estacion="Otonio"
-                   localizacion="Tierra" rareza="4"  precio="4919"/>
+                   localizacion="Tierra" rareza="4"  precio="4919" stack="1"/>
     <coleccionable id="col006" nombre="Amonites Mono" tamanio="7" tipoEsp="Fosil" estacion="Verano"
-                   localizacion="Tierra" rareza="1"  precio="3742"/>
+                   localizacion="Tierra" rareza="1"  precio="3742" stack="1"/>
     <coleccionable id="col007" nombre="Tiburon Mono" tamanio="1" tipoEsp="Pez" estacion="Invierno"
-                   localizacion="Boca del rio" rareza="3"  precio="1833"/>
+                   localizacion="Boca del rio" rareza="3"  precio="1833" stack="1"/>
     <coleccionable id="col008" nombre="Ciluro del Monton" tamanio="1" tipoEsp="Pez" estacion="Primavera"
-                   localizacion="Boca del rio" rareza="3"  precio="208"/>
+                   localizacion="Boca del rio" rareza="3"  precio="208" stack="1"/>
     <coleccionable id="col009" nombre="Mero Celurio" tamanio="9" tipoEsp="Pez" estacion="Primavera"
-                   localizacion="Estanque" rareza="4"  precio="685"/>
+                   localizacion="Estanque" rareza="4"  precio="685" stack="1"/>
     <coleccionable id="col010" nombre="Mero Peculiar" tamanio="7" tipoEsp="Pez" estacion="Otonio" localizacion="Mar"
-                   rareza="3"  precio="4408"/>
+                   rareza="3"  precio="4408" stack="1"/>
     <coleccionable id="col011" nombre="Trilobites Curioso" tamanio="3" tipoEsp="Fosil" estacion="Verano"
-                   localizacion="Tierra" rareza="3"  precio="1640"/>
+                   localizacion="Tierra" rareza="3"  precio="1640" stack="1"/>
     <coleccionable id="col012" nombre="Carpa Mono" tamanio="1" tipoEsp="Pez" estacion="Invierno"
-                   localizacion="Boca del rio" rareza="4"  precio="243"/>
+                   localizacion="Boca del rio" rareza="4"  precio="243" stack="1"/>
     <coleccionable id="col013" nombre="Mero Mono" tamanio="3" tipoEsp="Pez" estacion="Primavera"
-                   localizacion="Boca del rio" rareza="4"  precio="1986"/>
+                   localizacion="Boca del rio" rareza="4"  precio="1986" stack="1"/>
     <coleccionable id="col014" nombre="Hueso del Monton" tamanio="8" tipoEsp="Fosil" estacion="Primavera"
-                   localizacion="Tierra" rareza="4"  precio="3014"/>
+                   localizacion="Tierra" rareza="4"  precio="3014" stack="1"/>
     <coleccionable id="col015" nombre="Amonites Peculiar" tamanio="9" tipoEsp="Fosil" estacion="Otonio"
-                   localizacion="Tierra" rareza="1"  precio="4650"/>
+                   localizacion="Tierra" rareza="1"  precio="4650" stack="1"/>
     <coleccionable id="col016" nombre="Tiburon Interesante" tamanio="3" tipoEsp="Pez" estacion="Invierno"
-                   localizacion="Estanque" rareza="1"  precio="3887"/>
+                   localizacion="Estanque" rareza="1"  precio="3887" stack="1"/>
     <coleccionable id="col017" nombre="Hueso Curioso" tamanio="2" tipoEsp="Fosil" estacion="Primavera"
-                   localizacion="Bajo tierra" rareza="2"  precio="267"/>
+                   localizacion="Bajo tierra" rareza="2"  precio="267" stack="1"/>
     <coleccionable id="col018" nombre="Ciluro Interesante" tamanio="5" tipoEsp="Pez" estacion="Invierno"
-                   localizacion="Cascada" rareza="3"  precio="4395"/>
+                   localizacion="Cascada" rareza="3"  precio="4395" stack="1"/>
     <coleccionable id="col019" nombre="Pez Sable Peculiar" tamanio="9" tipoEsp="Pez" estacion="Otonio"
-                   localizacion="Estanque" rareza="2"  precio="3846"/>
+                   localizacion="Estanque" rareza="2"  precio="3846" stack="1"/>
     <coleccionable id="col020" nombre="Amonites del Monton" tamanio="3" tipoEsp="Fosil" estacion="Otonio"
-                   localizacion="Tierra" rareza="3"  precio="2548"/>
+                   localizacion="Tierra" rareza="3"  precio="2548" stack="1"/>
     <coleccionable id="col021" nombre="Craneo Peculiar" tamanio="5" tipoEsp="Fosil" estacion="Primavera"
-                   localizacion="Tierra" rareza="4"  precio="528"/>
+                   localizacion="Tierra" rareza="4"  precio="528" stack="1"/>
     <coleccionable id="col022" nombre="Amonites Mono" tamanio="5" tipoEsp="Fosil" estacion="Otonio"
-                   localizacion="Bajo tierra" rareza="2"  precio="1764"/>
+                   localizacion="Bajo tierra" rareza="2"  precio="1764" stack="1"/>
     <coleccionable id="col023" nombre="Carpa Peculiar" tamanio="8" tipoEsp="Pez" estacion="Otonio" localizacion="Mar"
-                   rareza="1"  precio="1827"/>
+                   rareza="1"  precio="1827" stack="1"/>
     <coleccionable id="col024" nombre="Pez Sable Interesante" tamanio="3" tipoEsp="Pez" estacion="Invierno"
-                   localizacion="Mar" rareza="4"  precio="3736"/>
+                   localizacion="Mar" rareza="4"  precio="3736" stack="1"/>
     <coleccionable id="col025" nombre="Craneo del Monton" tamanio="9" tipoEsp="Fosil" estacion="Otonio"
-                   localizacion="Bajo tierra" rareza="2"  precio="1327"/>
+                   localizacion="Bajo tierra" rareza="2"  precio="1327" stack="1"/>
     <coleccionable id="col026" nombre="Nokia Interesante" tamanio="7" tipoEsp="Fosil" estacion="Invierno"
-                   localizacion="Tierra" rareza="4"  precio="4225"/>
+                   localizacion="Tierra" rareza="4"  precio="4225" stack="1"/>
     <coleccionable id="col027" nombre="Pez Sable Celurio" tamanio="9" tipoEsp="Pez" estacion="Otonio"
-                   localizacion="Estanque" rareza="2"  precio="850"/>
+                   localizacion="Estanque" rareza="2"  precio="850" stack="1"/>
     <coleccionable id="col028" nombre="Tiburon Peculiar" tamanio="6" tipoEsp="Pez" estacion="Invierno"
-                   localizacion="Boca del rio" rareza="4"  precio="4525"/>
+                   localizacion="Boca del rio" rareza="4"  precio="4525" stack="1"/>
     <coleccionable id="col029" nombre="Palometa Interesante" tamanio="9" tipoEsp="Pez" estacion="Invierno"
-                   localizacion="Estanque" rareza="4"  precio="1647"/>
+                   localizacion="Estanque" rareza="4"  precio="1647" stack="1"/>
     <coleccionable id="col030" nombre="DinohHueso Peculiar" tamanio="2" tipoEsp="Fosil" estacion="Verano"
-                   localizacion="Bajo tierra" rareza="3"  precio="4317"/>
+                   localizacion="Bajo tierra" rareza="3"  precio="4317" stack="1"/>
     <coleccionable id="col031" nombre="Trilobites Interesante" tamanio="4" tipoEsp="Fosil" estacion="Primavera"
-                   localizacion="Bajo tierra" rareza="3"  precio="3204"/>
+                   localizacion="Bajo tierra" rareza="3"  precio="3204" stack="1"/>
     <coleccionable id="col032" nombre="Pez Sable Celurio" tamanio="8" tipoEsp="Pez" estacion="Verano" localizacion="Mar"
-                   rareza="3"  precio="3895"/>
+                   rareza="3"  precio="3895" stack="1"/>
     <coleccionable id="col033" nombre="Ciluro Curioso" tamanio="5" tipoEsp="Pez" estacion="Primavera" localizacion="Mar"
-                   rareza="3"  precio="3325"/>
+                   rareza="3"  precio="3325" stack="1"/>
     <coleccionable id="col034" nombre="Tiburon Peculiar" tamanio="1" tipoEsp="Pez" estacion="Invierno"
-                   localizacion="Mar" rareza="3"  precio="3661"/>
+                   localizacion="Mar" rareza="3"  precio="3661" stack="1"/>
     <coleccionable id="col035" nombre="Carpa Interesante" tamanio="2" tipoEsp="Pez" estacion="Invierno"
-                   localizacion="Estanque" rareza="3"  precio="4763"/>
+                   localizacion="Estanque" rareza="3"  precio="4763" stack="1"/>
     <coleccionable id="col036" nombre="Amonites Curioso" tamanio="7" tipoEsp="Fosil" estacion="Invierno"
-                   localizacion="Bajo tierra" rareza="3"  precio="599"/>
+                   localizacion="Bajo tierra" rareza="3"  precio="599" stack="1"/>
     <coleccionable id="col037" nombre="Tiburon Interesante" tamanio="9" tipoEsp="Pez" estacion="Otonio"
-                   localizacion="Boca del rio" rareza="3"  precio="1856"/>
+                   localizacion="Boca del rio" rareza="3"  precio="1856" stack="1"/>
     <coleccionable id="col038" nombre="Palometa Peculiar" tamanio="1" tipoEsp="Pez" estacion="Primavera"
-                   localizacion="Cascada" rareza="3"  precio="3634"/>
+                   localizacion="Cascada" rareza="3"  precio="3634" stack="1"/>
     <coleccionable id="col039" nombre="Nokia Celurio" tamanio="6" tipoEsp="Fosil" estacion="Verano"
-                   localizacion="Tierra" rareza="1"  precio="2541"/>
+                   localizacion="Tierra" rareza="1"  precio="2541" stack="1"/>
     <coleccionable id="col040" nombre="Trilobites Interesante" tamanio="7" tipoEsp="Fosil" estacion="Primavera"
-                   localizacion="Tierra" rareza="1"  precio="1673"/>
+                   localizacion="Tierra" rareza="1"  precio="1673" stack="1"/>
     <coleccionable id="col041" nombre="Tiburon Peculiar" tamanio="5" tipoEsp="Pez" estacion="Otonio" localizacion="Mar"
-                   rareza="1"  precio="1933"/>
+                   rareza="1"  precio="1933" stack="1"/>
     <coleccionable id="col042" nombre="Trilobites Peculiar" tamanio="7" tipoEsp="Fosil" estacion="Otonio"
-                   localizacion="Bajo tierra" rareza="1"  precio="3107"/>
+                   localizacion="Bajo tierra" rareza="1"  precio="3107" stack="1"/>
     <coleccionable id="col043" nombre="Amonites Peculiar" tamanio="8" tipoEsp="Fosil" estacion="Verano"
-                   localizacion="Bajo tierra" rareza="3"  precio="3215"/>
+                   localizacion="Bajo tierra" rareza="3"  precio="3215" stack="1"/>
     <coleccionable id="col044" nombre="Carpa Celurio" tamanio="4" tipoEsp="Pez" estacion="Invierno"
-                   localizacion="Estanque" rareza="1"  precio="596"/>
+                   localizacion="Estanque" rareza="1"  precio="596" stack="1"/>
     <coleccionable id="col045" nombre="Tiburon del Monton" tamanio="7" tipoEsp="Pez" estacion="Otonio"
-                   localizacion="Estanque" rareza="2"  precio="3998"/>
+                   localizacion="Estanque" rareza="2"  precio="3998" stack="1"/>
     <coleccionable id="col046" nombre="Mero Peculiar" tamanio="1" tipoEsp="Pez" estacion="Primavera"
-                   localizacion="Estanque" rareza="2"  precio="4232"/>
+                   localizacion="Estanque" rareza="2"  precio="4232" stack="1"/>
     <coleccionable id="col047" nombre="Ciluro Celurio" tamanio="3" tipoEsp="Pez" estacion="Otonio"
-                   localizacion="Cascada" rareza="2"  precio="4587"/>
+                   localizacion="Cascada" rareza="2"  precio="4587" stack="1"/>
     <coleccionable id="col048" nombre="Tiburon Interesante" tamanio="3" tipoEsp="Pez" estacion="Otonio"
-                   localizacion="Cascada" rareza="1"  precio="4038"/>
+                   localizacion="Cascada" rareza="1"  precio="4038" stack="1"/>
     <coleccionable id="col049" nombre="DinohHueso Celurio" tamanio="6" tipoEsp="Fosil" estacion="Verano"
-                   localizacion="Tierra" rareza="3"  precio="1221"/>
+                   localizacion="Tierra" rareza="3"  precio="1221" stack="1"/>
     <coleccionable id="col050" nombre="Mero Interesante" tamanio="8" tipoEsp="Pez" estacion="Otonio" localizacion="Mar"
-                   rareza="3"  precio="3392"/>
+                   rareza="3"  precio="3392" stack="1"/>
     <coleccionable id="col051" nombre="Amonites del Monton" tamanio="5" tipoEsp="Fosil" estacion="Verano"
-                   localizacion="Bajo tierra" rareza="1"  precio="2551"/>
+                   localizacion="Bajo tierra" rareza="1"  precio="2551" stack="1"/>
     <coleccionable id="col052" nombre="Palometa Interesante" tamanio="7" tipoEsp="Pez" estacion="Invierno"
-                   localizacion="Mar" rareza="2"  precio="2681"/>
+                   localizacion="Mar" rareza="2"  precio="2681" stack="1"/>
     <coleccionable id="col053" nombre="Mero del Monton" tamanio="6" tipoEsp="Pez" estacion="Otonio" localizacion="Mar"
-                   rareza="3"  precio="1908"/>
+                   rareza="3"  precio="1908" stack="1"/>
     <coleccionable id="col054" nombre="Craneo Peculiar" tamanio="8" tipoEsp="Fosil" estacion="Otonio"
-                   localizacion="Tierra" rareza="2"  precio="4800"/>
+                   localizacion="Tierra" rareza="2"  precio="4800" stack="1"/>
     <coleccionable id="col055" nombre="Carpa Curioso" tamanio="8" tipoEsp="Pez" estacion="Primavera"
-                   localizacion="Cascada" rareza="2"  precio="1249"/>
+                   localizacion="Cascada" rareza="2"  precio="1249" stack="1"/>
     <coleccionable id="col056" nombre="Craneo Mono" tamanio="6" tipoEsp="Fosil" estacion="Primavera"
-                   localizacion="Tierra" rareza="2"  precio="345"/>
+                   localizacion="Tierra" rareza="2"  precio="345" stack="1"/>
     <coleccionable id="col057" nombre="Ciluro Celurio" tamanio="1" tipoEsp="Pez" estacion="Invierno"
-                   localizacion="Cascada" rareza="2"  precio="978"/>
+                   localizacion="Cascada" rareza="2"  precio="978" stack="1"/>
     <coleccionable id="col058" nombre="Craneo Curioso" tamanio="8" tipoEsp="Fosil" estacion="Primavera"
-                   localizacion="Tierra" rareza="4"  precio="1614"/>
+                   localizacion="Tierra" rareza="4"  precio="1614" stack="1"/>
     <coleccionable id="col059" nombre="Hueso del Monton" tamanio="6" tipoEsp="Fosil" estacion="Verano"
-                   localizacion="Tierra" rareza="3"  precio="2863"/>
+                   localizacion="Tierra" rareza="3"  precio="2863" stack="1"/>
     <coleccionable id="col060" nombre="Hueso Interesante" tamanio="4" tipoEsp="Fosil" estacion="Verano"
-                   localizacion="Tierra" rareza="3"  precio="997"/>
+                   localizacion="Tierra" rareza="3"  precio="997" stack="1"/>
     <coleccionable id="col061" nombre="Hueso Celurio" tamanio="2" tipoEsp="Fosil" estacion="Verano"
-                   localizacion="Bajo tierra" rareza="2"  precio="3600"/>
+                   localizacion="Bajo tierra" rareza="2"  precio="3600" stack="1"/>
     <coleccionable id="col062" nombre="DinohHueso Curioso" tamanio="8" tipoEsp="Fosil" estacion="Verano"
-                   localizacion="Tierra" rareza="2"  precio="4244"/>
+                   localizacion="Tierra" rareza="2"  precio="4244" stack="1"/>
     <coleccionable id="col063" nombre="DinohHueso del Monton" tamanio="4" tipoEsp="Fosil" estacion="Invierno"
-                   localizacion="Tierra" rareza="2"  precio="4589"/>
+                   localizacion="Tierra" rareza="2"  precio="4589" stack="1"/>
     <coleccionable id="col064" nombre="Palometa Curioso" tamanio="7" tipoEsp="Pez" estacion="Primavera"
-                   localizacion="Cascada" rareza="2"  precio="181"/>
+                   localizacion="Cascada" rareza="2"  precio="181" stack="1"/>
     <coleccionable id="col065" nombre="Carpa Mono" tamanio="7" tipoEsp="Pez" estacion="Otonio" localizacion="Estanque"
-                   rareza="4"  precio="1138"/>
+                   rareza="4"  precio="1138" stack="1"/>
     <coleccionable id="col066" nombre="Craneo del Monton" tamanio="8" tipoEsp="Fosil" estacion="Verano"
-                   localizacion="Bajo tierra" rareza="4"  precio="3829"/>
+                   localizacion="Bajo tierra" rareza="4"  precio="3829" stack="1"/>
     <coleccionable id="col067" nombre="Mero Peculiar" tamanio="4" tipoEsp="Pez" estacion="Otonio" localizacion="Cascada"
-                   rareza="3"  precio="2160"/>
+                   rareza="3"  precio="2160" stack="1"/>
     <coleccionable id="col068" nombre="Ciluro Celurio" tamanio="5" tipoEsp="Pez" estacion="Primavera"
-                   localizacion="Cascada" rareza="3"  precio="2690"/>
+                   localizacion="Cascada" rareza="3"  precio="2690" stack="1"/>
     <coleccionable id="col069" nombre="Carpa Curioso" tamanio="1" tipoEsp="Pez" estacion="Primavera"
-                   localizacion="Estanque" rareza="2"  precio="4339"/>
+                   localizacion="Estanque" rareza="2"  precio="4339" stack="1"/>
     <coleccionable id="col070" nombre="DinohHueso Celurio" tamanio="3" tipoEsp="Fosil" estacion="Verano"
-                   localizacion="Tierra" rareza="3"  precio="4606"/>
+                   localizacion="Tierra" rareza="3"  precio="4606" stack="1"/>
     <coleccionable id="col071" nombre="Hueso Curioso" tamanio="6" tipoEsp="Fosil" estacion="Primavera"
-                   localizacion="Tierra" rareza="1"  precio="2408"/>
+                   localizacion="Tierra" rareza="1"  precio="2408" stack="1"/>
     <coleccionable id="col072" nombre="Amonites Celurio" tamanio="3" tipoEsp="Fosil" estacion="Invierno"
-                   localizacion="Tierra" rareza="4"  precio="4815"/>
+                   localizacion="Tierra" rareza="4"  precio="4815" stack="1"/>
     <coleccionable id="col073" nombre="Carpa Interesante" tamanio="4" tipoEsp="Pez" estacion="Primavera"
-                   localizacion="Mar" rareza="4"  precio="4992"/>
+                   localizacion="Mar" rareza="4"  precio="4992" stack="1"/>
     <coleccionable id="col074" nombre="Palometa Interesante" tamanio="2" tipoEsp="Pez" estacion="Invierno"
-                   localizacion="Cascada" rareza="3"  precio="166"/>
+                   localizacion="Cascada" rareza="3"  precio="166" stack="1"/>
     <coleccionable id="col075" nombre="DinohHueso Peculiar" tamanio="1" tipoEsp="Fosil" estacion="Invierno"
-                   localizacion="Tierra" rareza="4"  precio="693"/>
+                   localizacion="Tierra" rareza="4"  precio="693" stack="1"/>
     <coleccionable id="col076" nombre="Nokia Celurio" tamanio="9" tipoEsp="Fosil" estacion="Verano"
-                   localizacion="Bajo tierra" rareza="1"  precio="117"/>
+                   localizacion="Bajo tierra" rareza="1"  precio="117" stack="1"/>
     <coleccionable id="col077" nombre="Carpa Mono" tamanio="5" tipoEsp="Pez" estacion="Invierno" localizacion="Cascada"
-                   rareza="1"  precio="596"/>
+                   rareza="1"  precio="596" stack="1"/>
     <coleccionable id="col078" nombre="Craneo Interesante" tamanio="9" tipoEsp="Fosil" estacion="Primavera"
-                   localizacion="Bajo tierra" rareza="3"  precio="3112"/>
+                   localizacion="Bajo tierra" rareza="3"  precio="3112" stack="1"/>
     <coleccionable id="col079" nombre="Craneo Peculiar" tamanio="9" tipoEsp="Fosil" estacion="Invierno"
-                   localizacion="Bajo tierra" rareza="3"  precio="1067"/>
+                   localizacion="Bajo tierra" rareza="3"  precio="1067" stack="1"/>
     <coleccionable id="col080" nombre="Nokia Interesante" tamanio="5" tipoEsp="Fosil" estacion="Otonio"
-                   localizacion="Bajo tierra" rareza="1"  precio="3717"/>
+                   localizacion="Bajo tierra" rareza="1"  precio="3717" stack="1"/>
     <coleccionable id="col081" nombre="Pez Sable Peculiar" tamanio="5" tipoEsp="Pez" estacion="Verano"
-                   localizacion="Estanque" rareza="3"  precio="3614"/>
+                   localizacion="Estanque" rareza="3"  precio="3614" stack="1"/>
     <coleccionable id="col082" nombre="Trilobites Curioso" tamanio="9" tipoEsp="Fosil" estacion="Invierno"
-                   localizacion="Bajo tierra" rareza="4"  precio="1097"/>
+                   localizacion="Bajo tierra" rareza="4"  precio="1097" stack="1"/>
     <coleccionable id="col083" nombre="Trilobites Peculiar" tamanio="5" tipoEsp="Fosil" estacion="Verano"
-                   localizacion="Tierra" rareza="3"  precio="337"/>
+                   localizacion="Tierra" rareza="3"  precio="337" stack="1"/>
     <coleccionable id="col084" nombre="Mero Interesante" tamanio="3" tipoEsp="Pez" estacion="Primavera"
-                   localizacion="Cascada" rareza="1"  precio="4181"/>
+                   localizacion="Cascada" rareza="1"  precio="4181" stack="1"/>
     <coleccionable id="col085" nombre="Trilobites Celurio" tamanio="6" tipoEsp="Fosil" estacion="Primavera"
-                   localizacion="Bajo tierra" rareza="2"  precio="4841"/>
+                   localizacion="Bajo tierra" rareza="2"  precio="4841" stack="1"/>
     <coleccionable id="col086" nombre="Pez Sable Curioso" tamanio="4" tipoEsp="Pez" estacion="Primavera"
-                   localizacion="Estanque" rareza="1"  precio="312"/>
+                   localizacion="Estanque" rareza="1"  precio="312" stack="1"/>
     <coleccionable id="col087" nombre="Amonites Celurio" tamanio="3" tipoEsp="Fosil" estacion="Invierno"
-                   localizacion="Bajo tierra" rareza="1"  precio="3582"/>
+                   localizacion="Bajo tierra" rareza="1"  precio="3582" stack="1"/>
     <coleccionable id="col088" nombre="Tiburon Curioso" tamanio="9" tipoEsp="Pez" estacion="Primavera"
-                   localizacion="Cascada" rareza="2"  precio="4498"/>
+                   localizacion="Cascada" rareza="2"  precio="4498" stack="1"/>
     <coleccionable id="col089" nombre="Tiburon del Monton" tamanio="1" tipoEsp="Pez" estacion="Invierno"
-                   localizacion="Estanque" rareza="1"  precio="1660"/>
+                   localizacion="Estanque" rareza="1"  precio="1660" stack="1"/>
     <coleccionable id="col090" nombre="Craneo Interesante" tamanio="9" tipoEsp="Fosil" estacion="Invierno"
-                   localizacion="Bajo tierra" rareza="4"  precio="4226"/>
+                   localizacion="Bajo tierra" rareza="4"  precio="4226" stack="1"/>
     <coleccionable id="col091" nombre="Nokia Celurio" tamanio="8" tipoEsp="Fosil" estacion="Verano"
-                   localizacion="Tierra" rareza="3"  precio="2328"/>
+                   localizacion="Tierra" rareza="3"  precio="2328" stack="1"/>
     <coleccionable id="col092" nombre="Carpa del Monton" tamanio="2" tipoEsp="Pez" estacion="Otonio"
-                   localizacion="Cascada" rareza="1"  precio="643"/>
+                   localizacion="Cascada" rareza="1"  precio="643" stack="1"/>
     <coleccionable id="col093" nombre="Nokia del Monton" tamanio="2" tipoEsp="Fosil" estacion="Primavera"
-                   localizacion="Tierra" rareza="2"  precio="4813"/>
+                   localizacion="Tierra" rareza="2"  precio="4813" stack="1"/>
     <coleccionable id="col094" nombre="Trilobites Mono" tamanio="6" tipoEsp="Fosil" estacion="Invierno"
-                   localizacion="Bajo tierra" rareza="1"  precio="3208"/>
+                   localizacion="Bajo tierra" rareza="1"  precio="3208" stack="1"/>
     <coleccionable id="col095" nombre="Trilobites Curioso" tamanio="1" tipoEsp="Fosil" estacion="Otonio"
-                   localizacion="Bajo tierra" rareza="3"  precio="4366"/>
+                   localizacion="Bajo tierra" rareza="3"  precio="4366" stack="1"/>
     <coleccionable id="col096" nombre="Nokia Mono" tamanio="9" tipoEsp="Fosil" estacion="Invierno"
-                   localizacion="Bajo tierra" rareza="2"  precio="1545"/>
+                   localizacion="Bajo tierra" rareza="2"  precio="1545" stack="1"/>
     <coleccionable id="col097" nombre="Trilobites Celurio" tamanio="6" tipoEsp="Fosil" estacion="Invierno"
-                   localizacion="Bajo tierra" rareza="4"  precio="2172"/>
+                   localizacion="Bajo tierra" rareza="4"  precio="2172" stack="1"/>
     <coleccionable id="col098" nombre="Carpa Celurio" tamanio="6" tipoEsp="Pez" estacion="Invierno"
-                   localizacion="Boca del rio" rareza="2"  precio="1902"/>
+                   localizacion="Boca del rio" rareza="2"  precio="1902" stack="1"/>
     <coleccionable id="col099" nombre="Craneo Mono" tamanio="4" tipoEsp="Fosil" estacion="Invierno"
-                   localizacion="Bajo tierra" rareza="4"  precio="4602"/>
+                   localizacion="Bajo tierra" rareza="4"  precio="4602" stack="1"/>
     <coleccionable id="col100" nombre="Ciluro Peculiar" tamanio="4" tipoEsp="Pez" estacion="Verano" localizacion="Mar"
-                   rareza="2"  precio="4539"/>
+                   rareza="2"  precio="4539" stack="1"/>
     <coleccionable id="col101" nombre="Tiburon Curioso" tamanio="5" tipoEsp="Pez" estacion="Verano"
-                   localizacion="Boca del rio" rareza="2"  precio="898"/>
+                   localizacion="Boca del rio" rareza="2"  precio="898" stack="1"/>
     <coleccionable id="col102" nombre="Craneo Interesante" tamanio="8" tipoEsp="Fosil" estacion="Otonio"
-                   localizacion="Bajo tierra" rareza="1"  precio="91"/>
+                   localizacion="Bajo tierra" rareza="1"  precio="91" stack="1"/>
     <coleccionable id="col103" nombre="Ciluro Curioso" tamanio="4" tipoEsp="Pez" estacion="Verano"
-                   localizacion="Cascada" rareza="3"  precio="2457"/>
+                   localizacion="Cascada" rareza="3"  precio="2457" stack="1"/>
     <coleccionable id="col104" nombre="DinohHueso del Monton" tamanio="7" tipoEsp="Fosil" estacion="Primavera"
-                   localizacion="Bajo tierra" rareza="2"  precio="3394"/>
+                   localizacion="Bajo tierra" rareza="2"  precio="3394" stack="1"/>
     <coleccionable id="col105" nombre="Palometa Celurio" tamanio="2" tipoEsp="Pez" estacion="Otonio"
-                   localizacion="Estanque" rareza="2"  precio="477"/>
+                   localizacion="Estanque" rareza="2"  precio="477" stack="1"/>
     <coleccionable id="col106" nombre="Ciluro Curioso" tamanio="3" tipoEsp="Pez" estacion="Primavera" localizacion="Mar"
-                   rareza="1"  precio="1491"/>
+                   rareza="1"  precio="1491" stack="1"/>
     <coleccionable id="col107" nombre="Palometa Interesante" tamanio="4" tipoEsp="Pez" estacion="Invierno"
-                   localizacion="Boca del rio" rareza="4"  precio="935"/>
+                   localizacion="Boca del rio" rareza="4"  precio="935" stack="1"/>
     <coleccionable id="col108" nombre="Mero Curioso" tamanio="4" tipoEsp="Pez" estacion="Invierno"
-                   localizacion="Estanque" rareza="2"  precio="50"/>
+                   localizacion="Estanque" rareza="2"  precio="50" stack="1"/>
     <coleccionable id="col109" nombre="Pez Sable Peculiar" tamanio="5" tipoEsp="Pez" estacion="Otonio"
-                   localizacion="Estanque" rareza="2"  precio="4038"/>
+                   localizacion="Estanque" rareza="2"  precio="4038" stack="1"/>
     <coleccionable id="col110" nombre="Carpa Celurio" tamanio="3" tipoEsp="Pez" estacion="Invierno"
-                   localizacion="Estanque" rareza="1"  precio="465"/>
+                   localizacion="Estanque" rareza="1"  precio="465" stack="1"/>
     <coleccionable id="col111" nombre="Ciluro del Monton" tamanio="4" tipoEsp="Pez" estacion="Primavera"
-                   localizacion="Cascada" rareza="4"  precio="4297"/>
+                   localizacion="Cascada" rareza="4"  precio="4297" stack="1"/>
     <coleccionable id="col112" nombre="Pez Sable Curioso" tamanio="4" tipoEsp="Pez" estacion="Verano"
-                   localizacion="Estanque" rareza="3"  precio="4910"/>
+                   localizacion="Estanque" rareza="3"  precio="4910" stack="1"/>
     <coleccionable id="col113" nombre="Trilobites Peculiar" tamanio="1" tipoEsp="Fosil" estacion="Verano"
-                   localizacion="Bajo tierra" rareza="1"  precio="893"/>
+                   localizacion="Bajo tierra" rareza="1"  precio="893" stack="1"/>
     <coleccionable id="col114" nombre="Tiburon Mono" tamanio="7" tipoEsp="Pez" estacion="Otonio" localizacion="Cascada"
-                   rareza="4"  precio="938"/>
+                   rareza="4"  precio="938" stack="1"/>
     <coleccionable id="col115" nombre="Mero Interesante" tamanio="1" tipoEsp="Pez" estacion="Primavera"
-                   localizacion="Estanque" rareza="1"  precio="542"/>
+                   localizacion="Estanque" rareza="1"  precio="542" stack="1"/>
     <coleccionable id="col116" nombre="Hueso Interesante" tamanio="1" tipoEsp="Fosil" estacion="Invierno"
-                   localizacion="Tierra" rareza="2"  precio="3538"/>
+                   localizacion="Tierra" rareza="2"  precio="3538" stack="1"/>
     <coleccionable id="col117" nombre="DinohHueso Curioso" tamanio="4" tipoEsp="Fosil" estacion="Primavera"
-                   localizacion="Bajo tierra" rareza="3"  precio="3408"/>
+                   localizacion="Bajo tierra" rareza="3"  precio="3408" stack="1"/>
     <coleccionable id="col118" nombre="DinohHueso Peculiar" tamanio="8" tipoEsp="Fosil" estacion="Invierno"
-                   localizacion="Bajo tierra" rareza="1"  precio="2819"/>
+                   localizacion="Bajo tierra" rareza="1"  precio="2819" stack="1"/>
     <coleccionable id="col119" nombre="Nokia del Monton" tamanio="7" tipoEsp="Fosil" estacion="Primavera"
-                   localizacion="Bajo tierra" rareza="4"  precio="4832"/>
+                   localizacion="Bajo tierra" rareza="4"  precio="4832" stack="1"/>
     <coleccionable id="col120" nombre="Trilobites Curioso" tamanio="5" tipoEsp="Fosil" estacion="Invierno"
-                   localizacion="Bajo tierra" rareza="1"  precio="2966"/>
+                   localizacion="Bajo tierra" rareza="1"  precio="2966" stack="1"/>
     <coleccionable id="col121" nombre="Amonites Interesante" tamanio="2" tipoEsp="Fosil" estacion="Otonio"
-                   localizacion="Bajo tierra" rareza="4"  precio="4481"/>
+                   localizacion="Bajo tierra" rareza="4"  precio="4481" stack="1"/>
     <coleccionable id="col122" nombre="Tiburon del Monton" tamanio="4" tipoEsp="Pez" estacion="Verano"
-                   localizacion="Boca del rio" rareza="4"  precio="803"/>
+                   localizacion="Boca del rio" rareza="4"  precio="803" stack="1"/>
     <coleccionable id="col123" nombre="Tiburon Mono" tamanio="2" tipoEsp="Pez" estacion="Verano" localizacion="Mar"
-                   rareza="3"  precio="3306"/>
+                   rareza="3"  precio="3306" stack="1"/>
     <coleccionable id="col124" nombre="Trilobites Mono" tamanio="8" tipoEsp="Fosil" estacion="Otonio"
-                   localizacion="Tierra" rareza="1"  precio="2550"/>
+                   localizacion="Tierra" rareza="1"  precio="2550" stack="1"/>
     <coleccionable id="col125" nombre="Hueso Celurio" tamanio="5" tipoEsp="Fosil" estacion="Verano"
-                   localizacion="Bajo tierra" rareza="2"  precio="800"/>
+                   localizacion="Bajo tierra" rareza="2"  precio="800" stack="1"/>
     <coleccionable id="col126" nombre="DinohHueso Celurio" tamanio="4" tipoEsp="Fosil" estacion="Verano"
-                   localizacion="Tierra" rareza="4"  precio="2227"/>
+                   localizacion="Tierra" rareza="4"  precio="2227" stack="1"/>
     <coleccionable id="col127" nombre="Nokia Celurio" tamanio="5" tipoEsp="Fosil" estacion="Otonio"
-                   localizacion="Bajo tierra" rareza="1"  precio="1610"/>
+                   localizacion="Bajo tierra" rareza="1"  precio="1610" stack="1"/>
     <coleccionable id="col128" nombre="Amonites del Monton" tamanio="1" tipoEsp="Fosil" estacion="Primavera"
-                   localizacion="Bajo tierra" rareza="1"  precio="317"/>
+                   localizacion="Bajo tierra" rareza="1"  precio="317" stack="1"/>
     <coleccionable id="col129" nombre="Nokia Celurio" tamanio="4" tipoEsp="Fosil" estacion="Verano"
-                   localizacion="Bajo tierra" rareza="2"  precio="4161"/>
+                   localizacion="Bajo tierra" rareza="2"  precio="4161" stack="1"/>
     <coleccionable id="col130" nombre="Trilobites Peculiar" tamanio="1" tipoEsp="Fosil" estacion="Invierno"
-                   localizacion="Bajo tierra" rareza="1"  precio="2344"/>
+                   localizacion="Bajo tierra" rareza="1"  precio="2344" stack="1"/>
     <coleccionable id="col131" nombre="Amonites Celurio" tamanio="7" tipoEsp="Fosil" estacion="Invierno"
-                   localizacion="Tierra" rareza="1"  precio="2399"/>
+                   localizacion="Tierra" rareza="1"  precio="2399" stack="1"/>
     <coleccionable id="col132" nombre="Palometa Celurio" tamanio="3" tipoEsp="Pez" estacion="Invierno"
-                   localizacion="Estanque" rareza="3"  precio="707"/>
+                   localizacion="Estanque" rareza="3"  precio="707" stack="1"/>
     <coleccionable id="col133" nombre="Palometa Peculiar" tamanio="1" tipoEsp="Pez" estacion="Otonio"
-                   localizacion="Cascada" rareza="1"  precio="4350"/>
+                   localizacion="Cascada" rareza="1"  precio="4350" stack="1"/>
     <coleccionable id="col134" nombre="Mero Curioso" tamanio="4" tipoEsp="Pez" estacion="Verano"
-                   localizacion="Boca del rio" rareza="1"  precio="295"/>
+                   localizacion="Boca del rio" rareza="1"  precio="295" stack="1"/>
     <coleccionable id="col135" nombre="Carpa Mono" tamanio="8" tipoEsp="Pez" estacion="Invierno" localizacion="Mar"
-                   rareza="3"  precio="2421"/>
+                   rareza="3"  precio="2421" stack="1"/>
     <coleccionable id="col136" nombre="Pez Sable Celurio" tamanio="2" tipoEsp="Pez" estacion="Verano"
-                   localizacion="Boca del rio" rareza="2"  precio="2935"/>
+                   localizacion="Boca del rio" rareza="2"  precio="2935" stack="1"/>
     <coleccionable id="col137" nombre="Amonites del Monton" tamanio="7" tipoEsp="Fosil" estacion="Otonio"
-                   localizacion="Tierra" rareza="3"  precio="3053"/>
+                   localizacion="Tierra" rareza="3"  precio="3053" stack="1"/>
     <coleccionable id="col138" nombre="Nokia Mono" tamanio="8" tipoEsp="Fosil" estacion="Invierno"
-                   localizacion="Bajo tierra" rareza="3"  precio="3669"/>
+                   localizacion="Bajo tierra" rareza="3"  precio="3669" stack="1"/>
     <coleccionable id="col139" nombre="Pez Sable Interesante" tamanio="6" tipoEsp="Pez" estacion="Primavera"
-                   localizacion="Mar" rareza="2"  precio="2446"/>
+                   localizacion="Mar" rareza="2"  precio="2446" stack="1"/>
     <coleccionable id="col140" nombre="DinohHueso del Monton" tamanio="4" tipoEsp="Fosil" estacion="Verano"
-                   localizacion="Tierra" rareza="4"  precio="2854"/>
+                   localizacion="Tierra" rareza="4"  precio="2854" stack="1"/>
     <coleccionable id="col141" nombre="DinohHueso del Monton" tamanio="3" tipoEsp="Fosil" estacion="Verano"
-                   localizacion="Bajo tierra" rareza="1"  precio="3552"/>
+                   localizacion="Bajo tierra" rareza="1"  precio="3552" stack="1"/>
     <coleccionable id="col142" nombre="Trilobites Peculiar" tamanio="8" tipoEsp="Fosil" estacion="Otonio"
-                   localizacion="Bajo tierra" rareza="3"  precio="3704"/>
+                   localizacion="Bajo tierra" rareza="3"  precio="3704" stack="1"/>
     <coleccionable id="col143" nombre="Trilobites Curioso" tamanio="6" tipoEsp="Fosil" estacion="Otonio"
-                   localizacion="Bajo tierra" rareza="4"  precio="422"/>
+                   localizacion="Bajo tierra" rareza="4"  precio="422" stack="1"/>
     <coleccionable id="col144" nombre="Amonites del Monton" tamanio="4" tipoEsp="Fosil" estacion="Verano"
-                   localizacion="Bajo tierra" rareza="3"  precio="4677"/>
+                   localizacion="Bajo tierra" rareza="3"  precio="4677" stack="1"/>
     <coleccionable id="col145" nombre="Trilobites Curioso" tamanio="2" tipoEsp="Fosil" estacion="Verano"
-                   localizacion="Tierra" rareza="2"  precio="489"/>
+                   localizacion="Tierra" rareza="2"  precio="489" stack="1"/>
     <coleccionable id="col146" nombre="DinohHueso Celurio" tamanio="2" tipoEsp="Fosil" estacion="Invierno"
-                   localizacion="Bajo tierra" rareza="2"  precio="240"/>
+                   localizacion="Bajo tierra" rareza="2"  precio="240" stack="1"/>
     <coleccionable id="col147" nombre="Ciluro Peculiar" tamanio="7" tipoEsp="Pez" estacion="Verano"
-                   localizacion="Cascada" rareza="4"  precio="850"/>
+                   localizacion="Cascada" rareza="4"  precio="850" stack="1"/>
     <coleccionable id="col148" nombre="Pez Sable Curioso" tamanio="6" tipoEsp="Pez" estacion="Otonio"
-                   localizacion="Boca del rio" rareza="2"  precio="367"/>
+                   localizacion="Boca del rio" rareza="2"  precio="367" stack="1"/>
     <coleccionable id="col149" nombre="Amonites Peculiar" tamanio="6" tipoEsp="Fosil" estacion="Invierno"
-                   localizacion="Tierra" rareza="2"  precio="4108"/>
+                   localizacion="Tierra" rareza="2"  precio="4108" stack="1"/>
     <coleccionable id="col150" nombre="Pez Sable Curioso" tamanio="9" tipoEsp="Pez" estacion="Primavera"
-                   localizacion="Cascada" rareza="3"  precio="2232"/>
+                   localizacion="Cascada" rareza="3"  precio="2232" stack="1"/>
     <coleccionable id="col151" nombre="Pez Sable Mono" tamanio="4" tipoEsp="Pez" estacion="Invierno"
-                   localizacion="Cascada" rareza="4"  precio="3313"/>
+                   localizacion="Cascada" rareza="4"  precio="3313" stack="1"/>
     <coleccionable id="col152" nombre="Tiburon Mono" tamanio="9" tipoEsp="Pez" estacion="Invierno"
-                   localizacion="Estanque" rareza="4"  precio="4854"/>
+                   localizacion="Estanque" rareza="4"  precio="4854" stack="1"/>
     <coleccionable id="col153" nombre="Hueso del Monton" tamanio="2" tipoEsp="Fosil" estacion="Otonio"
-                   localizacion="Tierra" rareza="1"  precio="1463"/>
+                   localizacion="Tierra" rareza="1"  precio="1463" stack="1"/>
     <coleccionable id="col154" nombre="Amonites Celurio" tamanio="8" tipoEsp="Fosil" estacion="Verano"
-                   localizacion="Bajo tierra" rareza="3"  precio="2356"/>
+                   localizacion="Bajo tierra" rareza="3"  precio="2356" stack="1"/>
     <coleccionable id="col155" nombre="Nokia Mono" tamanio="9" tipoEsp="Fosil" estacion="Invierno" localizacion="Tierra"
-                   rareza="3"  precio="1864"/>
+                   rareza="3"  precio="1864" stack="1"/>
     <coleccionable id="col156" nombre="Trilobites Mono" tamanio="7" tipoEsp="Fosil" estacion="Invierno"
-                   localizacion="Tierra" rareza="1"  precio="1675"/>
+                   localizacion="Tierra" rareza="1"  precio="1675" stack="1"/>
     <coleccionable id="col157" nombre="Palometa Mono" tamanio="4" tipoEsp="Pez" estacion="Invierno"
-                   localizacion="Boca del rio" rareza="3"  precio="346"/>
+                   localizacion="Boca del rio" rareza="3"  precio="346" stack="1"/>
     <coleccionable id="col158" nombre="Nokia Interesante" tamanio="8" tipoEsp="Fosil" estacion="Invierno"
-                   localizacion="Tierra" rareza="4"  precio="129"/>
+                   localizacion="Tierra" rareza="4"  precio="129" stack="1"/>
     <coleccionable id="col159" nombre="Ciluro Curioso" tamanio="2" tipoEsp="Pez" estacion="Invierno"
-                   localizacion="Boca del rio" rareza="1"  precio="4353"/>
+                   localizacion="Boca del rio" rareza="1"  precio="4353" stack="1"/>
     <coleccionable id="col160" nombre="Tiburon Interesante" tamanio="1" tipoEsp="Pez" estacion="Verano"
-                   localizacion="Estanque" rareza="2"  precio="3648"/>
+                   localizacion="Estanque" rareza="2"  precio="3648" stack="1"/>
     <coleccionable id="col161" nombre="Craneo Peculiar" tamanio="8" tipoEsp="Fosil" estacion="Primavera"
-                   localizacion="Tierra" rareza="2"  precio="4202"/>
+                   localizacion="Tierra" rareza="2"  precio="4202" stack="1"/>
     <coleccionable id="col162" nombre="Palometa Interesante" tamanio="9" tipoEsp="Pez" estacion="Primavera"
-                   localizacion="Boca del rio" rareza="4"  precio="435"/>
+                   localizacion="Boca del rio" rareza="4"  precio="435" stack="1"/>
     <coleccionable id="col163" nombre="Craneo Peculiar" tamanio="9" tipoEsp="Fosil" estacion="Verano"
-                   localizacion="Bajo tierra" rareza="4"  precio="1900"/>
+                   localizacion="Bajo tierra" rareza="4"  precio="1900" stack="1"/>
     <coleccionable id="col164" nombre="Nokia del Monton" tamanio="1" tipoEsp="Fosil" estacion="Primavera"
-                   localizacion="Tierra" rareza="1"  precio="581"/>
+                   localizacion="Tierra" rareza="1"  precio="581" stack="1"/>
     <coleccionable id="col165" nombre="Amonites Curioso" tamanio="8" tipoEsp="Fosil" estacion="Verano"
-                   localizacion="Tierra" rareza="2"  precio="3124"/>
+                   localizacion="Tierra" rareza="2"  precio="3124" stack="1"/>
     <coleccionable id="col166" nombre="Ciluro Curioso" tamanio="7" tipoEsp="Pez" estacion="Verano"
-                   localizacion="Cascada" rareza="3"  precio="3532"/>
+                   localizacion="Cascada" rareza="3"  precio="3532" stack="1"/>
     <coleccionable id="col167" nombre="Palometa Interesante" tamanio="3" tipoEsp="Pez" estacion="Verano"
-                   localizacion="Boca del rio" rareza="1"  precio="3739"/>
+                   localizacion="Boca del rio" rareza="1"  precio="3739" stack="1"/>
     <coleccionable id="col168" nombre="Palometa Curioso" tamanio="5" tipoEsp="Pez" estacion="Primavera"
-                   localizacion="Cascada" rareza="2"  precio="4257"/>
+                   localizacion="Cascada" rareza="2"  precio="4257" stack="1"/>
     <coleccionable id="col169" nombre="Nokia Mono" tamanio="2" tipoEsp="Fosil" estacion="Invierno"
-                   localizacion="Bajo tierra" rareza="2"  precio="1380"/>
+                   localizacion="Bajo tierra" rareza="2"  precio="1380" stack="1"/>
     <coleccionable id="col170" nombre="Carpa Interesante" tamanio="4" tipoEsp="Pez" estacion="Verano"
-                   localizacion="Boca del rio" rareza="2"  precio="4810"/>
+                   localizacion="Boca del rio" rareza="2"  precio="4810" stack="1"/>
     <coleccionable id="col171" nombre="Nokia Interesante" tamanio="2" tipoEsp="Fosil" estacion="Otonio"
-                   localizacion="Bajo tierra" rareza="4"  precio="2855"/>
+                   localizacion="Bajo tierra" rareza="4"  precio="2855" stack="1"/>
     <coleccionable id="col172" nombre="Craneo Peculiar" tamanio="7" tipoEsp="Fosil" estacion="Otonio"
-                   localizacion="Tierra" rareza="4"  precio="4691"/>
+                   localizacion="Tierra" rareza="4"  precio="4691" stack="1"/>
     <coleccionable id="col173" nombre="Mero Interesante" tamanio="2" tipoEsp="Pez" estacion="Invierno"
-                   localizacion="Boca del rio" rareza="4"  precio="63"/>
+                   localizacion="Boca del rio" rareza="4"  precio="63" stack="1"/>
     <coleccionable id="col174" nombre="DinohHueso del Monton" tamanio="4" tipoEsp="Fosil" estacion="Invierno"
-                   localizacion="Bajo tierra" rareza="1"  precio="3093"/>
+                   localizacion="Bajo tierra" rareza="1"  precio="3093" stack="1"/>
     <coleccionable id="col175" nombre="Carpa Mono" tamanio="2" tipoEsp="Pez" estacion="Primavera" localizacion="Mar"
-                   rareza="4"  precio="2850"/>
+                   rareza="4"  precio="2850" stack="1"/>
     <coleccionable id="col176" nombre="Nokia Celurio" tamanio="4" tipoEsp="Fosil" estacion="Otonio"
-                   localizacion="Tierra" rareza="1"  precio="4456"/>
+                   localizacion="Tierra" rareza="1"  precio="4456" stack="1"/>
     <coleccionable id="col177" nombre="Hueso Mono" tamanio="8" tipoEsp="Fosil" estacion="Primavera"
-                   localizacion="Tierra" rareza="1"  precio="843"/>
+                   localizacion="Tierra" rareza="1"  precio="843" stack="1"/>
     <coleccionable id="col178" nombre="Hueso Celurio" tamanio="4" tipoEsp="Fosil" estacion="Primavera"
-                   localizacion="Tierra" rareza="4"  precio="4268"/>
+                   localizacion="Tierra" rareza="4"  precio="4268" stack="1"/>
     <coleccionable id="col179" nombre="DinohHueso del Monton" tamanio="9" tipoEsp="Fosil" estacion="Otonio"
-                   localizacion="Bajo tierra" rareza="1"  precio="247"/>
+                   localizacion="Bajo tierra" rareza="1"  precio="247" stack="1"/>
     <coleccionable id="col180" nombre="Craneo Interesante" tamanio="2" tipoEsp="Fosil" estacion="Verano"
-                   localizacion="Tierra" rareza="1"  precio="338"/>
+                   localizacion="Tierra" rareza="1"  precio="338" stack="1"/>
     <coleccionable id="col181" nombre="Hueso del Monton" tamanio="4" tipoEsp="Fosil" estacion="Invierno"
-                   localizacion="Bajo tierra" rareza="2"  precio="2216"/>
+                   localizacion="Bajo tierra" rareza="2"  precio="2216" stack="1"/>
     <coleccionable id="col182" nombre="Mero Interesante" tamanio="6" tipoEsp="Pez" estacion="Invierno"
-                   localizacion="Cascada" rareza="4"  precio="2818"/>
+                   localizacion="Cascada" rareza="4"  precio="2818" stack="1"/>
     <coleccionable id="col183" nombre="Palometa Curioso" tamanio="6" tipoEsp="Pez" estacion="Verano" localizacion="Mar"
-                   rareza="1"  precio="18"/>
+                   rareza="1"  precio="18" stack="1"/>
     <coleccionable id="col184" nombre="Nokia del Monton" tamanio="5" tipoEsp="Fosil" estacion="Invierno"
-                   localizacion="Tierra" rareza="2"  precio="962"/>
+                   localizacion="Tierra" rareza="2"  precio="962" stack="1"/>
     <coleccionable id="col185" nombre="Trilobites Mono" tamanio="2" tipoEsp="Fosil" estacion="Verano"
-                   localizacion="Tierra" rareza="4"  precio="1433"/>
+                   localizacion="Tierra" rareza="4"  precio="1433" stack="1"/>
     <coleccionable id="col186" nombre="Ciluro Curioso" tamanio="9" tipoEsp="Pez" estacion="Verano"
-                   localizacion="Estanque" rareza="2"  precio="3175"/>
+                   localizacion="Estanque" rareza="2"  precio="3175" stack="1"/>
     <coleccionable id="col187" nombre="Nokia Mono" tamanio="2" tipoEsp="Fosil" estacion="Invierno" localizacion="Tierra"
-                   rareza="3"  precio="1256"/>
+                   rareza="3"  precio="1256" stack="1"/>
     <coleccionable id="col188" nombre="Palometa Interesante" tamanio="5" tipoEsp="Pez" estacion="Otonio"
-                   localizacion="Estanque" rareza="3"  precio="2807"/>
+                   localizacion="Estanque" rareza="3"  precio="2807" stack="1"/>
     <coleccionable id="col189" nombre="Palometa Interesante" tamanio="2" tipoEsp="Pez" estacion="Primavera"
-                   localizacion="Cascada" rareza="3"  precio="779"/>
+                   localizacion="Cascada" rareza="3"  precio="779" stack="1"/>
     <coleccionable id="col190" nombre="Amonites Celurio" tamanio="7" tipoEsp="Fosil" estacion="Verano"
-                   localizacion="Tierra" rareza="1"  precio="2653"/>
+                   localizacion="Tierra" rareza="1"  precio="2653" stack="1"/>
     <coleccionable id="col191" nombre="Amonites Peculiar" tamanio="3" tipoEsp="Fosil" estacion="Otonio"
-                   localizacion="Bajo tierra" rareza="2"  precio="4977"/>
+                   localizacion="Bajo tierra" rareza="2"  precio="4977" stack="1"/>
     <coleccionable id="col192" nombre="Craneo Celurio" tamanio="2" tipoEsp="Fosil" estacion="Primavera"
-                   localizacion="Tierra" rareza="4"  precio="3685"/>
+                   localizacion="Tierra" rareza="4"  precio="3685" stack="1"/>
     <coleccionable id="col193" nombre="Hueso del Monton" tamanio="2" tipoEsp="Fosil" estacion="Otonio"
-                   localizacion="Bajo tierra" rareza="1"  precio="3910"/>
+                   localizacion="Bajo tierra" rareza="1"  precio="3910" stack="1"/>
     <coleccionable id="col194" nombre="Ciluro Interesante" tamanio="4" tipoEsp="Pez" estacion="Primavera"
-                   localizacion="Boca del rio" rareza="1"  precio="4946"/>
+                   localizacion="Boca del rio" rareza="1"  precio="4946" stack="1"/>
     <coleccionable id="col195" nombre="DinohHueso Mono" tamanio="8" tipoEsp="Fosil" estacion="Verano"
-                   localizacion="Tierra" rareza="2"  precio="4820"/>
+                   localizacion="Tierra" rareza="2"  precio="4820" stack="1"/>
     <coleccionable id="col196" nombre="DinohHueso del Monton" tamanio="7" tipoEsp="Fosil" estacion="Verano"
-                   localizacion="Tierra" rareza="1"  precio="2601"/>
+                   localizacion="Tierra" rareza="1"  precio="2601" stack="1"/>
     <coleccionable id="col197" nombre="Carpa Peculiar" tamanio="9" tipoEsp="Pez" estacion="Otonio"
-                   localizacion="Boca del rio" rareza="2"  precio="2470"/>
+                   localizacion="Boca del rio" rareza="2"  precio="2470" stack="1"/>
     <coleccionable id="col198" nombre="Craneo Mono" tamanio="2" tipoEsp="Fosil" estacion="Invierno"
-                   localizacion="Bajo tierra" rareza="4"  precio="4311"/>
+                   localizacion="Bajo tierra" rareza="4"  precio="4311" stack="1"/>
     <coleccionable id="col199" nombre="Hueso Peculiar" tamanio="7" tipoEsp="Fosil" estacion="Otonio"
-                   localizacion="Bajo tierra" rareza="2"  precio="3089"/>
+                   localizacion="Bajo tierra" rareza="2"  precio="3089" stack="1"/>
     <coleccionable id="col200" nombre="Amonites Curioso" tamanio="8" tipoEsp="Fosil" estacion="Invierno"
-                   localizacion="Tierra" rareza="3"  precio="297"/>
+                   localizacion="Tierra" rareza="3"  precio="297" stack="1"/>
     <coleccionable id="col201" nombre="Nokia Interesante" tamanio="6" tipoEsp="Fosil" estacion="Otonio"
-                   localizacion="Bajo tierra" rareza="1"  precio="1324"/>
+                   localizacion="Bajo tierra" rareza="1"  precio="1324" stack="1"/>
     <coleccionable id="col202" nombre="Trilobites Celurio" tamanio="7" tipoEsp="Fosil" estacion="Verano"
-                   localizacion="Tierra" rareza="3"  precio="3996"/>
+                   localizacion="Tierra" rareza="3"  precio="3996" stack="1"/>
     <coleccionable id="col203" nombre="Nokia Mono" tamanio="8" tipoEsp="Fosil" estacion="Primavera"
-                   localizacion="Tierra" rareza="1"  precio="907"/>
+                   localizacion="Tierra" rareza="1"  precio="907" stack="1"/>
     <coleccionable id="col204" nombre="Nokia Mono" tamanio="1" tipoEsp="Fosil" estacion="Primavera"
-                   localizacion="Bajo tierra" rareza="3"  precio="4800"/>
+                   localizacion="Bajo tierra" rareza="3"  precio="4800" stack="1"/>
     <coleccionable id="col205" nombre="Ciluro Celurio" tamanio="5" tipoEsp="Pez" estacion="Verano"
-                   localizacion="Cascada" rareza="3"  precio="4627"/>
+                   localizacion="Cascada" rareza="3"  precio="4627" stack="1"/>
     <coleccionable id="col206" nombre="Craneo del Monton" tamanio="2" tipoEsp="Fosil" estacion="Otonio"
-                   localizacion="Tierra" rareza="4"  precio="4937"/>
+                   localizacion="Tierra" rareza="4"  precio="4937" stack="1"/>
     <coleccionable id="col207" nombre="Nokia Mono" tamanio="4" tipoEsp="Fosil" estacion="Verano" localizacion="Tierra"
-                   rareza="3"  precio="3435"/>
+                   rareza="3"  precio="3435" stack="1"/>
     <coleccionable id="col208" nombre="Palometa Curioso" tamanio="3" tipoEsp="Pez" estacion="Verano"
-                   localizacion="Cascada" rareza="1"  precio="2650"/>
+                   localizacion="Cascada" rareza="1"  precio="2650" stack="1"/>
     <coleccionable id="col209" nombre="DinohHueso Celurio" tamanio="5" tipoEsp="Fosil" estacion="Primavera"
-                   localizacion="Bajo tierra" rareza="4"  precio="234"/>
+                   localizacion="Bajo tierra" rareza="4"  precio="234" stack="1"/>
     <coleccionable id="col210" nombre="Carpa Interesante" tamanio="8" tipoEsp="Pez" estacion="Otonio"
-                   localizacion="Cascada" rareza="4"  precio="2454"/>
+                   localizacion="Cascada" rareza="4"  precio="2454" stack="1"/>
     <coleccionable id="col211" nombre="Trilobites Mono" tamanio="5" tipoEsp="Fosil" estacion="Primavera"
-                   localizacion="Tierra" rareza="1"  precio="1977"/>
+                   localizacion="Tierra" rareza="1"  precio="1977" stack="1"/>
     <coleccionable id="col212" nombre="Hueso Interesante" tamanio="3" tipoEsp="Fosil" estacion="Otonio"
-                   localizacion="Bajo tierra" rareza="4"  precio="4024"/>
+                   localizacion="Bajo tierra" rareza="4"  precio="4024" stack="1"/>
     <coleccionable id="col213" nombre="Mero Celurio" tamanio="2" tipoEsp="Pez" estacion="Verano"
-                   localizacion="Boca del rio" rareza="2"  precio="3216"/>
+                   localizacion="Boca del rio" rareza="2"  precio="3216" stack="1"/>
     <coleccionable id="col214" nombre="Hueso Curioso" tamanio="6" tipoEsp="Fosil" estacion="Otonio"
-                   localizacion="Tierra" rareza="3"  precio="4609"/>
+                   localizacion="Tierra" rareza="3"  precio="4609" stack="1"/>
     <coleccionable id="col215" nombre="Tiburon Celurio" tamanio="3" tipoEsp="Pez" estacion="Otonio" localizacion="Mar"
-                   rareza="4"  precio="1506"/>
+                   rareza="4"  precio="1506" stack="1"/>
     <coleccionable id="col216" nombre="Nokia Curioso" tamanio="1" tipoEsp="Fosil" estacion="Otonio"
-                   localizacion="Bajo tierra" rareza="4"  precio="4542"/>
+                   localizacion="Bajo tierra" rareza="4"  precio="4542" stack="1"/>
     <coleccionable id="col217" nombre="Amonites del Monton" tamanio="8" tipoEsp="Fosil" estacion="Verano"
-                   localizacion="Bajo tierra" rareza="2"  precio="4785"/>
+                   localizacion="Bajo tierra" rareza="2"  precio="4785" stack="1"/>
     <coleccionable id="col218" nombre="Carpa Mono" tamanio="2" tipoEsp="Pez" estacion="Otonio" localizacion="Cascada"
-                   rareza="2"  precio="3240"/>
+                   rareza="2"  precio="3240" stack="1"/>
     <coleccionable id="col219" nombre="Carpa Interesante" tamanio="8" tipoEsp="Pez" estacion="Invierno"
-                   localizacion="Mar" rareza="2"  precio="2204"/>
+                   localizacion="Mar" rareza="2"  precio="2204" stack="1"/>
     <coleccionable id="col220" nombre="Nokia Peculiar" tamanio="9" tipoEsp="Fosil" estacion="Verano"
-                   localizacion="Tierra" rareza="4"  precio="1079"/>
+                   localizacion="Tierra" rareza="4"  precio="1079" stack="1"/>
     <coleccionable id="col221" nombre="Pez Sable Peculiar" tamanio="7" tipoEsp="Pez" estacion="Verano"
-                   localizacion="Mar" rareza="1"  precio="3285"/>
+                   localizacion="Mar" rareza="1"  precio="3285" stack="1"/>
     <coleccionable id="col222" nombre="Nokia del Monton" tamanio="1" tipoEsp="Fosil" estacion="Invierno"
-                   localizacion="Tierra" rareza="3"  precio="1839"/>
+                   localizacion="Tierra" rareza="3"  precio="1839" stack="1"/>
     <coleccionable id="col223" nombre="Hueso Interesante" tamanio="3" tipoEsp="Fosil" estacion="Invierno"
-                   localizacion="Tierra" rareza="4"  precio="441"/>
+                   localizacion="Tierra" rareza="4"  precio="441" stack="1"/>
     <coleccionable id="col224" nombre="Ciluro Curioso" tamanio="4" tipoEsp="Pez" estacion="Verano"
-                   localizacion="Boca del rio" rareza="4"  precio="805"/>
+                   localizacion="Boca del rio" rareza="4"  precio="805" stack="1"/>
     <coleccionable id="col225" nombre="Hueso Peculiar" tamanio="8" tipoEsp="Fosil" estacion="Primavera"
-                   localizacion="Tierra" rareza="2"  precio="179"/>
+                   localizacion="Tierra" rareza="2"  precio="179" stack="1"/>
     <coleccionable id="col226" nombre="Palometa Celurio" tamanio="9" tipoEsp="Pez" estacion="Otonio"
-                   localizacion="Boca del rio" rareza="3"  precio="1836"/>
+                   localizacion="Boca del rio" rareza="3"  precio="1836" stack="1"/>
     <coleccionable id="col227" nombre="Amonites Interesante" tamanio="1" tipoEsp="Fosil" estacion="Otonio"
-                   localizacion="Tierra" rareza="1"  precio="4682"/>
+                   localizacion="Tierra" rareza="1"  precio="4682" stack="1"/>
     <coleccionable id="col228" nombre="Craneo del Monton" tamanio="7" tipoEsp="Fosil" estacion="Otonio"
-                   localizacion="Bajo tierra" rareza="2"  precio="4548"/>
+                   localizacion="Bajo tierra" rareza="2"  precio="4548" stack="1"/>
     <coleccionable id="col229" nombre="Ciluro del Monton" tamanio="1" tipoEsp="Pez" estacion="Primavera"
-                   localizacion="Cascada" rareza="3"  precio="4084"/>
+                   localizacion="Cascada" rareza="3"  precio="4084" stack="1"/>
     <coleccionable id="col230" nombre="Pez Sable Celurio" tamanio="6" tipoEsp="Pez" estacion="Verano"
-                   localizacion="Estanque" rareza="1"  precio="1569"/>
+                   localizacion="Estanque" rareza="1"  precio="1569" stack="1"/>
     <coleccionable id="col231" nombre="Amonites del Monton" tamanio="8" tipoEsp="Fosil" estacion="Invierno"
-                   localizacion="Tierra" rareza="2"  precio="1274"/>
+                   localizacion="Tierra" rareza="2"  precio="1274" stack="1"/>
     <coleccionable id="col232" nombre="Trilobites del Monton" tamanio="4" tipoEsp="Fosil" estacion="Primavera"
-                   localizacion="Bajo tierra" rareza="3"  precio="1647"/>
+                   localizacion="Bajo tierra" rareza="3"  precio="1647" stack="1"/>
     <coleccionable id="col233" nombre="Palometa Interesante" tamanio="5" tipoEsp="Pez" estacion="Otonio"
-                   localizacion="Mar" rareza="2"  precio="2803"/>
+                   localizacion="Mar" rareza="2"  precio="2803" stack="1"/>
     <coleccionable id="col234" nombre="Ciluro Interesante" tamanio="3" tipoEsp="Pez" estacion="Invierno"
-                   localizacion="Boca del rio" rareza="4"  precio="1516"/>
+                   localizacion="Boca del rio" rareza="4"  precio="1516" stack="1"/>
     <coleccionable id="col235" nombre="DinohHueso Mono" tamanio="8" tipoEsp="Fosil" estacion="Otonio"
-                   localizacion="Bajo tierra" rareza="3"  precio="1951"/>
+                   localizacion="Bajo tierra" rareza="3"  precio="1951" stack="1"/>
     <coleccionable id="col236" nombre="Amonites del Monton" tamanio="3" tipoEsp="Fosil" estacion="Otonio"
-                   localizacion="Tierra" rareza="3"  precio="4043"/>
+                   localizacion="Tierra" rareza="3"  precio="4043" stack="1"/>
     <coleccionable id="col237" nombre="Hueso Celurio" tamanio="5" tipoEsp="Fosil" estacion="Primavera"
-                   localizacion="Bajo tierra" rareza="3"  precio="2933"/>
+                   localizacion="Bajo tierra" rareza="3"  precio="2933" stack="1"/>
     <coleccionable id="col238" nombre="Trilobites del Monton" tamanio="4" tipoEsp="Fosil" estacion="Verano"
-                   localizacion="Tierra" rareza="3"  precio="2393"/>
+                   localizacion="Tierra" rareza="3"  precio="2393" stack="1"/>
     <coleccionable id="col239" nombre="DinohHueso Interesante" tamanio="2" tipoEsp="Fosil" estacion="Invierno"
-                   localizacion="Tierra" rareza="3"  precio="3507"/>
+                   localizacion="Tierra" rareza="3"  precio="3507" stack="1"/>
     <coleccionable id="col240" nombre="Nokia Mono" tamanio="1" tipoEsp="Fosil" estacion="Primavera"
-                   localizacion="Tierra" rareza="4"  precio="496"/>
+                   localizacion="Tierra" rareza="4"  precio="496" stack="1"/>
     <coleccionable id="col241" nombre="Ciluro Celurio" tamanio="4" tipoEsp="Pez" estacion="Verano"
-                   localizacion="Cascada" rareza="2"  precio="1322"/>
+                   localizacion="Cascada" rareza="2"  precio="1322" stack="1"/>
     <coleccionable id="col242" nombre="Trilobites Celurio" tamanio="9" tipoEsp="Fosil" estacion="Otonio"
-                   localizacion="Tierra" rareza="1"  precio="2295"/>
+                   localizacion="Tierra" rareza="1"  precio="2295" stack="1"/>
     <coleccionable id="col243" nombre="Carpa Interesante" tamanio="2" tipoEsp="Pez" estacion="Otonio"
-                   localizacion="Boca del rio" rareza="4"  precio="1583"/>
+                   localizacion="Boca del rio" rareza="4"  precio="1583" stack="1"/>
     <coleccionable id="col244" nombre="Pez Sable Mono" tamanio="2" tipoEsp="Pez" estacion="Invierno"
-                   localizacion="Cascada" rareza="2"  precio="4267"/>
+                   localizacion="Cascada" rareza="2"  precio="4267" stack="1"/>
     <coleccionable id="col245" nombre="Nokia Curioso" tamanio="1" tipoEsp="Fosil" estacion="Primavera"
-                   localizacion="Tierra" rareza="1"  precio="4907"/>
+                   localizacion="Tierra" rareza="1"  precio="4907" stack="1"/>
     <coleccionable id="col246" nombre="Palometa Mono" tamanio="2" tipoEsp="Pez" estacion="Primavera"
-                   localizacion="Boca del rio" rareza="4"  precio="3269"/>
+                   localizacion="Boca del rio" rareza="4"  precio="3269" stack="1"/>
     <coleccionable id="col247" nombre="Trilobites Mono" tamanio="4" tipoEsp="Fosil" estacion="Invierno"
-                   localizacion="Bajo tierra" rareza="1"  precio="4034"/>
+                   localizacion="Bajo tierra" rareza="1"  precio="4034" stack="1"/>
     <coleccionable id="col248" nombre="Carpa Mono" tamanio="7" tipoEsp="Pez" estacion="Otonio" localizacion="Cascada"
-                   rareza="4"  precio="2602"/>
+                   rareza="4"  precio="2602" stack="1"/>
     <coleccionable id="col249" nombre="Hueso Curioso" tamanio="7" tipoEsp="Fosil" estacion="Primavera"
-                   localizacion="Bajo tierra" rareza="2"  precio="988"/>
+                   localizacion="Bajo tierra" rareza="2"  precio="988" stack="1"/>
     <coleccionable id="col250" nombre="Ciluro Celurio" tamanio="5" tipoEsp="Pez" estacion="Primavera" localizacion="Mar"
-                   rareza="3"  precio="4536"/>
+                   rareza="3"  precio="4536" stack="1"/>
     <coleccionable id="col251" nombre="Pez Sable del Monton" tamanio="4" tipoEsp="Pez" estacion="Primavera"
-                   localizacion="Estanque" rareza="1"  precio="2724"/>
+                   localizacion="Estanque" rareza="1"  precio="2724" stack="1"/>
     <coleccionable id="col252" nombre="Hueso Interesante" tamanio="4" tipoEsp="Fosil" estacion="Invierno"
-                   localizacion="Bajo tierra" rareza="3"  precio="1005"/>
+                   localizacion="Bajo tierra" rareza="3"  precio="1005" stack="1"/>
     <coleccionable id="col253" nombre="Nokia Peculiar" tamanio="5" tipoEsp="Fosil" estacion="Invierno"
-                   localizacion="Bajo tierra" rareza="4"  precio="2463"/>
+                   localizacion="Bajo tierra" rareza="4"  precio="2463" stack="1"/>
     <coleccionable id="col254" nombre="Hueso Interesante" tamanio="4" tipoEsp="Fosil" estacion="Primavera"
-                   localizacion="Bajo tierra" rareza="3"  precio="2882"/>
+                   localizacion="Bajo tierra" rareza="3"  precio="2882" stack="1"/>
     <coleccionable id="col255" nombre="Nokia Curioso" tamanio="5" tipoEsp="Fosil" estacion="Otonio"
-                   localizacion="Tierra" rareza="2"  precio="1415"/>
+                   localizacion="Tierra" rareza="2"  precio="1415" stack="1"/>
     <coleccionable id="col256" nombre="Nokia Celurio" tamanio="8" tipoEsp="Fosil" estacion="Invierno"
-                   localizacion="Tierra" rareza="1"  precio="3647"/>
+                   localizacion="Tierra" rareza="1"  precio="3647" stack="1"/>
     <coleccionable id="col257" nombre="Hueso Curioso" tamanio="4" tipoEsp="Fosil" estacion="Verano"
-                   localizacion="Tierra" rareza="1"  precio="4428"/>
+                   localizacion="Tierra" rareza="1"  precio="4428" stack="1"/>
     <coleccionable id="col258" nombre="Ciluro del Monton" tamanio="5" tipoEsp="Pez" estacion="Verano" localizacion="Mar"
-                   rareza="4"  precio="1891"/>
+                   rareza="4"  precio="1891" stack="1"/>
     <coleccionable id="col259" nombre="Trilobites Celurio" tamanio="9" tipoEsp="Fosil" estacion="Verano"
-                   localizacion="Bajo tierra" rareza="2"  precio="2046"/>
+                   localizacion="Bajo tierra" rareza="2"  precio="2046" stack="1"/>
     <coleccionable id="col260" nombre="Trilobites Celurio" tamanio="3" tipoEsp="Fosil" estacion="Invierno"
-                   localizacion="Tierra" rareza="2"  precio="356"/>
+                   localizacion="Tierra" rareza="2"  precio="356" stack="1"/>
     <coleccionable id="col261" nombre="Pez Sable del Monton" tamanio="4" tipoEsp="Pez" estacion="Verano"
-                   localizacion="Estanque" rareza="2"  precio="980"/>
+                   localizacion="Estanque" rareza="2"  precio="980" stack="1"/>
     <coleccionable id="col262" nombre="Carpa Interesante" tamanio="5" tipoEsp="Pez" estacion="Primavera"
-                   localizacion="Estanque" rareza="1"  precio="3268"/>
+                   localizacion="Estanque" rareza="1"  precio="3268" stack="1"/>
     <coleccionable id="col263" nombre="Ciluro Curioso" tamanio="6" tipoEsp="Pez" estacion="Primavera"
-                   localizacion="Boca del rio" rareza="4"  precio="4490"/>
+                   localizacion="Boca del rio" rareza="4"  precio="4490" stack="1"/>
     <coleccionable id="col264" nombre="Trilobites Celurio" tamanio="8" tipoEsp="Fosil" estacion="Otonio"
-                   localizacion="Tierra" rareza="4"  precio="3701"/>
+                   localizacion="Tierra" rareza="4"  precio="3701" stack="1"/>
     <coleccionable id="col265" nombre="Tiburon Curioso" tamanio="1" tipoEsp="Pez" estacion="Primavera"
-                   localizacion="Boca del rio" rareza="1"  precio="2397"/>
+                   localizacion="Boca del rio" rareza="1"  precio="2397" stack="1"/>
     <coleccionable id="col266" nombre="Nokia Celurio" tamanio="9" tipoEsp="Fosil" estacion="Primavera"
-                   localizacion="Bajo tierra" rareza="3"  precio="1175"/>
+                   localizacion="Bajo tierra" rareza="3"  precio="1175" stack="1"/>
     <coleccionable id="col267" nombre="Amonites Mono" tamanio="1" tipoEsp="Fosil" estacion="Primavera"
-                   localizacion="Tierra" rareza="3"  precio="799"/>
+                   localizacion="Tierra" rareza="3"  precio="799" stack="1"/>
     <coleccionable id="col268" nombre="Trilobites Mono" tamanio="5" tipoEsp="Fosil" estacion="Invierno"
-                   localizacion="Tierra" rareza="3"  precio="1087"/>
+                   localizacion="Tierra" rareza="3"  precio="1087" stack="1"/>
     <coleccionable id="col269" nombre="Mero Mono" tamanio="2" tipoEsp="Pez" estacion="Otonio"
-                   localizacion="Boca del rio" rareza="3"  precio="154"/>
+                   localizacion="Boca del rio" rareza="3"  precio="154" stack="1"/>
     <coleccionable id="col270" nombre="Craneo Interesante" tamanio="3" tipoEsp="Fosil" estacion="Verano"
-                   localizacion="Tierra" rareza="1"  precio="291"/>
+                   localizacion="Tierra" rareza="1"  precio="291" stack="1"/>
     <coleccionable id="col271" nombre="Tiburon del Monton" tamanio="7" tipoEsp="Pez" estacion="Otonio"
-                   localizacion="Cascada" rareza="4"  precio="4702"/>
+                   localizacion="Cascada" rareza="4"  precio="4702" stack="1"/>
     <coleccionable id="col272" nombre="Tiburon Mono" tamanio="8" tipoEsp="Pez" estacion="Invierno"
-                   localizacion="Boca del rio" rareza="3"  precio="2942"/>
+                   localizacion="Boca del rio" rareza="3"  precio="2942" stack="1"/>
     <coleccionable id="col273" nombre="Nokia del Monton" tamanio="6" tipoEsp="Fosil" estacion="Otonio"
-                   localizacion="Bajo tierra" rareza="4"  precio="654"/>
+                   localizacion="Bajo tierra" rareza="4"  precio="654" stack="1"/>
     <coleccionable id="col274" nombre="Tiburon Curioso" tamanio="2" tipoEsp="Pez" estacion="Otonio"
-                   localizacion="Cascada" rareza="1"  precio="2728"/>
+                   localizacion="Cascada" rareza="1"  precio="2728" stack="1"/>
     <coleccionable id="col275" nombre="Trilobites Mono" tamanio="9" tipoEsp="Fosil" estacion="Invierno"
-                   localizacion="Bajo tierra" rareza="3"  precio="4034"/>
+                   localizacion="Bajo tierra" rareza="3"  precio="4034" stack="1"/>
     <coleccionable id="col276" nombre="Ciluro Peculiar" tamanio="4" tipoEsp="Pez" estacion="Invierno" localizacion="Mar"
-                   rareza="2"  precio="1792"/>
+                   rareza="2"  precio="1792" stack="1"/>
     <coleccionable id="col277" nombre="Nokia Interesante" tamanio="8" tipoEsp="Fosil" estacion="Otonio"
-                   localizacion="Bajo tierra" rareza="1"  precio="2197"/>
+                   localizacion="Bajo tierra" rareza="1"  precio="2197" stack="1"/>
     <coleccionable id="col278" nombre="Tiburon Interesante" tamanio="6" tipoEsp="Pez" estacion="Primavera"
-                   localizacion="Estanque" rareza="4"  precio="1722"/>
+                   localizacion="Estanque" rareza="4"  precio="1722" stack="1"/>
     <coleccionable id="col279" nombre="Craneo Curioso" tamanio="6" tipoEsp="Fosil" estacion="Verano"
-                   localizacion="Tierra" rareza="4"  precio="546"/>
+                   localizacion="Tierra" rareza="4"  precio="546" stack="1"/>
     <coleccionable id="col280" nombre="Ciluro Celurio" tamanio="6" tipoEsp="Pez" estacion="Otonio"
-                   localizacion="Cascada" rareza="2"  precio="2775"/>
+                   localizacion="Cascada" rareza="2"  precio="2775" stack="1"/>
     <coleccionable id="col281" nombre="Hueso Interesante" tamanio="7" tipoEsp="Fosil" estacion="Otonio"
-                   localizacion="Bajo tierra" rareza="4"  precio="940"/>
+                   localizacion="Bajo tierra" rareza="4"  precio="940" stack="1"/>
     <coleccionable id="col282" nombre="Trilobites Curioso" tamanio="1" tipoEsp="Fosil" estacion="Invierno"
-                   localizacion="Tierra" rareza="3"  precio="3593"/>
+                   localizacion="Tierra" rareza="3"  precio="3593" stack="1"/>
     <coleccionable id="col283" nombre="Hueso Celurio" tamanio="6" tipoEsp="Fosil" estacion="Verano"
-                   localizacion="Tierra" rareza="2"  precio="689"/>
+                   localizacion="Tierra" rareza="2"  precio="689" stack="1"/>
     <coleccionable id="col284" nombre="Palometa del Monton" tamanio="7" tipoEsp="Pez" estacion="Otonio"
-                   localizacion="Boca del rio" rareza="3"  precio="2174"/>
+                   localizacion="Boca del rio" rareza="3"  precio="2174" stack="1"/>
     <coleccionable id="col285" nombre="Tiburon Mono" tamanio="4" tipoEsp="Pez" estacion="Verano" localizacion="Mar"
-                   rareza="3"  precio="4396"/>
+                   rareza="3"  precio="4396" stack="1"/>
     <coleccionable id="col286" nombre="Ciluro Mono" tamanio="1" tipoEsp="Pez" estacion="Invierno" localizacion="Cascada"
-                   rareza="1"  precio="2987"/>
+                   rareza="1"  precio="2987" stack="1"/>
     <coleccionable id="col287" nombre="Nokia Curioso" tamanio="2" tipoEsp="Fosil" estacion="Verano"
-                   localizacion="Tierra" rareza="2"  precio="3636"/>
+                   localizacion="Tierra" rareza="2"  precio="3636" stack="1"/>
     <coleccionable id="col288" nombre="Palometa Celurio" tamanio="8" tipoEsp="Pez" estacion="Verano"
-                   localizacion="Estanque" rareza="3"  precio="1001"/>
+                   localizacion="Estanque" rareza="3"  precio="1001" stack="1"/>
     <coleccionable id="col289" nombre="Nokia Interesante" tamanio="3" tipoEsp="Fosil" estacion="Primavera"
-                   localizacion="Bajo tierra" rareza="1"  precio="3728"/>
+                   localizacion="Bajo tierra" rareza="1"  precio="3728" stack="1"/>
     <coleccionable id="col290" nombre="Hueso Curioso" tamanio="6" tipoEsp="Fosil" estacion="Primavera"
-                   localizacion="Tierra" rareza="2"  precio="3992"/>
+                   localizacion="Tierra" rareza="2"  precio="3992" stack="1"/>
     <coleccionable id="col291" nombre="Hueso Interesante" tamanio="4" tipoEsp="Fosil" estacion="Primavera"
-                   localizacion="Bajo tierra" rareza="3"  precio="1070"/>
+                   localizacion="Bajo tierra" rareza="3"  precio="1070" stack="1"/>
     <coleccionable id="col292" nombre="Ciluro Curioso" tamanio="1" tipoEsp="Pez" estacion="Primavera"
-                   localizacion="Cascada" rareza="1"  precio="1826"/>
+                   localizacion="Cascada" rareza="1"  precio="1826" stack="1"/>
     <coleccionable id="col293" nombre="Mero del Monton" tamanio="9" tipoEsp="Pez" estacion="Otonio"
-                   localizacion="Cascada" rareza="1"  precio="4852"/>
+                   localizacion="Cascada" rareza="1"  precio="4852" stack="1"/>
     <coleccionable id="col294" nombre="Mero Interesante" tamanio="7" tipoEsp="Pez" estacion="Invierno"
-                   localizacion="Cascada" rareza="4"  precio="4829"/>
+                   localizacion="Cascada" rareza="4"  precio="4829" stack="1"/>
     <coleccionable id="col295" nombre="Palometa del Monton" tamanio="5" tipoEsp="Pez" estacion="Primavera"
-                   localizacion="Cascada" rareza="1"  precio="2003"/>
+                   localizacion="Cascada" rareza="1"  precio="2003" stack="1"/>
     <coleccionable id="col296" nombre="Mero Peculiar" tamanio="4" tipoEsp="Pez" estacion="Verano" localizacion="Cascada"
-                   rareza="1"  precio="4244"/>
+                   rareza="1"  precio="4244" stack="1"/>
     <coleccionable id="col297" nombre="Hueso del Monton" tamanio="6" tipoEsp="Fosil" estacion="Invierno"
-                   localizacion="Bajo tierra" rareza="3"  precio="4863"/>
+                   localizacion="Bajo tierra" rareza="3"  precio="4863" stack="1"/>
     <coleccionable id="col298" nombre="Trilobites Interesante" tamanio="7" tipoEsp="Fosil" estacion="Primavera"
-                   localizacion="Bajo tierra" rareza="2"  precio="1162"/>
+                   localizacion="Bajo tierra" rareza="2"  precio="1162" stack="1"/>
     <coleccionable id="col299" nombre="Nokia Celurio" tamanio="4" tipoEsp="Fosil" estacion="Verano"
-                   localizacion="Tierra" rareza="3"  precio="1861"/>
+                   localizacion="Tierra" rareza="3"  precio="1861" stack="1"/>
 </coleccionables>
