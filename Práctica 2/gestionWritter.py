@@ -95,6 +95,7 @@ def create_equipables():
                       "precio": str(random_price),
                       "tipo": equip_types[0], "lugar_eq": equip_place[4]}
         insert_new_entry(equipable_file, "equipable", attributes, [])
+        equip_count += 1
 
     shoes_names = ["Botas", "Sneakers", "Chanclas", "Tacones", "Sandalia"]
     for shoes in shoes_names:
@@ -104,6 +105,7 @@ def create_equipables():
                       "precio": str(random_price),
                       "tipo": equip_types[0], "lugar_eq": equip_place[1]}
         insert_new_entry(equipable_file, "equipable", attributes, [])
+        equip_count += 1
 
     chest_names = ["Gabardina", "Hawaiana", "Camisa", "Poncho", "Camisetita"]
     for chest in chest_names:
@@ -113,6 +115,7 @@ def create_equipables():
                       "precio": str(random_price),
                       "tipo": equip_types[0], "lugar_eq": equip_place[3]}
         insert_new_entry(equipable_file, "equipable", attributes, [])
+        equip_count += 1
 
     tools_names = ["Pala", "Pico", "Sarten", "Cazamariposas"]
     for tool in tools_names:
@@ -122,6 +125,7 @@ def create_equipables():
                       "precio": str(random_price),
                       "tipo": equip_types[1], "lugar_eq": equip_place[0]}
         insert_new_entry(equipable_file, "equipable", attributes, [])
+        equip_count += 1
 
 
 def create_islas():
@@ -187,8 +191,11 @@ def create_jugadores():
 def create_materiales():
     # Materiales
     material_type = ["Piedra", "Pepita", "Madera", "Madera Dura", "Madera Blanda"]
-    for i in range(len(material_type)):
-        insert_new_entry(materiales_file, "material", {"id": "mat" + str(i), "tipoEsp": material_type[i]}, [])
+    iterations = 5
+
+    for j in range(iterations):
+        for i in range(len(material_type)):
+            insert_new_entry(materiales_file, "material", {"id": "mat" + str(i), "tipoEsp": material_type[i]}, [])
 
 
 def create_muebles():
