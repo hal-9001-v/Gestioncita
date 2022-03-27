@@ -1,2 +1,5 @@
 <personajes>
-    <personaje id="pj000" nombre="Tom Nook" edificio="Edificios.xml#ed1"/><personaje id="pj001" nombre="Canela" edificio="Edificios.xml#ed1"/><personaje id="pj002" nombre="Rafa" edificio="Edificios.xml#ed2"/></personajes>
+    <personaje id="pj000" nombre="Tom Nook" edificio="Edificios.xml#ed1"/>
+    <personaje id="pj001" nombre="Canela" edificio="Edificios.xml#ed1"/>
+    <personaje id="pj002" nombre="Rafa" edificio="Edificios.xml#ed2"/>
+</personajes>

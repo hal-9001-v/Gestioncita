@@ -1,2 +1,7 @@
 <edificios>
-    <edificio id="ed000" tipo="Ayuntamiento"/><edificio id="ed001" tipo="Peluqueria"/><edificio id="ed002" tipo="Supermercado"/><edificio id="ed003" tipo="Museo"/><edificio id="ed004" tipo="Aerodromo"/></edificios>
+    <edificio id="ed000" tipo="Ayuntamiento"/>
+    <edificio id="ed001" tipo="Peluqueria"/>
+    <edificio id="ed002" tipo="Supermercado"/>
+    <edificio id="ed003" tipo="Museo"/>
+    <edificio id="ed004" tipo="Aerodromo"/>
+</edificios>

@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="edd2f7f4-b338-43e2-831c-1424ee3ae0ba" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XML/Casas.xml" beforeDir="false" afterPath="$PROJECT_DIR$/XML/Casas.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XML/Coleccionables.xml" beforeDir="false" afterPath="$PROJECT_DIR$/XML/Coleccionables.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XML/Edificios.xml" beforeDir="false" afterPath="$PROJECT_DIR$/XML/Edificios.xml" afterDir="false" />
@@ -14,11 +15,6 @@
       <change beforePath="$PROJECT_DIR$/XML/Materiales.xml" beforeDir="false" afterPath="$PROJECT_DIR$/XML/Materiales.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XML/Muebles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/XML/Muebles.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XML/Personajes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/XML/Personajes.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/Props.xml" beforeDir="false" afterPath="$PROJECT_DIR$/XML/Props.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML/Vecinos.xml" beforeDir="false" afterPath="$PROJECT_DIR$/XML/Vecinos.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XSD/mueblesL.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/XSD/mueblesL.xsd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XSD/propsL.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/XSD/propsL.xsd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestionWritter.py" beforeDir="false" afterPath="$PROJECT_DIR$/gestionWritter.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
