@@ -1,20 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <equipables>
-    <equipable id="equi001" nombre="Fedora" stack="33" precio="4541" tipo="Ropa" lugar_eq="Cabeza"/>
-    <equipable id="equi002" nombre="Gorra" stack="56" precio="4543" tipo="Ropa" lugar_eq="Cabeza"/>
-    <equipable id="equi003" nombre="Gorro" stack="33" precio="4201" tipo="Ropa" lugar_eq="Cabeza"/>
-    <equipable id="equi004" nombre="Casco" stack="33" precio="2413" tipo="Ropa" lugar_eq="Cabeza"/>
-    <equipable id="equi005" nombre="Botas" stack="17" precio="3657" tipo="Ropa" lugar_eq="Pie"/>
-    <equipable id="equi006" nombre="Sneakers" stack="57" precio="2235" tipo="Ropa" lugar_eq="Pie"/>
-    <equipable id="equi007" nombre="Chanclas" stack="41" precio="757" tipo="Ropa" lugar_eq="Pie"/>
-    <equipable id="equi008" nombre="Tacones" stack="38" precio="3905" tipo="Ropa" lugar_eq="Pie"/>
-    <equipable id="equi009" nombre="Sandalia" stack="59" precio="3723" tipo="Ropa" lugar_eq="Pie"/>
-    <equipable id="equi010" nombre="Gabardina" stack="60" precio="908" tipo="Ropa" lugar_eq="Torso"/>
-    <equipable id="equi011" nombre="Hawaiana" stack="27" precio="1697" tipo="Ropa" lugar_eq="Torso"/>
-    <equipable id="equi012" nombre="Camisa" stack="63" precio="3839" tipo="Ropa" lugar_eq="Torso"/>
-    <equipable id="equi013" nombre="Poncho" stack="57" precio="4275" tipo="Ropa" lugar_eq="Torso"/>
-    <equipable id="equi014" nombre="Camisetita" stack="29" precio="879" tipo="Ropa" lugar_eq="Torso"/>
-    <equipable id="equi015" nombre="Pala" stack="26" precio="3297" tipo="Herramienta" lugar_eq="Mano"/>
-    <equipable id="equi016" nombre="Pico" stack="32" precio="3422" tipo="Herramienta" lugar_eq="Mano"/>
-    <equipable id="equi017" nombre="Sarten" stack="42" precio="4798" tipo="Herramienta" lugar_eq="Mano"/>
-    <equipable id="equi018" nombre="Cazamariposas" stack="20" precio="4175" tipo="Herramienta" lugar_eq="Mano"/>
+    <equipable id="equi001" nombre="Fedora" stack="1" precio="1500" tipo="Ropa" lugar_eq="Cabeza"></equipable>
 </equipables>

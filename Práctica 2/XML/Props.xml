@@ -1,8 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <props>
-    <prop id="prop000" nombre="Cesped" stack="29" precio="2737" tipo="Hierba" comestible="No"/>
-    <prop id="prop001" nombre="Petunia" stack="24" precio="825" tipo="Flor" comestible="No"/>
-    <prop id="prop002" nombre="Roca" stack="54" precio="4126" tipo="Piedra" comestible="No"/>
-    <prop id="prop003" nombre="Romero" stack="34" precio="2754" tipo="Arbusto" comestible="No"/>
-    <prop id="prop004" nombre="Manzano" stack="23" precio="3417" tipo="Arbol" comestible="No"/>
-    <prop id="prop005" nombre="Naranja" stack="15" precio="3758" tipo="Fruta" comestible="Si"/>
+	<prop id = "prop001" nombre = "paco" stack = "10" precio = "10" tipo = "Hierba" comestible = "Si">
+        <crecimiento>5</crecimiento>
+    </prop>
+    
 </props>

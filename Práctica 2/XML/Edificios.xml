@@ -1,7 +1,5 @@
-<edificios>
-    <edificio id="ed000" tipo="Ayuntamiento"/>
-    <edificio id="ed001" tipo="Peluqueria"/>
-    <edificio id="ed002" tipo="Supermercado"/>
-    <edificio id="ed003" tipo="Museo"/>
-    <edificio id="ed004" tipo="Aerodromo"/>
-</edificios>
+<?xml version="1.0" encoding="UTF-8"?>
+    <edificios>
+        <edificio id = "ed041" tipo = "Ayuntamiento"> </edificio>
+        <edificio id ="ed043" tipo = "Supermercado"> </edificio>
+    </edificios>

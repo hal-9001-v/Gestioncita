@@ -1,27 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <materiales>
-    <material id="mat001" tipoEsp="Piedra"/>
-    <material id="mat002" tipoEsp="Pepita"/>
-    <material id="mat003" tipoEsp="Madera"/>
-    <material id="mat004" tipoEsp="Madera Dura"/>
-    <material id="mat005" tipoEsp="Madera Blanda"/>
-    <material id="mat006" tipoEsp="Piedra"/>
-    <material id="mat007" tipoEsp="Pepita"/>
-    <material id="mat008" tipoEsp="Madera"/>
-    <material id="mat009" tipoEsp="Madera Dura"/>
-    <material id="mat010" tipoEsp="Madera Blanda"/>
-    <material id="mat011" tipoEsp="Piedra"/>
-    <material id="mat012" tipoEsp="Pepita"/>
-    <material id="mat013" tipoEsp="Madera"/>
-    <material id="mat014" tipoEsp="Madera Dura"/>
-    <material id="mat015" tipoEsp="Madera Blanda"/>
-    <material id="mat016" tipoEsp="Piedra"/>
-    <material id="mat017" tipoEsp="Pepita"/>
-    <material id="mat018" tipoEsp="Madera"/>
-    <material id="mat019" tipoEsp="Madera Dura"/>
-    <material id="mat020" tipoEsp="Madera Blanda"/>
-    <material id="mat021" tipoEsp="Piedra"/>
-    <material id="mat022" tipoEsp="Pepita"/>
-    <material id="mat023" tipoEsp="Madera"/>
-    <material id="mat024" tipoEsp="Madera Dura"/>
-    <material id="mat025" tipoEsp="Madera Blanda"/>
+    <material id = "mat001" tipoEsp = "Piedra" stack="99" precio="10"> </material>
 </materiales>

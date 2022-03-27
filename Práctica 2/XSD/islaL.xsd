@@ -2,7 +2,7 @@
   <xs:element name="islas">
     <xs:complexType>
       <xs:sequence>
-        <xs:element name="isla" maxOccurs="unbounded" minOccurs="0">
+        <xs:element name="isla" maxOccurs="1000" minOccurs="0">
           <xs:complexType>
             <xs:sequence>
               <xs:element type="xs:string" name="fecha" />
@@ -10,17 +10,11 @@
               <xs:element name="edificios">
                 <xs:complexType>
                   <xs:sequence>
-                    <xs:element name="edificio" maxOccurs="unbounded" minOccurs="0">
+                    <xs:element name="edificio" maxOccurs="1000" minOccurs="0">
                       <xs:complexType>
                         <xs:simpleContent>
                           <xs:extension base="xs:string">
-                            <xs:attribute type="xs:string" name="id" use="required">
-                              <xs:simpleType>
-                                <xs:restriction base="xs:ID">
-                                  <xs:pattern value = "is[0-9][0-9]"/>
-                                </xs:restriction>
-                              </xs:simpleType>
-                          </xs:attribute>
+                            <xs:attribute type="xs:string" name="id" use="required"/>
                           </xs:extension>
                         </xs:simpleContent>
                       </xs:complexType>
@@ -31,11 +25,11 @@
               <xs:element name="personajes">
                 <xs:complexType>
                   <xs:sequence>
-                    <xs:element name="personaje" maxOccurs="unbounded" minOccurs="0">
+                    <xs:element name="personaje" maxOccurs="1000" minOccurs="0">
                       <xs:complexType>
                         <xs:simpleContent>
                           <xs:extension base="xs:string">
-                            <xs:attribute type="xs:string" name="id" use="required" />
+                            <xs:attribute type="xs:string" name="id" use="required"/>
                           </xs:extension>
                         </xs:simpleContent>
                       </xs:complexType>
@@ -44,7 +38,13 @@
                 </xs:complexType>
               </xs:element>
             </xs:sequence>
-            <xs:attribute type="xs:string" name="id" use="required" />
+            <xs:attribute name="id" use="required">
+              <xs:simpleType>
+                <xs:restriction base="xs:ID">
+                  <xs:pattern value="is[0-9][0-9][0-9]" />
+                </xs:restriction>
+              </xs:simpleType>
+            </xs:attribute>
             <xs:attribute type="xs:string" name="nombre" use="required" />
             <xs:attribute name="hemisferio" use="required">
               <xs:simpleType>

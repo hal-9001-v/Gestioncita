@@ -2,7 +2,7 @@
     <xs:element name="jugadas">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="jugada" maxOccurs="unbounded" minOccurs="0">
+                <xs:element name="jugada" maxOccurs="1000" minOccurs="0">
                     <xs:complexType>
                         <xs:sequence>
                             <xs:element name="jugador" maxOccurs="4" minOccurs="1">
@@ -272,11 +272,11 @@
                                                     <xs:element name="coleccionables">
                                                         <xs:complexType>
                                                             <xs:sequence>
-                                                                <xs:element name="coleccionable" maxOccurs="unbounded" minOccurs="0">
+                                                                <xs:element name="coleccionable" maxOccurs="500" minOccurs="0">
                                                                     <xs:complexType>
                                                                         <xs:simpleContent>
                                                                             <xs:extension base="xs:string">
-                                                                                <xs:attribute type="xs:string" name="id" use="optional" />
+                                                                                <xs:attribute type="xs:string" name="id" use="required" />
                                                                             </xs:extension>
                                                                         </xs:simpleContent>
                                                                     </xs:complexType>
@@ -287,11 +287,11 @@
                                                     <xs:element name="equipables">
                                                         <xs:complexType>
                                                             <xs:sequence>
-                                                                <xs:element name="equipable">
+                                                                <xs:element name="equipable" maxOccurs="500" minOccurs="0">
                                                                     <xs:complexType>
                                                                         <xs:simpleContent>
                                                                             <xs:extension base="xs:string">
-                                                                                <xs:attribute type="xs:string" name="id" />
+                                                                                <xs:attribute type="xs:string" name="id" use="required"/>
                                                                             </xs:extension>
                                                                         </xs:simpleContent>
                                                                     </xs:complexType>
@@ -302,11 +302,11 @@
                                                     <xs:element name="props">
                                                         <xs:complexType>
                                                             <xs:sequence>
-                                                                <xs:element name="prop">
+                                                                <xs:element name="prop" maxOccurs="500" minOccurs="0">
                                                                     <xs:complexType>
                                                                         <xs:simpleContent>
                                                                             <xs:extension base="xs:string">
-                                                                                <xs:attribute type="xs:string" name="id" />
+                                                                                <xs:attribute type="xs:string" name="id" use="required" />
                                                                             </xs:extension>
                                                                         </xs:simpleContent>
                                                                     </xs:complexType>
@@ -317,11 +317,11 @@
                                                     <xs:element name="materiales">
                                                         <xs:complexType>
                                                             <xs:sequence>
-                                                                <xs:element name="material">
+                                                                <xs:element name="material" maxOccurs="500" minOccurs="0">
                                                                     <xs:complexType>
                                                                         <xs:simpleContent>
                                                                             <xs:extension base="xs:string">
-                                                                                <xs:attribute type="xs:string" name="id" />
+                                                                                <xs:attribute type="xs:string" name="id" use="required"/>
                                                                             </xs:extension>
                                                                         </xs:simpleContent>
                                                                     </xs:complexType>
@@ -332,11 +332,11 @@
                                                     <xs:element name="muebles">
                                                         <xs:complexType>
                                                             <xs:sequence>
-                                                                <xs:element name="mueble">
+                                                                <xs:element name="mueble" maxOccurs="500" minOccurs="0">
                                                                     <xs:complexType>
                                                                         <xs:simpleContent>
                                                                             <xs:extension base="xs:string">
-                                                                                <xs:attribute type="xs:string" name="id" />
+                                                                                <xs:attribute type="xs:string" name="id" use="required"/>
                                                                             </xs:extension>
                                                                         </xs:simpleContent>
                                                                     </xs:complexType>
@@ -348,14 +348,14 @@
                                             </xs:complexType>
                                         </xs:element>
                                     </xs:sequence>
-                                    <xs:attribute type="xs:string" name="id" />
+                                    <xs:attribute type="xs:string" name="id" use="required"/>
                                 </xs:complexType>
                             </xs:element>
                         </xs:sequence>
-                        <xs:attribute type="xs:string" name="id">
+                        <xs:attribute name="id" use="required">
                             <xs:simpleType>
                             <xs:restriction base="xs:ID">
-                              <xs:pattern value = "p[0-9][0-9]"/>
+                              <xs:pattern value = "p[0-9][0-9][0-9]"/>
                             </xs:restriction>
                           </xs:simpleType>
                         </xs:attribute>

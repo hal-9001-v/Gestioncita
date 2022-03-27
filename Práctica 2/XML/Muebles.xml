@@ -1,42 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <muebles>
-    <mueble id="mu000" nombre="Mesita Chuli" stack="62" precio="4949" tipo="Mesa" conjunto="Mariana"/>
-    <mueble id="mu001" nombre="Sillita Hortera" stack="53" precio="1722" tipo="Sillas y sofas" conjunto=""/>
-    <mueble id="mu002" nombre="Lamparita Epico" stack="35" precio="3878" tipo="Lampara" conjunto="Imperial"/>
-    <mueble id="mu003" nombre="Sofita Epico" stack="14" precio="739" tipo="Sillas y sofas" conjunto="Universitario"/>
-    <mueble id="mu004" nombre="Mesita Mona" stack="4" precio="2335" tipo="Mesa" conjunto="Veraniego"/>
-    <mueble id="mu005" nombre="Sillita Simple" stack="10" precio="4898" tipo="Sillas y sofas" conjunto="Congelado"/>
-    <mueble id="mu006" nombre="Lamparita Epico" stack="43" precio="2229" tipo="Lampara" conjunto="Mimbre"/>
-    <mueble id="mu007" nombre="Sofita Chuli" stack="60" precio="4596" tipo="Sillas y sofas" conjunto="Setas"/>
-    <mueble id="mu008" nombre="Mesita Elegante" stack="13" precio="1697" tipo="Mesa" conjunto="Flor de cerezo"/>
-    <mueble id="mu009" nombre="Sillita Hortera" stack="56" precio="4034" tipo="Sillas y sofas" conjunto="Zodiaco"/>
-    <mueble id="mu010" nombre="Lamparita Hortera" stack="9" precio="4839" tipo="Lampara" conjunto="Frutas"/>
-    <mueble id="mu011" nombre="Sofita Chuli" stack="57" precio="2508" tipo="Sillas y sofas" conjunto="Veraniego"/>
-    <mueble id="mu012" nombre="Mesita Chuli" stack="24" precio="1494" tipo="Mesa" conjunto="Universitario"/>
-    <mueble id="mu013" nombre="Sillita Epico" stack="63" precio="4730" tipo="Sillas y sofas" conjunto="Bambu"/>
-    <mueble id="mu014" nombre="Lamparita Hortera" stack="45" precio="554" tipo="Lampara" conjunto="Zodiaco"/>
-    <mueble id="mu015" nombre="Sofita Simple" stack="57" precio="4124" tipo="Sillas y sofas" conjunto="Imperial"/>
-    <mueble id="mu016" nombre="Mesita Epico" stack="24" precio="661" tipo="Mesa" conjunto="Flores"/>
-    <mueble id="mu017" nombre="Sillita Elegante" stack="56" precio="1480" tipo="Sillas y sofas" conjunto="Frutas"/>
-    <mueble id="mu018" nombre="Lamparita Chuli" stack="62" precio="403" tipo="Lampara" conjunto="Bambu"/>
-    <mueble id="mu019" nombre="Sofita Mona" stack="41" precio="3795" tipo="Sillas y sofas" conjunto="Frutas"/>
-    <mueble id="mu020" nombre="Mesita Epico" stack="47" precio="4112" tipo="Mesa" conjunto="Flores"/>
-    <mueble id="mu021" nombre="Sillita Simple" stack="1" precio="1048" tipo="Sillas y sofas" conjunto="Congelado"/>
-    <mueble id="mu022" nombre="Lamparita Epico" stack="1" precio="1261" tipo="Lampara" conjunto=""/>
-    <mueble id="mu023" nombre="Sofita Hortera" stack="5" precio="4740" tipo="Sillas y sofas" conjunto="Mimbre"/>
-    <mueble id="mu024" nombre="Mesita Mona" stack="51" precio="1565" tipo="Mesa" conjunto="Restaurante"/>
-    <mueble id="mu025" nombre="Sillita Mona" stack="28" precio="2040" tipo="Sillas y sofas" conjunto="Linda"/>
-    <mueble id="mu026" nombre="Lamparita Mona" stack="53" precio="3438" tipo="Lampara" conjunto="Linda"/>
-    <mueble id="mu027" nombre="Sofita Chuli" stack="15" precio="1977" tipo="Sillas y sofas" conjunto="Imperial"/>
-    <mueble id="mu028" nombre="Mesita Epico" stack="8" precio="875" tipo="Mesa" conjunto=""/>
-    <mueble id="mu029" nombre="Sillita Chuli" stack="53" precio="3463" tipo="Sillas y sofas" conjunto="Bambu"/>
-    <mueble id="mu030" nombre="Lamparita Mona" stack="26" precio="1269" tipo="Lampara" conjunto="Congelado"/>
-    <mueble id="mu031" nombre="Sofita Elegante" stack="33" precio="3075" tipo="Sillas y sofas" conjunto="Bambu"/>
-    <mueble id="mu032" nombre="Mesita Chuli" stack="14" precio="2687" tipo="Mesa" conjunto="Congelado"/>
-    <mueble id="mu033" nombre="Sillita Simple" stack="35" precio="4685" tipo="Sillas y sofas" conjunto="Dorado"/>
-    <mueble id="mu034" nombre="Lamparita Chuli" stack="44" precio="3415" tipo="Lampara" conjunto="Bambu"/>
-    <mueble id="mu035" nombre="Sofita Chuli" stack="4" precio="3673" tipo="Sillas y sofas" conjunto="Zodiaco"/>
-    <mueble id="mu036" nombre="Mesita Mona" stack="23" precio="2511" tipo="Mesa" conjunto="Veraniego"/>
-    <mueble id="mu037" nombre="Sillita Simple" stack="62" precio="2296" tipo="Sillas y sofas" conjunto="Veraniego"/>
-    <mueble id="mu038" nombre="Lamparita Elegante" stack="55" precio="4404" tipo="Lampara" conjunto="Bambu"/>
-    <mueble id="mu039" nombre="Sofita Simple" stack="1" precio="4234" tipo="Sillas y sofas" conjunto="Flores"/>
+	<mueble id = "mu001" nombre = "Mesita Corazon" color="Rojo" stack = "1" precio = "100" tipo = "Mesa" conjunto = "Flores">
+    </mueble>
 </muebles>

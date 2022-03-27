@@ -1,15 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <jugadores>
-    <jugador id="j000" nombre="Pepito" isla="Islas.xml#is000" casa="Casas.xml#c000"/>
-    <jugador id="j001" nombre="Fulanito" isla="Islas.xml#is001" casa="Casas.xml#c001"/>
-    <jugador id="j002" nombre="Joselito" isla="Islas.xml#is002" casa="Casas.xml#c002"/>
-    <jugador id="j003" nombre="Dio" isla="Islas.xml#is003" casa="Casas.xml#c003"/>
-    <jugador id="j004" nombre="Vinsent" isla="Islas.xml#is004" casa="Casas.xml#c004"/>
-    <jugador id="j005" nombre="Paquito" isla="Islas.xml#is000" casa="Casas.xml#c005"/>
-    <jugador id="j006" nombre="Julia" isla="Islas.xml#is001" casa="Casas.xml#c006"/>
-    <jugador id="j007" nombre="Marcela" isla="Islas.xml#is002" casa="Casas.xml#c007"/>
-    <jugador id="j008" nombre="Castania" isla="Islas.xml#is003" casa="Casas.xml#c008"/>
-    <jugador id="j009" nombre="Milo" isla="Islas.xml#is004" casa="Casas.xml#c009"/>
-    <jugador id="j010" nombre="Gatita" isla="Islas.xml#is000" casa="Casas.xml#c010"/>
-    <jugador id="j011" nombre="Fidel" isla="Islas.xml#is001" casa="Casas.xml#c011"/>
-    <jugador id="j012" nombre="Ernesto" isla="Islas.xml#is002" casa="Casas.xml#c012"/>
+	<jugador id = "j001" nombre = "paco" isla = "Islas.xml#is011" casa = "Casas.xml#c001">
+	</jugador>
 </jugadores>

@@ -1,132 +1,132 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jugadas>
-    <jugada id="p1">
-        <jugador id="Jugadores.xml#j1">
+    <jugada id="p001">
+        <jugador id="Jugadores.xml#j001">
 
             <bayas>1000</bayas>
             <millas>2000</millas>
 
             <inventarioJugador>
                 <coleccionables>
-                    <coleccionable id="Colecionables.xml#col5"></coleccionable>
-                    <coleccionable id="Colecionables.xml#col6"></coleccionable>
+                    <coleccionable id="Colecionables.xml#col005"></coleccionable>
+                    <coleccionable id="Colecionables.xml#col006"></coleccionable>
                 </coleccionables>
 
                 <equipables>
-                    <equipable id="Euipables.xml#equi3"></equipable>
+                    <equipable id="Euipables.xml#equi003"></equipable>
                 </equipables>
 
                 <props>
-                    <prop id="Props.xml#prop3"></prop>
+                    <prop id="Props.xml#prop003"></prop>
                 </props>
 
                 <materiales>
-                    <material id="Materiales.xml#mat3"></material>
+                    <material id="Materiales.xml#mat003"></material>
                 </materiales>
 
                 <muebles>
-                    <mueble id="Muebles.xml#mu3"></mueble>
+                    <mueble id="Muebles.xml#mu003"></mueble>
                 </muebles>
 
             </inventarioJugador>
 
             <vecinos>
-                <vecino id="Vecinos.xml#vec1">
+                <vecino id="Vecinos.xml#vec001">
                     <amistad>1</amistad>
                 </vecino>
-                <vecino id="Vecinos.xml#vec2">
+                <vecino id="Vecinos.xml#vec002">
                     <amistad>3</amistad>
                 </vecino>
-                <vecino id="Vecinos.xml#vec4">
+                <vecino id="Vecinos.xml#vec004">
                     <amistad>1</amistad>
                 </vecino>
             </vecinos>
 
         </jugador>
 
-        <casa id="Casas.xml#c1">
+        <casa id="Casas.xml#c001">
             <colorTejado>Rojo</colorTejado>
             <colorFachada>Amarillo</colorFachada>
 
             <inventarioCasa>
 
                 <coleccionables>
-                    <coleccionable id="Colecionables.xml#col1"></coleccionable>
-                    <coleccionable id="Colecionables.xml#col2"></coleccionable>
+                    <coleccionable id="Colecionables.xml#col001"></coleccionable>
+                    <coleccionable id="Colecionables.xml#col002"></coleccionable>
                 </coleccionables>
 
                 <equipables>
-                    <equipable id="Equipalbles.xml#equi1"></equipable>
+                    <equipable id="Equipalbles.xml#equi001"></equipable>
                 </equipables>
 
                 <props>
-                    <prop id="Props.xml#prop1"></prop>
+                    <prop id="Props.xml#prop001"></prop>
                 </props>
 
                 <materiales>
-                    <material id="Materiales.xml#mat1"></material>
+                    <material id="Materiales.xml#mat001"></material>
                 </materiales>
 
                 <muebles>
-                    <mueble id="Muebles.xml#mu1"></mueble>
+                    <mueble id="Muebles.xml#mu001"></mueble>
                 </muebles>
 
             </inventarioCasa>
         </casa>
-        <casa id="Casas.xml#c2">
+        <casa id="Casas.xml#c002">
             <colorTejado>Azul</colorTejado>
             <colorFachada>Verde</colorFachada>
 
             <inventarioCasa>
 
                 <coleccionables>
-                    <coleccionable id="Colecionables.xml#col1"></coleccionable>
-                    <coleccionable id="Colecionables.xml#col2"></coleccionable>
+                    <coleccionable id="Colecionables.xml#col001"></coleccionable>
+                    <coleccionable id="Colecionables.xml#col002"></coleccionable>
                 </coleccionables>
 
                 <equipables>
-                    <equipable id="Equipalbles.xml#equi1"></equipable>
+                    <equipable id="Equipalbles.xml#equi001"></equipable>
                 </equipables>
 
                 <props>
-                    <prop id="Props.xml#prop1"></prop>
+                    <prop id="Props.xml#prop001"></prop>
                 </props>
 
                 <materiales>
-                    <material id="Materiales.xml#mat1"></material>
+                    <material id="Materiales.xml#mat001"></material>
                 </materiales>
 
                 <muebles>
-                    <mueble id="Muebles.xml#mu1"></mueble>
+                    <mueble id="Muebles.xml#mu001"></mueble>
                 </muebles>
 
             </inventarioCasa>
         </casa>
-        <casa id="Casas.xml#c3">
+        <casa id="Casas.xml#c003">
             <colorTejado>Morado</colorTejado>
             <colorFachada>Amarillo</colorFachada>
 
             <inventarioCasa>
 
                 <coleccionables>
-                    <coleccionable id="Colecionables.xml#col1"></coleccionable>
-                    <coleccionable id="Colecionables.xml#col2"></coleccionable>
+                    <coleccionable id="Colecionables.xml#col001"></coleccionable>
+                    <coleccionable id="Colecionables.xml#col002"></coleccionable>
                 </coleccionables>
 
                 <equipables>
-                    <equipable id="Equipalbles.xml#equi1"></equipable>
+                    <equipable id="Equipalbles.xml#equi001"></equipable>
                 </equipables>
 
                 <props>
-                    <prop id="Props.xml#prop1"></prop>
+                    <prop id="Props.xml#prop001"></prop>
                 </props>
 
                 <materiales>
-                    <material id="Materiales.xml#mat1"></material>
+                    <material id="Materiales.xml#mat001"></material>
                 </materiales>
 
                 <muebles>
-                    <mueble id="Muebles.xml#mu1">
+                    <mueble id="Muebles.xml#mu001">
 
                     </mueble>
                 </muebles>
@@ -135,37 +135,37 @@
         </casa>
 
 
-        <isla id="Islas.xml#i11">
+        <isla id="Islas.xml#i011">
 
             <climatologia>Despejado</climatologia>
 
             <vecinos>
-                <vecino id="Vecinos.xml#vec1"></vecino>
-                <vecino id="Vecinos.xml#vec2"></vecino>
-                <vecino id="Vecinos.xml#vec4"></vecino>
+                <vecino id="Vecinos.xml#vec001"></vecino>
+                <vecino id="Vecinos.xml#vec002"></vecino>
+                <vecino id="Vecinos.xml#vec004"></vecino>
             </vecinos>
 
             <inventarioIsla>
                 <coleccionables>
-                    <coleccionable id="Colecionables.xml#col3"></coleccionable>
+                    <coleccionable id="Colecionables.xml#col003"></coleccionable>
 
-                    <coleccionable id="Colecionables.xml#col4"></coleccionable>
+                    <coleccionable id="Colecionables.xml#col004"></coleccionable>
                 </coleccionables>
 
                 <equipables>
-                    <equipable id="Equipables.xml#equi2"></equipable>
+                    <equipable id="Equipables.xml#equi002"></equipable>
                 </equipables>
 
                 <props>
-                    <prop id="Props.xml#prop2"></prop>
+                    <prop id="Props.xml#prop002"></prop>
                 </props>
 
                 <materiales>
-                    <material id="Materiales.xml#mat2"></material>
+                    <material id="Materiales.xml#mat002"></material>
                 </materiales>
 
                 <muebles>
-                    <mueble id="Muebles.xml#mu2"></mueble>
+                    <mueble id="Muebles.xml#mu002"></mueble>
                 </muebles>
             </inventarioIsla>
         </isla>
