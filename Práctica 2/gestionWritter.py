@@ -192,10 +192,12 @@ def create_materiales():
     # Materiales
     material_type = ["Piedra", "Pepita", "Madera", "Madera Dura", "Madera Blanda"]
     iterations = 5
+    material_counter = 1
 
     for j in range(iterations):
         for i in range(len(material_type)):
-            insert_new_entry(materiales_file, "material", {"id": "mat" + str(i), "tipoEsp": material_type[i]}, [])
+            insert_new_entry(materiales_file, "material", {"id": "mat" + str(material_counter), "tipoEsp": material_type[i]}, [])
+            material_counter += 1
 
 
 def create_muebles():
