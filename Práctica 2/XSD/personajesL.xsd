@@ -6,7 +6,13 @@
         <xs:complexType>
           <xs:simpleContent>
             <xs:extension base="xs:string">
-              <xs:attribute type="xs:string" name="id" use="required"/>
+              <xs:attribute type="xs:string" name="id" use="required">
+                <xs:simpleType>
+                    <xs:restriction base="xs:ID">
+                      <xs:pattern value = "pj[0-9][0-9]"/>
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:attribute>
               <xs:attribute type="xs:string" name="nombre" use="required"/>
               <xs:attribute type="xs:string" name="edificio" use="required"/>
             </xs:extension>
