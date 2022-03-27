@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <personajes>
-	<personaje id = "pj1" nombre = "Tom Nook" edificio = "ed41">
+	<personaje id = "pj001" nombre = "Tom Nook" edificio = "Edificios.xml#ed041">
     </personaje>
-    <personaje id = "pj2" nombre = "Canela" edificio = "ed42">
+    <personaje id = "pj002" nombre = "Canela" edificio = "Edificios.xml#ed042">
     </personaje>
-    <personaje id = "pj1" nombre = "Rafa" edificio = "ed43">
+    <personaje id = "pj003" nombre = "Rafa" edificio = "Edificios.xml#ed043">
     </personaje>
 </personajes>

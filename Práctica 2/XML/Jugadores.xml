@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jugadores>
-	<jugador id = "j1" nombre = "paco" isla = "Islas.xml#is11" casa = "Casas.xml#c1">
+	<jugador id = "j001" nombre = "paco" isla = "Islas.xml#is011" casa = "Casas.xml#c001">
 	</jugador>
 </jugadores>

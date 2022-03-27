@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <islas>
-    <isla id = "is11" nombre = "AlcorcOn"  hemisferio = "S"> 
+    <isla id = "is011" nombre = "AlcorcOn"  hemisferio = "S"> 
         <fecha> 11-12-2022 </fecha>
         <hora> 19:20 </hora>
     
         <edificios>
-            <edificio id = "Edificios.xml#ed41"> </edificio>
-            <edificio id = "Edificios.xml#ed43"> </edificio>
+            <edificio id = "Edificios.xml#ed041"> </edificio>
+            <edificio id = "Edificios.xml#ed043"> </edificio>
         </edificios>
 
         <personajes>
-            <personaje id ="Personajes.xml#pj5">  </personaje>
-            <personaje id ="Personajes.xml#pj6">  </personaje>
+            <personaje id ="Personajes.xml#pj001">  </personaje>
+            <personaje id ="Personajes.xml#pj002">  </personaje>
         </personajes>
 
     </isla>

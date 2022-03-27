@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <coleccionables>
-   <coleccionable id = "col1" nombre="Craneo de Tiranosaurio" tipoEsp = "Fosil" tamanio="100" estacion = "Verano" localizacion = "Mar" rareza = "10" stack="1" precio="5000">
+   <coleccionable id = "col001" nombre="Craneo de Tiranosaurio" tipoEsp = "Fosil" tamanio="100" estacion = "Verano" localizacion = "Mar" rareza = "10" stack="1" precio="5000">
    </coleccionable> 
 </coleccionables>

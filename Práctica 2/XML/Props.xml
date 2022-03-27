@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <props>
-	<prop id = "prop1" nombre = "paco" stack = "10" precio = "10" tipo = "Hierba" comestible = "Si">
+	<prop id = "prop001" nombre = "paco" stack = "10" precio = "10" tipo = "Hierba" comestible = "Si">
         <crecimiento>5</crecimiento>
     </prop>
     

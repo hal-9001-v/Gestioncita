@@ -2,20 +2,39 @@
     <xs:element name="muebles">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="mueble" maxOccurs="unbounded" minOccurs="0">
+                <xs:element name="mueble" maxOccurs="1000" minOccurs="0">
                     <xs:complexType>
                         <xs:simpleContent>
                             <xs:extension base="xs:string">
-                                <xs:attribute type="xs:string" name="id" use="required">
+                                <xs:attribute  name="id" use="required">
                                     <xs:simpleType>
                                         <xs:restriction base="xs:ID">
-                                          <xs:pattern value = "mu[0-9][0-9]"/>
+                                          <xs:pattern value = "mu[0-9][0-9][0-9]"/>
                                         </xs:restriction>
                                     </xs:simpleType>
                                 </xs:attribute>
                                 <xs:attribute type="xs:string" name="nombre" use="required" />
                                 <xs:attribute type="xs:byte" name="stack" fixed="1" use="required" />
                                 <xs:attribute type="xs:byte" name="precio" use="required" />
+                                <xs:attribute name="color" use="required">
+                                    <xs:simpleType>
+                                        <xs:restriction base="xs:string">
+                                            <xs:enumeration value="Rojo" />
+                                            <xs:enumeration value="Rosa" />
+                                            <xs:enumeration value="Amarillo" />
+                                            <xs:enumeration value="Azul" />
+                                            <xs:enumeration value="Marrón" />
+                                            <xs:enumeration value="Morado" />
+                                            <xs:enumeration value="Violeta" />
+                                            <xs:enumeration value="Verde" />
+                                            <xs:enumeration value="Lima" />
+                                            <xs:enumeration value="Blanco" />
+                                            <xs:enumeration value="Negro" />
+                                            <xs:enumeration value="Gris" />
+                                            <xs:enumeration value="Cian" />
+                                        </xs:restriction>
+                                    </xs:simpleType>
+                                </xs:attribute>
                                 <xs:attribute name="tipo" use="required">
                                     <xs:simpleType>
                                         <xs:restriction base="xs:string">

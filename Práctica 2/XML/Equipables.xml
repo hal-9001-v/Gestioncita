@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <equipables>
-    <equipable id="equi1" nombre="Fedora" stack="1" precio="1500" tipo="Ropa" lugar_eq="Cabeza"></equipable>
+    <equipable id="equi001" nombre="Fedora" stack="1" precio="1500" tipo="Ropa" lugar_eq="Cabeza"></equipable>
 </equipables>

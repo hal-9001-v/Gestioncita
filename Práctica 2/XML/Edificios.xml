@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
     <edificios>
-        <edificio id = "ed41" tipo = "Ayuntamiento"> </edificio>
-        <edificio id ="ed43" tipo = "Supermercado"> </edificio>
+        <edificio id = "ed041" tipo = "Ayuntamiento"> </edificio>
+        <edificio id ="ed043" tipo = "Supermercado"> </edificio>
     </edificios>
