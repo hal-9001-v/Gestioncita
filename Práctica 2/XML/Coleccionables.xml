@@ -1,5 +1,317 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <coleccionables>
-   <coleccionable id = "col1" tipoEsp = "Fosil" tamanio="100" estacion = "Verano" localizacion = "Mar" rareza = "10" stack="1" precio="5000">
-   </coleccionable> 
+    <coleccionable id="col000" tipoEsp="1" estacion="1" localizacion="Cascada" rareza="1"/>
+    <coleccionable id="col001" tipoEsp="1" estacion="1" localizacion="Cascada" rareza="2"/>
+    <coleccionable id="col002" tipoEsp="1" estacion="1" localizacion="Cascada" rareza="3"/>
+    <coleccionable id="col003" tipoEsp="1" estacion="1" localizacion="Cascada" rareza="4"/>
+    <coleccionable id="col004" tipoEsp="1" estacion="1" localizacion="Cascada" rareza="5"/>
+    <coleccionable id="col005" tipoEsp="1" estacion="1" localizacion="Estanque" rareza="1"/>
+    <coleccionable id="col006" tipoEsp="1" estacion="1" localizacion="Estanque" rareza="2"/>
+    <coleccionable id="col007" tipoEsp="1" estacion="1" localizacion="Estanque" rareza="3"/>
+    <coleccionable id="col008" tipoEsp="1" estacion="1" localizacion="Estanque" rareza="4"/>
+    <coleccionable id="col009" tipoEsp="1" estacion="1" localizacion="Estanque" rareza="5"/>
+    <coleccionable id="col010" tipoEsp="1" estacion="1" localizacion="Mar" rareza="1"/>
+    <coleccionable id="col011" tipoEsp="1" estacion="1" localizacion="Mar" rareza="2"/>
+    <coleccionable id="col012" tipoEsp="1" estacion="1" localizacion="Mar" rareza="3"/>
+    <coleccionable id="col013" tipoEsp="1" estacion="1" localizacion="Mar" rareza="4"/>
+    <coleccionable id="col014" tipoEsp="1" estacion="1" localizacion="Mar" rareza="5"/>
+    <coleccionable id="col015" tipoEsp="1" estacion="1" localizacion="Boca del rio" rareza="1"/>
+    <coleccionable id="col016" tipoEsp="1" estacion="1" localizacion="Boca del rio" rareza="2"/>
+    <coleccionable id="col017" tipoEsp="1" estacion="1" localizacion="Boca del rio" rareza="3"/>
+    <coleccionable id="col018" tipoEsp="1" estacion="1" localizacion="Boca del rio" rareza="4"/>
+    <coleccionable id="col019" tipoEsp="1" estacion="1" localizacion="Boca del rio" rareza="5"/>
+    <coleccionable id="col020" tipoEsp="1" estacion="1" localizacion="Aire" rareza="1"/>
+    <coleccionable id="col021" tipoEsp="1" estacion="1" localizacion="Aire" rareza="2"/>
+    <coleccionable id="col022" tipoEsp="1" estacion="1" localizacion="Aire" rareza="3"/>
+    <coleccionable id="col023" tipoEsp="1" estacion="1" localizacion="Aire" rareza="4"/>
+    <coleccionable id="col024" tipoEsp="1" estacion="1" localizacion="Aire" rareza="5"/>
+    <coleccionable id="col025" tipoEsp="1" estacion="1" localizacion="Tierra" rareza="1"/>
+    <coleccionable id="col026" tipoEsp="1" estacion="1" localizacion="Tierra" rareza="2"/>
+    <coleccionable id="col027" tipoEsp="1" estacion="1" localizacion="Tierra" rareza="3"/>
+    <coleccionable id="col028" tipoEsp="1" estacion="1" localizacion="Tierra" rareza="4"/>
+    <coleccionable id="col029" tipoEsp="1" estacion="1" localizacion="Tierra" rareza="5"/>
+    <coleccionable id="col030" tipoEsp="1" estacion="1" localizacion="Flor" rareza="1"/>
+    <coleccionable id="col031" tipoEsp="1" estacion="1" localizacion="Flor" rareza="2"/>
+    <coleccionable id="col032" tipoEsp="1" estacion="1" localizacion="Flor" rareza="3"/>
+    <coleccionable id="col033" tipoEsp="1" estacion="1" localizacion="Flor" rareza="4"/>
+    <coleccionable id="col034" tipoEsp="1" estacion="1" localizacion="Flor" rareza="5"/>
+    <coleccionable id="col035" tipoEsp="1" estacion="1" localizacion="Arbol" rareza="1"/>
+    <coleccionable id="col036" tipoEsp="1" estacion="1" localizacion="Arbol" rareza="2"/>
+    <coleccionable id="col037" tipoEsp="1" estacion="1" localizacion="Arbol" rareza="3"/>
+    <coleccionable id="col038" tipoEsp="1" estacion="1" localizacion="Arbol" rareza="4"/>
+    <coleccionable id="col039" tipoEsp="1" estacion="1" localizacion="Arbol" rareza="5"/>
+    <coleccionable id="col040" tipoEsp="1" estacion="1" localizacion="Bajo tierra" rareza="1"/>
+    <coleccionable id="col041" tipoEsp="1" estacion="1" localizacion="Bajo tierra" rareza="2"/>
+    <coleccionable id="col042" tipoEsp="1" estacion="1" localizacion="Bajo tierra" rareza="3"/>
+    <coleccionable id="col043" tipoEsp="1" estacion="1" localizacion="Bajo tierra" rareza="4"/>
+    <coleccionable id="col044" tipoEsp="1" estacion="1" localizacion="Bajo tierra" rareza="5"/>
+    <coleccionable id="col045" tipoEsp="2" estacion="1" localizacion="Cascada" rareza="1"/>
+    <coleccionable id="col046" tipoEsp="2" estacion="1" localizacion="Cascada" rareza="2"/>
+    <coleccionable id="col047" tipoEsp="2" estacion="1" localizacion="Cascada" rareza="3"/>
+    <coleccionable id="col048" tipoEsp="2" estacion="1" localizacion="Cascada" rareza="4"/>
+    <coleccionable id="col049" tipoEsp="2" estacion="1" localizacion="Cascada" rareza="5"/>
+    <coleccionable id="col050" tipoEsp="2" estacion="1" localizacion="Estanque" rareza="1"/>
+    <coleccionable id="col051" tipoEsp="2" estacion="1" localizacion="Estanque" rareza="2"/>
+    <coleccionable id="col052" tipoEsp="2" estacion="1" localizacion="Estanque" rareza="3"/>
+    <coleccionable id="col053" tipoEsp="2" estacion="1" localizacion="Estanque" rareza="4"/>
+    <coleccionable id="col054" tipoEsp="2" estacion="1" localizacion="Estanque" rareza="5"/>
+    <coleccionable id="col055" tipoEsp="2" estacion="1" localizacion="Mar" rareza="1"/>
+    <coleccionable id="col056" tipoEsp="2" estacion="1" localizacion="Mar" rareza="2"/>
+    <coleccionable id="col057" tipoEsp="2" estacion="1" localizacion="Mar" rareza="3"/>
+    <coleccionable id="col058" tipoEsp="2" estacion="1" localizacion="Mar" rareza="4"/>
+    <coleccionable id="col059" tipoEsp="2" estacion="1" localizacion="Mar" rareza="5"/>
+    <coleccionable id="col060" tipoEsp="2" estacion="1" localizacion="Boca del rio" rareza="1"/>
+    <coleccionable id="col061" tipoEsp="2" estacion="1" localizacion="Boca del rio" rareza="2"/>
+    <coleccionable id="col062" tipoEsp="2" estacion="1" localizacion="Boca del rio" rareza="3"/>
+    <coleccionable id="col063" tipoEsp="2" estacion="1" localizacion="Boca del rio" rareza="4"/>
+    <coleccionable id="col064" tipoEsp="2" estacion="1" localizacion="Boca del rio" rareza="5"/>
+    <coleccionable id="col065" tipoEsp="2" estacion="1" localizacion="Aire" rareza="1"/>
+    <coleccionable id="col066" tipoEsp="2" estacion="1" localizacion="Aire" rareza="2"/>
+    <coleccionable id="col067" tipoEsp="2" estacion="1" localizacion="Aire" rareza="3"/>
+    <coleccionable id="col068" tipoEsp="2" estacion="1" localizacion="Aire" rareza="4"/>
+    <coleccionable id="col069" tipoEsp="2" estacion="1" localizacion="Aire" rareza="5"/>
+    <coleccionable id="col070" tipoEsp="2" estacion="1" localizacion="Tierra" rareza="1"/>
+    <coleccionable id="col071" tipoEsp="2" estacion="1" localizacion="Tierra" rareza="2"/>
+    <coleccionable id="col072" tipoEsp="2" estacion="1" localizacion="Tierra" rareza="3"/>
+    <coleccionable id="col073" tipoEsp="2" estacion="1" localizacion="Tierra" rareza="4"/>
+    <coleccionable id="col074" tipoEsp="2" estacion="1" localizacion="Tierra" rareza="5"/>
+    <coleccionable id="col075" tipoEsp="2" estacion="1" localizacion="Flor" rareza="1"/>
+    <coleccionable id="col076" tipoEsp="2" estacion="1" localizacion="Flor" rareza="2"/>
+    <coleccionable id="col077" tipoEsp="2" estacion="1" localizacion="Flor" rareza="3"/>
+    <coleccionable id="col078" tipoEsp="2" estacion="1" localizacion="Flor" rareza="4"/>
+    <coleccionable id="col079" tipoEsp="2" estacion="1" localizacion="Flor" rareza="5"/>
+    <coleccionable id="col080" tipoEsp="2" estacion="1" localizacion="Arbol" rareza="1"/>
+    <coleccionable id="col081" tipoEsp="2" estacion="1" localizacion="Arbol" rareza="2"/>
+    <coleccionable id="col082" tipoEsp="2" estacion="1" localizacion="Arbol" rareza="3"/>
+    <coleccionable id="col083" tipoEsp="2" estacion="1" localizacion="Arbol" rareza="4"/>
+    <coleccionable id="col084" tipoEsp="2" estacion="1" localizacion="Arbol" rareza="5"/>
+    <coleccionable id="col085" tipoEsp="2" estacion="1" localizacion="Bajo tierra" rareza="1"/>
+    <coleccionable id="col086" tipoEsp="2" estacion="1" localizacion="Bajo tierra" rareza="2"/>
+    <coleccionable id="col087" tipoEsp="2" estacion="1" localizacion="Bajo tierra" rareza="3"/>
+    <coleccionable id="col088" tipoEsp="2" estacion="1" localizacion="Bajo tierra" rareza="4"/>
+    <coleccionable id="col089" tipoEsp="2" estacion="1" localizacion="Bajo tierra" rareza="5"/>
+    <coleccionable id="col090" tipoEsp="3" estacion="1" localizacion="Cascada" rareza="1"/>
+    <coleccionable id="col091" tipoEsp="3" estacion="1" localizacion="Cascada" rareza="2"/>
+    <coleccionable id="col092" tipoEsp="3" estacion="1" localizacion="Cascada" rareza="3"/>
+    <coleccionable id="col093" tipoEsp="3" estacion="1" localizacion="Cascada" rareza="4"/>
+    <coleccionable id="col094" tipoEsp="3" estacion="1" localizacion="Cascada" rareza="5"/>
+    <coleccionable id="col095" tipoEsp="3" estacion="1" localizacion="Estanque" rareza="1"/>
+    <coleccionable id="col096" tipoEsp="3" estacion="1" localizacion="Estanque" rareza="2"/>
+    <coleccionable id="col097" tipoEsp="3" estacion="1" localizacion="Estanque" rareza="3"/>
+    <coleccionable id="col098" tipoEsp="3" estacion="1" localizacion="Estanque" rareza="4"/>
+    <coleccionable id="col099" tipoEsp="3" estacion="1" localizacion="Estanque" rareza="5"/>
+    <coleccionable id="col100" tipoEsp="3" estacion="1" localizacion="Mar" rareza="1"/>
+    <coleccionable id="col101" tipoEsp="3" estacion="1" localizacion="Mar" rareza="2"/>
+    <coleccionable id="col102" tipoEsp="3" estacion="1" localizacion="Mar" rareza="3"/>
+    <coleccionable id="col103" tipoEsp="3" estacion="1" localizacion="Mar" rareza="4"/>
+    <coleccionable id="col104" tipoEsp="3" estacion="1" localizacion="Mar" rareza="5"/>
+    <coleccionable id="col105" tipoEsp="3" estacion="1" localizacion="Boca del rio" rareza="1"/>
+    <coleccionable id="col106" tipoEsp="3" estacion="1" localizacion="Boca del rio" rareza="2"/>
+    <coleccionable id="col107" tipoEsp="3" estacion="1" localizacion="Boca del rio" rareza="3"/>
+    <coleccionable id="col108" tipoEsp="3" estacion="1" localizacion="Boca del rio" rareza="4"/>
+    <coleccionable id="col109" tipoEsp="3" estacion="1" localizacion="Boca del rio" rareza="5"/>
+    <coleccionable id="col110" tipoEsp="3" estacion="1" localizacion="Aire" rareza="1"/>
+    <coleccionable id="col111" tipoEsp="3" estacion="1" localizacion="Aire" rareza="2"/>
+    <coleccionable id="col112" tipoEsp="3" estacion="1" localizacion="Aire" rareza="3"/>
+    <coleccionable id="col113" tipoEsp="3" estacion="1" localizacion="Aire" rareza="4"/>
+    <coleccionable id="col114" tipoEsp="3" estacion="1" localizacion="Aire" rareza="5"/>
+    <coleccionable id="col115" tipoEsp="3" estacion="1" localizacion="Tierra" rareza="1"/>
+    <coleccionable id="col116" tipoEsp="3" estacion="1" localizacion="Tierra" rareza="2"/>
+    <coleccionable id="col117" tipoEsp="3" estacion="1" localizacion="Tierra" rareza="3"/>
+    <coleccionable id="col118" tipoEsp="3" estacion="1" localizacion="Tierra" rareza="4"/>
+    <coleccionable id="col119" tipoEsp="3" estacion="1" localizacion="Tierra" rareza="5"/>
+    <coleccionable id="col120" tipoEsp="3" estacion="1" localizacion="Flor" rareza="1"/>
+    <coleccionable id="col121" tipoEsp="3" estacion="1" localizacion="Flor" rareza="2"/>
+    <coleccionable id="col122" tipoEsp="3" estacion="1" localizacion="Flor" rareza="3"/>
+    <coleccionable id="col123" tipoEsp="3" estacion="1" localizacion="Flor" rareza="4"/>
+    <coleccionable id="col124" tipoEsp="3" estacion="1" localizacion="Flor" rareza="5"/>
+    <coleccionable id="col125" tipoEsp="3" estacion="1" localizacion="Arbol" rareza="1"/>
+    <coleccionable id="col126" tipoEsp="3" estacion="1" localizacion="Arbol" rareza="2"/>
+    <coleccionable id="col127" tipoEsp="3" estacion="1" localizacion="Arbol" rareza="3"/>
+    <coleccionable id="col128" tipoEsp="3" estacion="1" localizacion="Arbol" rareza="4"/>
+    <coleccionable id="col129" tipoEsp="3" estacion="1" localizacion="Arbol" rareza="5"/>
+    <coleccionable id="col130" tipoEsp="3" estacion="1" localizacion="Bajo tierra" rareza="1"/>
+    <coleccionable id="col131" tipoEsp="3" estacion="1" localizacion="Bajo tierra" rareza="2"/>
+    <coleccionable id="col132" tipoEsp="3" estacion="1" localizacion="Bajo tierra" rareza="3"/>
+    <coleccionable id="col133" tipoEsp="3" estacion="1" localizacion="Bajo tierra" rareza="4"/>
+    <coleccionable id="col134" tipoEsp="3" estacion="1" localizacion="Bajo tierra" rareza="5"/>
+    <coleccionable id="col135" tipoEsp="4" estacion="1" localizacion="Cascada" rareza="1"/>
+    <coleccionable id="col136" tipoEsp="4" estacion="1" localizacion="Cascada" rareza="2"/>
+    <coleccionable id="col137" tipoEsp="4" estacion="1" localizacion="Cascada" rareza="3"/>
+    <coleccionable id="col138" tipoEsp="4" estacion="1" localizacion="Cascada" rareza="4"/>
+    <coleccionable id="col139" tipoEsp="4" estacion="1" localizacion="Cascada" rareza="5"/>
+    <coleccionable id="col140" tipoEsp="4" estacion="1" localizacion="Estanque" rareza="1"/>
+    <coleccionable id="col141" tipoEsp="4" estacion="1" localizacion="Estanque" rareza="2"/>
+    <coleccionable id="col142" tipoEsp="4" estacion="1" localizacion="Estanque" rareza="3"/>
+    <coleccionable id="col143" tipoEsp="4" estacion="1" localizacion="Estanque" rareza="4"/>
+    <coleccionable id="col144" tipoEsp="4" estacion="1" localizacion="Estanque" rareza="5"/>
+    <coleccionable id="col145" tipoEsp="4" estacion="1" localizacion="Mar" rareza="1"/>
+    <coleccionable id="col146" tipoEsp="4" estacion="1" localizacion="Mar" rareza="2"/>
+    <coleccionable id="col147" tipoEsp="4" estacion="1" localizacion="Mar" rareza="3"/>
+    <coleccionable id="col148" tipoEsp="4" estacion="1" localizacion="Mar" rareza="4"/>
+    <coleccionable id="col149" tipoEsp="4" estacion="1" localizacion="Mar" rareza="5"/>
+    <coleccionable id="col150" tipoEsp="4" estacion="1" localizacion="Boca del rio" rareza="1"/>
+    <coleccionable id="col151" tipoEsp="4" estacion="1" localizacion="Boca del rio" rareza="2"/>
+    <coleccionable id="col152" tipoEsp="4" estacion="1" localizacion="Boca del rio" rareza="3"/>
+    <coleccionable id="col153" tipoEsp="4" estacion="1" localizacion="Boca del rio" rareza="4"/>
+    <coleccionable id="col154" tipoEsp="4" estacion="1" localizacion="Boca del rio" rareza="5"/>
+    <coleccionable id="col155" tipoEsp="4" estacion="1" localizacion="Aire" rareza="1"/>
+    <coleccionable id="col156" tipoEsp="4" estacion="1" localizacion="Aire" rareza="2"/>
+    <coleccionable id="col157" tipoEsp="4" estacion="1" localizacion="Aire" rareza="3"/>
+    <coleccionable id="col158" tipoEsp="4" estacion="1" localizacion="Aire" rareza="4"/>
+    <coleccionable id="col159" tipoEsp="4" estacion="1" localizacion="Aire" rareza="5"/>
+    <coleccionable id="col160" tipoEsp="4" estacion="1" localizacion="Tierra" rareza="1"/>
+    <coleccionable id="col161" tipoEsp="4" estacion="1" localizacion="Tierra" rareza="2"/>
+    <coleccionable id="col162" tipoEsp="4" estacion="1" localizacion="Tierra" rareza="3"/>
+    <coleccionable id="col163" tipoEsp="4" estacion="1" localizacion="Tierra" rareza="4"/>
+    <coleccionable id="col164" tipoEsp="4" estacion="1" localizacion="Tierra" rareza="5"/>
+    <coleccionable id="col165" tipoEsp="4" estacion="1" localizacion="Flor" rareza="1"/>
+    <coleccionable id="col166" tipoEsp="4" estacion="1" localizacion="Flor" rareza="2"/>
+    <coleccionable id="col167" tipoEsp="4" estacion="1" localizacion="Flor" rareza="3"/>
+    <coleccionable id="col168" tipoEsp="4" estacion="1" localizacion="Flor" rareza="4"/>
+    <coleccionable id="col169" tipoEsp="4" estacion="1" localizacion="Flor" rareza="5"/>
+    <coleccionable id="col170" tipoEsp="4" estacion="1" localizacion="Arbol" rareza="1"/>
+    <coleccionable id="col171" tipoEsp="4" estacion="1" localizacion="Arbol" rareza="2"/>
+    <coleccionable id="col172" tipoEsp="4" estacion="1" localizacion="Arbol" rareza="3"/>
+    <coleccionable id="col173" tipoEsp="4" estacion="1" localizacion="Arbol" rareza="4"/>
+    <coleccionable id="col174" tipoEsp="4" estacion="1" localizacion="Arbol" rareza="5"/>
+    <coleccionable id="col175" tipoEsp="4" estacion="1" localizacion="Bajo tierra" rareza="1"/>
+    <coleccionable id="col176" tipoEsp="4" estacion="1" localizacion="Bajo tierra" rareza="2"/>
+    <coleccionable id="col177" tipoEsp="4" estacion="1" localizacion="Bajo tierra" rareza="3"/>
+    <coleccionable id="col178" tipoEsp="4" estacion="1" localizacion="Bajo tierra" rareza="4"/>
+    <coleccionable id="col179" tipoEsp="4" estacion="1" localizacion="Bajo tierra" rareza="5"/>
+    <coleccionable id="col180" tipoEsp="4" estacion="2" localizacion="Cascada" rareza="1"/>
+    <coleccionable id="col181" tipoEsp="4" estacion="2" localizacion="Cascada" rareza="2"/>
+    <coleccionable id="col182" tipoEsp="4" estacion="2" localizacion="Cascada" rareza="3"/>
+    <coleccionable id="col183" tipoEsp="4" estacion="2" localizacion="Cascada" rareza="4"/>
+    <coleccionable id="col184" tipoEsp="4" estacion="2" localizacion="Cascada" rareza="5"/>
+    <coleccionable id="col185" tipoEsp="4" estacion="2" localizacion="Estanque" rareza="1"/>
+    <coleccionable id="col186" tipoEsp="4" estacion="2" localizacion="Estanque" rareza="2"/>
+    <coleccionable id="col187" tipoEsp="4" estacion="2" localizacion="Estanque" rareza="3"/>
+    <coleccionable id="col188" tipoEsp="4" estacion="2" localizacion="Estanque" rareza="4"/>
+    <coleccionable id="col189" tipoEsp="4" estacion="2" localizacion="Estanque" rareza="5"/>
+    <coleccionable id="col190" tipoEsp="4" estacion="2" localizacion="Mar" rareza="1"/>
+    <coleccionable id="col191" tipoEsp="4" estacion="2" localizacion="Mar" rareza="2"/>
+    <coleccionable id="col192" tipoEsp="4" estacion="2" localizacion="Mar" rareza="3"/>
+    <coleccionable id="col193" tipoEsp="4" estacion="2" localizacion="Mar" rareza="4"/>
+    <coleccionable id="col194" tipoEsp="4" estacion="2" localizacion="Mar" rareza="5"/>
+    <coleccionable id="col195" tipoEsp="4" estacion="2" localizacion="Boca del rio" rareza="1"/>
+    <coleccionable id="col196" tipoEsp="4" estacion="2" localizacion="Boca del rio" rareza="2"/>
+    <coleccionable id="col197" tipoEsp="4" estacion="2" localizacion="Boca del rio" rareza="3"/>
+    <coleccionable id="col198" tipoEsp="4" estacion="2" localizacion="Boca del rio" rareza="4"/>
+    <coleccionable id="col199" tipoEsp="4" estacion="2" localizacion="Boca del rio" rareza="5"/>
+    <coleccionable id="col200" tipoEsp="4" estacion="2" localizacion="Aire" rareza="1"/>
+    <coleccionable id="col201" tipoEsp="4" estacion="2" localizacion="Aire" rareza="2"/>
+    <coleccionable id="col202" tipoEsp="4" estacion="2" localizacion="Aire" rareza="3"/>
+    <coleccionable id="col203" tipoEsp="4" estacion="2" localizacion="Aire" rareza="4"/>
+    <coleccionable id="col204" tipoEsp="4" estacion="2" localizacion="Aire" rareza="5"/>
+    <coleccionable id="col205" tipoEsp="4" estacion="2" localizacion="Tierra" rareza="1"/>
+    <coleccionable id="col206" tipoEsp="4" estacion="2" localizacion="Tierra" rareza="2"/>
+    <coleccionable id="col207" tipoEsp="4" estacion="2" localizacion="Tierra" rareza="3"/>
+    <coleccionable id="col208" tipoEsp="4" estacion="2" localizacion="Tierra" rareza="4"/>
+    <coleccionable id="col209" tipoEsp="4" estacion="2" localizacion="Tierra" rareza="5"/>
+    <coleccionable id="col210" tipoEsp="4" estacion="2" localizacion="Flor" rareza="1"/>
+    <coleccionable id="col211" tipoEsp="4" estacion="2" localizacion="Flor" rareza="2"/>
+    <coleccionable id="col212" tipoEsp="4" estacion="2" localizacion="Flor" rareza="3"/>
+    <coleccionable id="col213" tipoEsp="4" estacion="2" localizacion="Flor" rareza="4"/>
+    <coleccionable id="col214" tipoEsp="4" estacion="2" localizacion="Flor" rareza="5"/>
+    <coleccionable id="col215" tipoEsp="4" estacion="2" localizacion="Arbol" rareza="1"/>
+    <coleccionable id="col216" tipoEsp="4" estacion="2" localizacion="Arbol" rareza="2"/>
+    <coleccionable id="col217" tipoEsp="4" estacion="2" localizacion="Arbol" rareza="3"/>
+    <coleccionable id="col218" tipoEsp="4" estacion="2" localizacion="Arbol" rareza="4"/>
+    <coleccionable id="col219" tipoEsp="4" estacion="2" localizacion="Arbol" rareza="5"/>
+    <coleccionable id="col220" tipoEsp="4" estacion="2" localizacion="Bajo tierra" rareza="1"/>
+    <coleccionable id="col221" tipoEsp="4" estacion="2" localizacion="Bajo tierra" rareza="2"/>
+    <coleccionable id="col222" tipoEsp="4" estacion="2" localizacion="Bajo tierra" rareza="3"/>
+    <coleccionable id="col223" tipoEsp="4" estacion="2" localizacion="Bajo tierra" rareza="4"/>
+    <coleccionable id="col224" tipoEsp="4" estacion="2" localizacion="Bajo tierra" rareza="5"/>
+    <coleccionable id="col225" tipoEsp="4" estacion="3" localizacion="Cascada" rareza="1"/>
+    <coleccionable id="col226" tipoEsp="4" estacion="3" localizacion="Cascada" rareza="2"/>
+    <coleccionable id="col227" tipoEsp="4" estacion="3" localizacion="Cascada" rareza="3"/>
+    <coleccionable id="col228" tipoEsp="4" estacion="3" localizacion="Cascada" rareza="4"/>
+    <coleccionable id="col229" tipoEsp="4" estacion="3" localizacion="Cascada" rareza="5"/>
+    <coleccionable id="col230" tipoEsp="4" estacion="3" localizacion="Estanque" rareza="1"/>
+    <coleccionable id="col231" tipoEsp="4" estacion="3" localizacion="Estanque" rareza="2"/>
+    <coleccionable id="col232" tipoEsp="4" estacion="3" localizacion="Estanque" rareza="3"/>
+    <coleccionable id="col233" tipoEsp="4" estacion="3" localizacion="Estanque" rareza="4"/>
+    <coleccionable id="col234" tipoEsp="4" estacion="3" localizacion="Estanque" rareza="5"/>
+    <coleccionable id="col235" tipoEsp="4" estacion="3" localizacion="Mar" rareza="1"/>
+    <coleccionable id="col236" tipoEsp="4" estacion="3" localizacion="Mar" rareza="2"/>
+    <coleccionable id="col237" tipoEsp="4" estacion="3" localizacion="Mar" rareza="3"/>
+    <coleccionable id="col238" tipoEsp="4" estacion="3" localizacion="Mar" rareza="4"/>
+    <coleccionable id="col239" tipoEsp="4" estacion="3" localizacion="Mar" rareza="5"/>
+    <coleccionable id="col240" tipoEsp="4" estacion="3" localizacion="Boca del rio" rareza="1"/>
+    <coleccionable id="col241" tipoEsp="4" estacion="3" localizacion="Boca del rio" rareza="2"/>
+    <coleccionable id="col242" tipoEsp="4" estacion="3" localizacion="Boca del rio" rareza="3"/>
+    <coleccionable id="col243" tipoEsp="4" estacion="3" localizacion="Boca del rio" rareza="4"/>
+    <coleccionable id="col244" tipoEsp="4" estacion="3" localizacion="Boca del rio" rareza="5"/>
+    <coleccionable id="col245" tipoEsp="4" estacion="3" localizacion="Aire" rareza="1"/>
+    <coleccionable id="col246" tipoEsp="4" estacion="3" localizacion="Aire" rareza="2"/>
+    <coleccionable id="col247" tipoEsp="4" estacion="3" localizacion="Aire" rareza="3"/>
+    <coleccionable id="col248" tipoEsp="4" estacion="3" localizacion="Aire" rareza="4"/>
+    <coleccionable id="col249" tipoEsp="4" estacion="3" localizacion="Aire" rareza="5"/>
+    <coleccionable id="col250" tipoEsp="4" estacion="3" localizacion="Tierra" rareza="1"/>
+    <coleccionable id="col251" tipoEsp="4" estacion="3" localizacion="Tierra" rareza="2"/>
+    <coleccionable id="col252" tipoEsp="4" estacion="3" localizacion="Tierra" rareza="3"/>
+    <coleccionable id="col253" tipoEsp="4" estacion="3" localizacion="Tierra" rareza="4"/>
+    <coleccionable id="col254" tipoEsp="4" estacion="3" localizacion="Tierra" rareza="5"/>
+    <coleccionable id="col255" tipoEsp="4" estacion="3" localizacion="Flor" rareza="1"/>
+    <coleccionable id="col256" tipoEsp="4" estacion="3" localizacion="Flor" rareza="2"/>
+    <coleccionable id="col257" tipoEsp="4" estacion="3" localizacion="Flor" rareza="3"/>
+    <coleccionable id="col258" tipoEsp="4" estacion="3" localizacion="Flor" rareza="4"/>
+    <coleccionable id="col259" tipoEsp="4" estacion="3" localizacion="Flor" rareza="5"/>
+    <coleccionable id="col260" tipoEsp="4" estacion="3" localizacion="Arbol" rareza="1"/>
+    <coleccionable id="col261" tipoEsp="4" estacion="3" localizacion="Arbol" rareza="2"/>
+    <coleccionable id="col262" tipoEsp="4" estacion="3" localizacion="Arbol" rareza="3"/>
+    <coleccionable id="col263" tipoEsp="4" estacion="3" localizacion="Arbol" rareza="4"/>
+    <coleccionable id="col264" tipoEsp="4" estacion="3" localizacion="Arbol" rareza="5"/>
+    <coleccionable id="col265" tipoEsp="4" estacion="3" localizacion="Bajo tierra" rareza="1"/>
+    <coleccionable id="col266" tipoEsp="4" estacion="3" localizacion="Bajo tierra" rareza="2"/>
+    <coleccionable id="col267" tipoEsp="4" estacion="3" localizacion="Bajo tierra" rareza="3"/>
+    <coleccionable id="col268" tipoEsp="4" estacion="3" localizacion="Bajo tierra" rareza="4"/>
+    <coleccionable id="col269" tipoEsp="4" estacion="3" localizacion="Bajo tierra" rareza="5"/>
+    <coleccionable id="col270" tipoEsp="4" estacion="4" localizacion="Cascada" rareza="1"/>
+    <coleccionable id="col271" tipoEsp="4" estacion="4" localizacion="Cascada" rareza="2"/>
+    <coleccionable id="col272" tipoEsp="4" estacion="4" localizacion="Cascada" rareza="3"/>
+    <coleccionable id="col273" tipoEsp="4" estacion="4" localizacion="Cascada" rareza="4"/>
+    <coleccionable id="col274" tipoEsp="4" estacion="4" localizacion="Cascada" rareza="5"/>
+    <coleccionable id="col275" tipoEsp="4" estacion="4" localizacion="Estanque" rareza="1"/>
+    <coleccionable id="col276" tipoEsp="4" estacion="4" localizacion="Estanque" rareza="2"/>
+    <coleccionable id="col277" tipoEsp="4" estacion="4" localizacion="Estanque" rareza="3"/>
+    <coleccionable id="col278" tipoEsp="4" estacion="4" localizacion="Estanque" rareza="4"/>
+    <coleccionable id="col279" tipoEsp="4" estacion="4" localizacion="Estanque" rareza="5"/>
+    <coleccionable id="col280" tipoEsp="4" estacion="4" localizacion="Mar" rareza="1"/>
+    <coleccionable id="col281" tipoEsp="4" estacion="4" localizacion="Mar" rareza="2"/>
+    <coleccionable id="col282" tipoEsp="4" estacion="4" localizacion="Mar" rareza="3"/>
+    <coleccionable id="col283" tipoEsp="4" estacion="4" localizacion="Mar" rareza="4"/>
+    <coleccionable id="col284" tipoEsp="4" estacion="4" localizacion="Mar" rareza="5"/>
+    <coleccionable id="col285" tipoEsp="4" estacion="4" localizacion="Boca del rio" rareza="1"/>
+    <coleccionable id="col286" tipoEsp="4" estacion="4" localizacion="Boca del rio" rareza="2"/>
+    <coleccionable id="col287" tipoEsp="4" estacion="4" localizacion="Boca del rio" rareza="3"/>
+    <coleccionable id="col288" tipoEsp="4" estacion="4" localizacion="Boca del rio" rareza="4"/>
+    <coleccionable id="col289" tipoEsp="4" estacion="4" localizacion="Boca del rio" rareza="5"/>
+    <coleccionable id="col290" tipoEsp="4" estacion="4" localizacion="Aire" rareza="1"/>
+    <coleccionable id="col291" tipoEsp="4" estacion="4" localizacion="Aire" rareza="2"/>
+    <coleccionable id="col292" tipoEsp="4" estacion="4" localizacion="Aire" rareza="3"/>
+    <coleccionable id="col293" tipoEsp="4" estacion="4" localizacion="Aire" rareza="4"/>
+    <coleccionable id="col294" tipoEsp="4" estacion="4" localizacion="Aire" rareza="5"/>
+    <coleccionable id="col295" tipoEsp="4" estacion="4" localizacion="Tierra" rareza="1"/>
+    <coleccionable id="col296" tipoEsp="4" estacion="4" localizacion="Tierra" rareza="2"/>
+    <coleccionable id="col297" tipoEsp="4" estacion="4" localizacion="Tierra" rareza="3"/>
+    <coleccionable id="col298" tipoEsp="4" estacion="4" localizacion="Tierra" rareza="4"/>
+    <coleccionable id="col299" tipoEsp="4" estacion="4" localizacion="Tierra" rareza="5"/>
+    <coleccionable id="col300" tipoEsp="4" estacion="4" localizacion="Flor" rareza="1"/>
+    <coleccionable id="col301" tipoEsp="4" estacion="4" localizacion="Flor" rareza="2"/>
+    <coleccionable id="col302" tipoEsp="4" estacion="4" localizacion="Flor" rareza="3"/>
+    <coleccionable id="col303" tipoEsp="4" estacion="4" localizacion="Flor" rareza="4"/>
+    <coleccionable id="col304" tipoEsp="4" estacion="4" localizacion="Flor" rareza="5"/>
+    <coleccionable id="col305" tipoEsp="4" estacion="4" localizacion="Arbol" rareza="1"/>
+    <coleccionable id="col306" tipoEsp="4" estacion="4" localizacion="Arbol" rareza="2"/>
+    <coleccionable id="col307" tipoEsp="4" estacion="4" localizacion="Arbol" rareza="3"/>
+    <coleccionable id="col308" tipoEsp="4" estacion="4" localizacion="Arbol" rareza="4"/>
+    <coleccionable id="col309" tipoEsp="4" estacion="4" localizacion="Arbol" rareza="5"/>
+    <coleccionable id="col310" tipoEsp="4" estacion="4" localizacion="Bajo tierra" rareza="1"/>
+    <coleccionable id="col311" tipoEsp="4" estacion="4" localizacion="Bajo tierra" rareza="2"/>
+    <coleccionable id="col312" tipoEsp="4" estacion="4" localizacion="Bajo tierra" rareza="3"/>
+    <coleccionable id="col313" tipoEsp="4" estacion="4" localizacion="Bajo tierra" rareza="4"/>
+    <coleccionable id="col314" tipoEsp="4" estacion="4" localizacion="Bajo tierra" rareza="5"/>
 </coleccionables>

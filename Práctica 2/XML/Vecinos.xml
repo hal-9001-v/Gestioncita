@@ -1,3 +1,10 @@
 <vecinos>
-
-<vecino id="vec0" personalidad="Alegre" nombre="Paco" casa="Casas.xml#c3"/><vecino id="vec1" personalidad="Atletico" nombre="Joshua" casa="Casas.xml#c4"/><vecino id="vec2" personalidad="Esnob" nombre="Ankha" casa="Casas.xml#c5"/><vecino id="vec3" personalidad="Dulce" nombre="Marcelyn" casa="Casas.xml#c6"/><vecino id="vec4" personalidad="Grunion" nombre="Apollo" casa="Casas.xml#c7"/><vecino id="vec5" personalidad="Presumido" nombre="Steacy" casa="Casas.xml#c8"/><vecino id="vec6" personalidad="Perezoso" nombre="Carlos" casa="Casas.xml#c9"/><vecino id="vec7" personalidad="Normal" nombre="Queque" casa="Casas.xml#c10"/></vecinos>
+    <vecino id="vec000" personalidad="Alegre" nombre="Paco" casa="Casas.xml#c005"/>
+    <vecino id="vec001" personalidad="Atletico" nombre="Joshua" casa="Casas.xml#c006"/>
+    <vecino id="vec002" personalidad="Esnob" nombre="Ankha" casa="Casas.xml#c007"/>
+    <vecino id="vec003" personalidad="Dulce" nombre="Marcelyn" casa="Casas.xml#c008"/>
+    <vecino id="vec004" personalidad="Grunion" nombre="Apollo" casa="Casas.xml#c009"/>
+    <vecino id="vec005" personalidad="Presumido" nombre="Steacy" casa="Casas.xml#c010"/>
+    <vecino id="vec006" personalidad="Perezoso" nombre="Carlos" casa="Casas.xml#c011"/>
+    <vecino id="vec007" personalidad="Normal" nombre="Queque" casa="Casas.xml#c012"/>
+</vecinos>

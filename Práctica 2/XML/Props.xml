@@ -1,2 +1,8 @@
 <props>
-<prop id="prop0" nombre="Cesped" stack="56" precio="741" tipo="Hierba" comestible="No"/><prop id="prop1" nombre="Petunia" stack="47" precio="4261" tipo="Flor" comestible="No"/><prop id="prop2" nombre="Roca" stack="45" precio="4608" tipo="Piedra" comestible="No"/><prop id="prop3" nombre="Romero" stack="44" precio="4569" tipo="Arbusto" comestible="No"/><prop id="prop4" nombre="Manzano" stack="43" precio="4494" tipo="Arbol" comestible="No"/><prop id="prop5" nombre="Naranja" stack="58" precio="1247" tipo="Fruta" comestible="Si"/></props>
+    <prop id="prop000" nombre="Cesped" stack="29" precio="2737" tipo="Hierba" comestible="No"/>
+    <prop id="prop001" nombre="Petunia" stack="24" precio="825" tipo="Flor" comestible="No"/>
+    <prop id="prop002" nombre="Roca" stack="54" precio="4126" tipo="Piedra" comestible="No"/>
+    <prop id="prop003" nombre="Romero" stack="34" precio="2754" tipo="Arbusto" comestible="No"/>
+    <prop id="prop004" nombre="Manzano" stack="23" precio="3417" tipo="Arbol" comestible="No"/>
+    <prop id="prop005" nombre="Naranja" stack="15" precio="3758" tipo="Fruta" comestible="Si"/>
+</props>

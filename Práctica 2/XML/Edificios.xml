@@ -1,7 +1,7 @@
 <edificios>
-    <edificio id="ed0" tipo="Ayuntamiento"/>
-    <edificio id="ed1" tipo="Peluqueria"/>
-    <edificio id="ed2" tipo="Supermercado"/>
-    <edificio id="ed3" tipo="Museo"/>
-    <edificio id="ed4" tipo="Aerodromo"/>
+    <edificio id="ed000" tipo="Ayuntamiento"/>
+    <edificio id="ed001" tipo="Peluqueria"/>
+    <edificio id="ed002" tipo="Supermercado"/>
+    <edificio id="ed003" tipo="Museo"/>
+    <edificio id="ed004" tipo="Aerodromo"/>
 </edificios>
