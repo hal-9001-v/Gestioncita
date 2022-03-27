@@ -2,7 +2,7 @@
   <xs:element name="equipables">
     <xs:complexType>
       <xs:sequence>
-        <xs:element name="equipable">
+        <xs:element name="equipable" maxOccurs="unbounded" minOccurs="0">
           <xs:complexType>
             <xs:simpleContent>
               <xs:extension base="xs:string">
