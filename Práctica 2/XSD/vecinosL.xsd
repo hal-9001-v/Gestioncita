@@ -19,7 +19,7 @@
                       <xs:enumeration value="Alegre" />
                       <xs:enumeration value="Atletico" />
                       <xs:enumeration value="Esnob" />
-                      <xs:enumeration value="Ducle" />
+                      <xs:enumeration value="Dulce" />
                       <xs:enumeration value="Grunion" />
                       <xs:enumeration value="Presumido" />
                       <xs:enumeration value="Perezoso" />
