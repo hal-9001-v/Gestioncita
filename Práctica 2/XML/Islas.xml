@@ -1,18 +1,2 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <islas>
-    <isla id = "is011" nombre = "AlcorcOn"  hemisferio = "S"> 
-        <fecha> 11-12-2022 </fecha>
-        <hora> 19:20 </hora>
-    
-        <edificios>
-            <edificio id = "Edificios.xml#ed041"> </edificio>
-            <edificio id = "Edificios.xml#ed043"> </edificio>
-        </edificios>
-
-        <personajes>
-            <personaje id ="Personajes.xml#pj001">  </personaje>
-            <personaje id ="Personajes.xml#pj002">  </personaje>
-        </personajes>
-
-    </isla>
-</islas>
+    <isla id="is000" nombre="AlcorOn" hemisferio="N"><fecha>24-5-2022</fecha><hora>16:50</hora><edificios><edificio id="Edificios.xml#ed000"/><edificio id="Edificios.xml#ed001"/><edificio id="Edificios.xml#ed002"/><edificio id="Edificios.xml#ed003"/><edificio id="Edificios.xml#ed004"/></edificios><personajes><personaje id="Personajes.xml#pj000"/><personaje id="Personajes.xml#pj001"/><personaje id="Personajes.xml#pj002"/></personajes></isla><isla id="is001" nombre="SouthPeru" hemisferio="S"><fecha>27-1-2022</fecha><hora>11:10</hora><edificios><edificio id="Edificios.xml#ed000"/><edificio id="Edificios.xml#ed001"/><edificio id="Edificios.xml#ed002"/><edificio id="Edificios.xml#ed003"/><edificio id="Edificios.xml#ed004"/></edificios><personajes><personaje id="Personajes.xml#pj000"/><personaje id="Personajes.xml#pj001"/><personaje id="Personajes.xml#pj002"/></personajes></isla><isla id="is002" nombre="MostToLess" hemisferio="N"><fecha>13-11-2022</fecha><hora>3:47</hora><edificios><edificio id="Edificios.xml#ed000"/><edificio id="Edificios.xml#ed001"/><edificio id="Edificios.xml#ed002"/><edificio id="Edificios.xml#ed003"/><edificio id="Edificios.xml#ed004"/></edificios><personajes><personaje id="Personajes.xml#pj000"/><personaje id="Personajes.xml#pj001"/><personaje id="Personajes.xml#pj002"/></personajes></isla><isla id="is003" nombre="TorriHoes" hemisferio="S"><fecha>6-11-2022</fecha><hora>20:35</hora><edificios><edificio id="Edificios.xml#ed000"/><edificio id="Edificios.xml#ed001"/><edificio id="Edificios.xml#ed002"/><edificio id="Edificios.xml#ed003"/><edificio id="Edificios.xml#ed004"/></edificios><personajes><personaje id="Personajes.xml#pj000"/><personaje id="Personajes.xml#pj001"/><personaje id="Personajes.xml#pj002"/></personajes></isla><isla id="is004" nombre="WestMadriz" hemisferio="N"><fecha>7-9-2022</fecha><hora>0:18</hora><edificios><edificio id="Edificios.xml#ed000"/><edificio id="Edificios.xml#ed001"/><edificio id="Edificios.xml#ed002"/><edificio id="Edificios.xml#ed003"/><edificio id="Edificios.xml#ed004"/></edificios><personajes><personaje id="Personajes.xml#pj000"/><personaje id="Personajes.xml#pj001"/><personaje id="Personajes.xml#pj002"/></personajes></isla></islas>

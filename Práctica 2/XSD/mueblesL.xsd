@@ -15,7 +15,7 @@
                                 </xs:attribute>
                                 <xs:attribute type="xs:string" name="nombre" use="required" />
                                 <xs:attribute type="xs:byte" name="stack" fixed="1" use="required" />
-                                <xs:attribute type="xs:byte" name="precio" use="required" />
+                                <xs:attribute type="xs:short" name="precio" use="required" />
                                 <xs:attribute name="color" use="required">
                                     <xs:simpleType>
                                         <xs:restriction base="xs:string">
@@ -23,7 +23,7 @@
                                             <xs:enumeration value="Rosa" />
                                             <xs:enumeration value="Amarillo" />
                                             <xs:enumeration value="Azul" />
-                                            <xs:enumeration value="Marrón" />
+                                            <xs:enumeration value="Marron" />
                                             <xs:enumeration value="Morado" />
                                             <xs:enumeration value="Violeta" />
                                             <xs:enumeration value="Verde" />

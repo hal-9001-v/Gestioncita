@@ -72,24 +72,43 @@ def create_casas():
 
 def create_coleccionables():
     # Coleccionables
-    seasons = ["1", "2", "3", "4"]
-    specialType = ["1", "2", "3", "4"]
-    localizations = ["Cascada", "Estanque", "Mar", "Boca del rio", "Aire", "Tierra", "Flor", "Arbol", "Bajo tierra"]
-    rarities = ["1", "2", "3", "4", "5"]
+    seasons = ["Verano", "Otonio", "Invierno", "Primavera"]
+
+    fosil_names = ["Craneo", "Amonites", "Hueso", "DinohHueso", "Nokia", "Trilobites"]
+    pez_names = ["Carpa", "Palometa", "Pez Sable", "Tiburon", "Mero", "Ciluro"]
+    insecto_names = ["Bicho palo", "Mariposa", "Hormiguita", "Mariquita", "Escarabajo", "Escararriba"]
+
+    name_matrix = [fosil_names, pez_names, insecto_names]
+
+    special_types = ["Fosil", "Pez", "Insecto"]
+    adjectives = ["Celurio", "Curioso", "Interesante", "del Monton", "Peculiar", "Mono"]
+
+    fosil_local = ["Tierra", "Bajo tierra"]
+    insecto_local = ["Cascada", "Estanque", "Mar", "Boca del rio", "Aire", "Tierra", "Flor", "Arbol", "Bajo tierra"]
+    pez_local = ["Cascada", "Estanque", "Mar", "Boca del rio", ]
+    local_matrix = [fosil_local, pez_local, insecto_local]
+
     id_count = 0
 
-    for season in seasons:
-        for specialType in specialType:
-            for localization in localizations:
-                for rarity in rarities:
-                    attributes = {"id": "col" + turn_id(id_count),
-                                  "tipoEsp": specialType,
-                                  "estacion": season,
-                                  "localizacion": localization,
-                                  "rareza": rarity}
+    for j in range(300):
+        special_type_i = random.randrange(0, 2)
 
-                    insert_new_entry(coleccionable_file, "coleccionable", attributes, [])
-                    id_count += 1
+        col_name = name_matrix[special_type_i][random.randrange(0, len(name_matrix[special_type_i]))] + " " + \
+                   adjectives[random.randrange(0, len(adjectives))]
+        local = local_matrix[special_type_i][random.randrange(0, len(local_matrix[special_type_i]))]
+
+        attributes = {"id": "col" + turn_id(id_count),
+                      "nombre": col_name,
+                      "tamanio": str(random.randrange(1, 10)),
+                      "tipoEsp": special_types[special_type_i],
+                      "estacion": seasons[random.randrange(0, len(seasons))],
+                      "localizacion": local,
+                      "rareza": str(random.randrange(1, 5)),
+                      "stack": str(random.randrange(1, 64)),
+                      "precio": str(random.randrange(10, 5000))}
+
+        insert_new_entry(coleccionable_file, "coleccionable", attributes, [])
+        id_count += 1
 
 
 def create_edificios():
@@ -194,7 +213,8 @@ def create_islas():
 
 
 def create_jugadores():
-    jugadores_names = ["Pepito", "Fulanito", "Joselito", "Dio", "Vinsent", "Paquito", "Julia", "Marcela", "Castania", "Milo", "Gatita", "Fidel", "Ernesto"]
+    jugadores_names = ["Pepito", "Fulanito", "Joselito", "Dio", "Vinsent", "Paquito", "Julia", "Marcela", "Castania",
+                       "Milo", "Gatita", "Fidel", "Ernesto"]
 
     islas_left = size_islas
     for i in range(len(jugadores_names)):
@@ -217,7 +237,8 @@ def create_materiales():
     for j in range(iterations):
         for i in range(len(material_type)):
             insert_new_entry(materiales_file, "material",
-                             {"id": "mat" + turn_id(material_counter), "tipoEsp": material_type[i]}, [])
+                             {"id": "mat" + turn_id(material_counter), "stack": str(random.randrange(10, 64)),
+                              "precio": str(random.randrange(10, 500)), "tipoEsp": material_type[i]}, [])
             material_counter += 1
 
 
@@ -233,16 +254,19 @@ def create_muebles():
     iterations = 10
     mueble_counter = 0
 
+    colors = ["Rojo", "Rosa", "Amarillo", "Azul", "Marron", "Morado", "Violeta", "Verde", "Lima", "Blanco", "Negro",
+              "Gris", "Cian"]
+
     for j in range(iterations):
         for i in range(len(muebles_names)):
-            random_stack = random.randrange(1, 64)
-            random_price = random.randrange(100, 5000)
+            random_price = random.randrange(50, 1000)
 
             conjunto = mueble_conjuntos[random.randrange(0, len(mueble_conjuntos))]
             mueble_name = muebles_names[i] + " " + adjectives[random.randrange(0, len(adjectives))]
 
-            attributes = {"id": "mu" + turn_id(mueble_counter), "nombre": mueble_name, "stack": str(random_stack),
-                          "precio": str(random_price), "tipo": mueble_tipos[i], "conjunto": conjunto}
+            attributes = {"id": "mu" + turn_id(mueble_counter), "nombre": mueble_name, "stack": str(1),
+                          "precio": str(random_price), "color": colors[random.randrange(0, len(colors))],
+                          "tipo": mueble_tipos[i], "conjunto": conjunto}
             insert_new_entry(mueble_file, "mueble", attributes, [])
             mueble_counter += 1
 
@@ -269,7 +293,14 @@ def create_props():
         attributes = {"id": "prop" + turn_id(i), "nombre": props_names[i], "stack": str(random_stack),
                       "precio": str(random_price),
                       "tipo": props_types[i], "comestible": comestibles[i]}
-        insert_new_entry(prop_file, "prop", attributes, [])
+
+        tree = etree.parse(prop_file)
+        root = tree.getroot()
+
+        new_element = etree.SubElement(root, "prop", attributes)
+        etree.SubElement(new_element, "crecimiento").text = str(random.randrange(1, 5))
+
+        tree.write(prop_file, pretty_print=True)
 
 
 def create_vecinos():
