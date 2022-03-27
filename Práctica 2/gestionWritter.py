@@ -65,7 +65,7 @@ def insert_new_entry(file, tag, attributes, sub_elements):
 
 
 def create_casas():
-    casa_size = 30
+    casa_size = 369
     for i in range(casa_size):
         insert_new_entry(casa_file, "casa", {"id": "c" + turn_id(i)}, [])
 
@@ -104,7 +104,7 @@ def create_coleccionables():
                       "estacion": seasons[random.randrange(0, len(seasons))],
                       "localizacion": local,
                       "rareza": str(random.randrange(1, 5)),
-                      "stack": str(random.randrange(1, 64)),
+                      "stack": "1",
                       "precio": str(random.randrange(10, 5000))}
 
         insert_new_entry(coleccionable_file, "coleccionable", attributes, [])
@@ -114,9 +114,14 @@ def create_coleccionables():
 def create_edificios():
     # Care to give some correlation if global variable size_edificio!
     edificio_types = ["Ayuntamiento", "Peluqueria", "Supermercado", "Museo", "Aerodromo"]
+    edificios_numbers = [1, 3, 10, 2, 1]
+    id_counter = 0
     for i in range(len(edificio_types)):
-        attributes = {"id": "ed" + turn_id(i), "tipo": edificio_types[i]}
-        insert_new_entry(edificio_file, "edificio", attributes, [])
+
+        for j in range(edificios_numbers[i]):
+            attributes = {"id": "ed" + turn_id(id_counter), "tipo": edificio_types[i]}
+            insert_new_entry(edificio_file, "edificio", attributes, [])
+            id_counter += 1
 
 
 def create_equipables():
@@ -127,9 +132,8 @@ def create_equipables():
     hats_names = ["Fedora", "Gorra", "Gorro", "Casco"]
 
     for hat in hats_names:
-        random_stack = random.randrange(1, 64)
         random_price = random.randrange(100, 5000)
-        attributes = {"id": "equi" + turn_id(equip_count), "nombre": hat, "stack": str(random_stack),
+        attributes = {"id": "equi" + turn_id(equip_count), "nombre": hat,
                       "precio": str(random_price),
                       "tipo": equip_types[0], "lugar_eq": equip_place[4]}
         insert_new_entry(equipable_file, "equipable", attributes, [])
@@ -137,9 +141,8 @@ def create_equipables():
 
     shoes_names = ["Botas", "Sneakers", "Chanclas", "Tacones", "Sandalia"]
     for shoes in shoes_names:
-        random_stack = random.randrange(1, 64)
         random_price = random.randrange(100, 5000)
-        attributes = {"id": "equi" + turn_id(equip_count), "nombre": shoes, "stack": str(random_stack),
+        attributes = {"id": "equi" + turn_id(equip_count), "nombre": shoes,
                       "precio": str(random_price),
                       "tipo": equip_types[0], "lugar_eq": equip_place[1]}
         insert_new_entry(equipable_file, "equipable", attributes, [])
@@ -147,9 +150,8 @@ def create_equipables():
 
     chest_names = ["Gabardina", "Hawaiana", "Camisa", "Poncho", "Camisetita"]
     for chest in chest_names:
-        random_stack = random.randrange(1, 64)
         random_price = random.randrange(100, 5000)
-        attributes = {"id": "equi" + turn_id(equip_count), "nombre": chest, "stack": str(random_stack),
+        attributes = {"id": "equi" + turn_id(equip_count), "nombre": chest,
                       "precio": str(random_price),
                       "tipo": equip_types[0], "lugar_eq": equip_place[3]}
         insert_new_entry(equipable_file, "equipable", attributes, [])
@@ -157,9 +159,8 @@ def create_equipables():
 
     tools_names = ["Pala", "Pico", "Sarten", "Cazamariposas"]
     for tool in tools_names:
-        random_stack = random.randrange(1, 64)
         random_price = random.randrange(100, 5000)
-        attributes = {"id": "equi" + turn_id(equip_count), "nombre": tool, "stack": str(random_stack),
+        attributes = {"id": "equi" + turn_id(equip_count), "nombre": tool,
                       "precio": str(random_price),
                       "tipo": equip_types[1], "lugar_eq": equip_place[0]}
         insert_new_entry(equipable_file, "equipable", attributes, [])
@@ -251,7 +252,7 @@ def create_muebles():
                         "Flores", "Linda", "Mariana", "Veraniego", "Frutas", "Zodiaco", "Universitario"]
     adjectives = ["Mona", "Hortera", "Simple", "Elegante", "Epico", "Chuli"]
 
-    iterations = 10
+    iterations = 21
     mueble_counter = 0
 
     colors = ["Rojo", "Rosa", "Amarillo", "Azul", "Marron", "Morado", "Violeta", "Verde", "Lima", "Blanco", "Negro",
@@ -273,42 +274,90 @@ def create_muebles():
 
 def create_personajes():
     # Care to give some correlation with size_of_personajes
-    personajes_names = ["Tom Nook", "Canela", "Rafa"]
-    edificios_of_personajes = ["1", "1", "2"]
+    personajes_names = ["Tom Nook", "Canela", "Rafa y Rodri", "Tendo y Nendo", "Sócrates", "Pili y Mili", "Figaro",
+                        "El Capitan", "Alakama", "Alcatifa", "Al y Paca", "Betunio", "Buh", "CJ", "Conga", "Copito",
+                        "Coti Conejal", "Estela", "Fauno", "Fran", "Gandulio", "Guindo", "Gulliver", "Gulliver Pirata",
+                        "Juliana", "Camilo", "Katrina", "Ladino", "Marilin", "Pascal", "Renato", "Soponcio", "Totakeke",
+                        "Tili", "Tortimer"]
+
+    edificio_counter = 0
     for i in range(len(personajes_names)):
+
+        if edificio_counter == size_edificios:
+            edificio_counter = 0
+
         insert_new_entry(personaje_file, "personaje",
                          {"id": "pj" + turn_id(i), "nombre": personajes_names[i],
-                          "edificio": "Edificios.xml#ed" + edificios_of_personajes[i]},
+                          "edificio": "Edificios.xml#ed" + turn_id(edificio_counter)},
                          [])
+        edificio_counter += 1
 
 
 def create_props():
     # Props
-    props_names = ["Cesped", "Petunia", "Roca", "Romero", "Manzano", "Naranja"]
+    hierba_names = ["Cesped", "Hierbajo", "Ortiga"]
+
+    flores_names = ["Petunia", "Margarita", "Rosa", "Jazmin"]
+    arbustos_names = ["Romero", "Tomillo", "San Pedro", "Hiedra"]
+
+    arboles_names = ["Manzano", "Naranjo", "Roble", "Pino", "Abeto", "Cedro", "Almendro", "Chopo"]
+
+    frutas_names = ["Manzana", "Piña", "Coco", "Naranja", "Limon", "Lima"]
+
     props_types = ["Hierba", "Flor", "Piedra", "Arbusto", "Arbol", "Fruta"]
-    comestibles = ["No", "No", "No", "No", "No", "Si"]
-    for i in range(len(props_names)):
-        random_stack = random.randrange(1, 64)
-        random_price = random.randrange(100, 5000)
-        attributes = {"id": "prop" + turn_id(i), "nombre": props_names[i], "stack": str(random_stack),
-                      "precio": str(random_price),
-                      "tipo": props_types[i], "comestible": comestibles[i]}
 
-        tree = etree.parse(prop_file)
-        root = tree.getroot()
+    names_matrix = [hierba_names, flores_names, arbustos_names, arboles_names, frutas_names]
 
-        new_element = etree.SubElement(root, "prop", attributes)
-        etree.SubElement(new_element, "crecimiento").text = str(random.randrange(1, 5))
+    adjetivos = ["de Gran Belleza", "Normal", "con Defectos", "Esplendido", "como Ninguno", "Especial", "Mediocre"]
 
-        tree.write(prop_file, pretty_print=True)
+    for j in range(27):
+        for i in range(5):
+
+            if random.randrange(0, 2) == 1:
+                random_stack = 10
+            else:
+                random_stack = 30
+
+            random_price = random.randrange(100, 5000)
+            name = names_matrix[i][random.randrange(0, len(names_matrix[i]))] + " " + adjetivos[random.randrange(0,
+                                                                                                                 len(adjetivos))]
+
+            if i == 4:
+                comestible = "Si"
+            else:
+                comestible = "No"
+
+            attributes = {"id": "prop" + turn_id(i), "nombre": name, "stack": str(random_stack),
+                          "precio": str(random_price),
+                          "tipo": props_types[i], "comestible": comestible}
+
+            tree = etree.parse(prop_file)
+            root = tree.getroot()
+
+            new_element = etree.SubElement(root, "prop", attributes)
+            etree.SubElement(new_element, "crecimiento").text = str(random.randrange(1, 5))
+
+            tree.write(prop_file, pretty_print=True)
 
 
 def create_vecinos():
     # Vecinos
-    nombres_vecinos = ["Paco", "Joshua", "Ankha", "Marcelyn", "Apollo", "Steacy", "Carlos", "Queque"]
+    nombres_vecinos = ["Paco", "Joshua", "Patri", "Marcelyn", "Apollo", "Steacy", "Carlos", "Queque", "Ariel",
+                       "Narciso", "Munchi", "Morfeo", "Rosezna", "Luna", "Alderia", "Adela", "Agreste", "Alba",
+                       "Albino", "Aliste", "Cabriola", "Cabralex", "Cachemir", "Camelio", "Babu", "Bambina", "Bayo",
+                       "Bea", "Beelen", "Belinda", "Bella", "Benito", "Deira", "Dentina", "Dori", "Draco", "Dragonio",
+                       "Deivid", "Fabiola", "Fardilla", "Fauna", "Feli", "Felipe" "Gabino", "Ganon", "Gaston",
+                       "Hanalulu", "Hans", "Harpo", "Isadora", "Jacinto", "Jacobo", "Jaime", "Jairo", "Kabuki",
+                       "Kaiman", "Kasandra", "Katia", "Lali", "Lanolina", "Lili", "Madam Rosa", "Magenta", "Marcial",
+                       "Nabar", "Nachete", "Nana", "Narciso", "Octavio", "Octoberto", "Ofelia", "Pablo", "Paquito",
+                       "Quetzal", "Radiolo", "Ramina", "Sabana", "Saltiago", "Sanson", "Tabita", "Talia", "Tami",
+                       "Tania", "Ulises", "Uno", "Vacarena", "Wanda", "Wolfi", "Yuka", "Zapiron", "Zelanda"
+                       ]
     personalidades = ["Alegre", "Atletico", "Esnob", "Dulce", "Grunion", "Presumido", "Perezoso", "Normal"]
     for i in range(len(nombres_vecinos)):
-        attributes = {"id": "vec" + turn_id(i), "personalidad": personalidades[i], "nombre": nombres_vecinos[i],
+        attributes = {"id": "vec" + turn_id(i),
+                      "personalidad": personalidades[random.randrange(0, len(personalidades))],
+                      "nombre": nombres_vecinos[i],
                       "casa": "Casas.xml#c" + turn_id(casas_of_vecinos_start + i)}
         insert_new_entry(vecino_file, "vecino", attributes, [])
 

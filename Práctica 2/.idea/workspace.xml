@@ -15,6 +15,9 @@
       <change beforePath="$PROJECT_DIR$/XML/Materiales.xml" beforeDir="false" afterPath="$PROJECT_DIR$/XML/Materiales.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XML/Muebles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/XML/Muebles.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XML/Personajes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/XML/Personajes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XML/Props.xml" beforeDir="false" afterPath="$PROJECT_DIR$/XML/Props.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XML/Vecinos.xml" beforeDir="false" afterPath="$PROJECT_DIR$/XML/Vecinos.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestionWritter.py" beforeDir="false" afterPath="$PROJECT_DIR$/gestionWritter.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
