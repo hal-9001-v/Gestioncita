@@ -1,2 +1,20 @@
 <equipables>
-    <equipable id="equi001" nombre="Fedora" precio="4455" tipo="Ropa" lugar_eq="Cabeza"/><equipable id="equi002" nombre="Gorra" precio="3946" tipo="Ropa" lugar_eq="Cabeza"/><equipable id="equi003" nombre="Gorro" precio="2467" tipo="Ropa" lugar_eq="Cabeza"/><equipable id="equi004" nombre="Casco" precio="3266" tipo="Ropa" lugar_eq="Cabeza"/><equipable id="equi005" nombre="Botas" precio="1435" tipo="Ropa" lugar_eq="Pie"/><equipable id="equi006" nombre="Sneakers" precio="4600" tipo="Ropa" lugar_eq="Pie"/><equipable id="equi007" nombre="Chanclas" precio="1704" tipo="Ropa" lugar_eq="Pie"/><equipable id="equi008" nombre="Tacones" precio="4509" tipo="Ropa" lugar_eq="Pie"/><equipable id="equi009" nombre="Sandalia" precio="2528" tipo="Ropa" lugar_eq="Pie"/><equipable id="equi010" nombre="Gabardina" precio="2146" tipo="Ropa" lugar_eq="Torso"/><equipable id="equi011" nombre="Hawaiana" precio="3052" tipo="Ropa" lugar_eq="Torso"/><equipable id="equi012" nombre="Camisa" precio="421" tipo="Ropa" lugar_eq="Torso"/><equipable id="equi013" nombre="Poncho" precio="849" tipo="Ropa" lugar_eq="Torso"/><equipable id="equi014" nombre="Camisetita" precio="2138" tipo="Ropa" lugar_eq="Torso"/><equipable id="equi015" nombre="Pala" precio="712" tipo="Herramienta" lugar_eq="Mano"/><equipable id="equi016" nombre="Pico" precio="3427" tipo="Herramienta" lugar_eq="Mano"/><equipable id="equi017" nombre="Sarten" precio="495" tipo="Herramienta" lugar_eq="Mano"/><equipable id="equi018" nombre="Cazamariposas" precio="3675" tipo="Herramienta" lugar_eq="Mano"/></equipables>
+    <equipable id="equi001" nombre="Fedora" precio="4455" tipo="Ropa" lugar_eq="Cabeza" />
+    <equipable id="equi002" nombre="Gorra" precio="3946" tipo="Ropa" lugar_eq="Cabeza" />
+    <equipable id="equi003" nombre="Gorro" precio="2467" tipo="Ropa" lugar_eq="Cabeza" />
+    <equipable id="equi004" nombre="Casco" precio="3266" tipo="Ropa" lugar_eq="Cabeza" />
+    <equipable id="equi005" nombre="Botas" precio="1435" tipo="Ropa" lugar_eq="Pie" />
+    <equipable id="equi006" nombre="Sneakers" precio="4600" tipo="Ropa" lugar_eq="Pie" />
+    <equipable id="equi007" nombre="Chanclas" precio="1704" tipo="Ropa" lugar_eq="Pie" />
+    <equipable id="equi008" nombre="Tacones" precio="4509" tipo="Ropa" lugar_eq="Pie" />
+    <equipable id="equi009" nombre="Sandalia" precio="2528" tipo="Ropa" lugar_eq="Pie" />
+    <equipable id="equi010" nombre="Gabardina" precio="2146" tipo="Ropa" lugar_eq="Torso" />
+    <equipable id="equi011" nombre="Hawaiana" precio="3052" tipo="Ropa" lugar_eq="Torso" />
+    <equipable id="equi012" nombre="Camisa" precio="421" tipo="Ropa" lugar_eq="Torso" />
+    <equipable id="equi013" nombre="Poncho" precio="849" tipo="Ropa" lugar_eq="Torso" />
+    <equipable id="equi014" nombre="Camisetita" precio="2138" tipo="Ropa" lugar_eq="Torso" />
+    <equipable id="equi015" nombre="Pala" precio="712" tipo="Herramienta" lugar_eq="Mano" />
+    <equipable id="equi016" nombre="Pico" precio="3427" tipo="Herramienta" lugar_eq="Mano" />
+    <equipable id="equi017" nombre="Sarten" precio="495" tipo="Herramienta" lugar_eq="Mano" />
+    <equipable id="equi018" nombre="Cazamariposas" precio="3675" tipo="Herramienta" lugar_eq="Mano" />
+</equipables>
