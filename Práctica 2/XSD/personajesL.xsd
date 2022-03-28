@@ -2,7 +2,7 @@
 <xs:element name="personajes">
   <xs:complexType>
     <xs:sequence>
-      <xs:element name="personaje" maxOccurs="1000" minOccurs="0">
+      <xs:element name="personaje" maxOccurs="1000" minOccurs="3">
         <xs:complexType>
           <xs:simpleContent>
             <xs:extension base="xs:string">
