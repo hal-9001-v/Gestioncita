@@ -2,7 +2,7 @@
 <xs:element name="jugadores">
   <xs:complexType>
     <xs:sequence>
-      <xs:element name="jugador" maxOccurs="unbounded" minOccurs="0">
+      <xs:element name="jugador" maxOccurs="1000" minOccurs="0">
         <xs:complexType>
           <xs:simpleContent>
             <xs:extension base="xs:string">

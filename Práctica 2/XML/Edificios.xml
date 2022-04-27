@@ -1,2 +1,19 @@
 <edificios>
-    <edificio id="ed000" tipo="Ayuntamiento"/><edificio id="ed001" tipo="Peluqueria"/><edificio id="ed002" tipo="Peluqueria"/><edificio id="ed003" tipo="Peluqueria"/><edificio id="ed004" tipo="Supermercado"/><edificio id="ed005" tipo="Supermercado"/><edificio id="ed006" tipo="Supermercado"/><edificio id="ed007" tipo="Supermercado"/><edificio id="ed008" tipo="Supermercado"/><edificio id="ed009" tipo="Supermercado"/><edificio id="ed010" tipo="Supermercado"/><edificio id="ed011" tipo="Supermercado"/><edificio id="ed012" tipo="Supermercado"/><edificio id="ed013" tipo="Supermercado"/><edificio id="ed014" tipo="Museo"/><edificio id="ed015" tipo="Museo"/><edificio id="ed016" tipo="Aerodromo"/></edificios>
+	<edificio id="ed000" tipo="Ayuntamiento" />
+	<edificio id="ed001" tipo="Peluqueria" />
+	<edificio id="ed002" tipo="Peluqueria" />
+	<edificio id="ed003" tipo="Peluqueria" />
+	<edificio id="ed004" tipo="Supermercado" />
+	<edificio id="ed005" tipo="Supermercado" />
+	<edificio id="ed006" tipo="Supermercado" />
+	<edificio id="ed007" tipo="Supermercado" />
+	<edificio id="ed008" tipo="Supermercado" />
+	<edificio id="ed009" tipo="Supermercado" />
+	<edificio id="ed010" tipo="Supermercado" />
+	<edificio id="ed011" tipo="Supermercado" />
+	<edificio id="ed012" tipo="Supermercado" />
+	<edificio id="ed013" tipo="Supermercado" />
+	<edificio id="ed014" tipo="Museo" />
+	<edificio id="ed015" tipo="Museo" />
+	<edificio id="ed016" tipo="Aerodromo" />
+</edificios>

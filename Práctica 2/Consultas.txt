@@ -1,0 +1,92 @@
+(: CONSULTA 1: Consultar el nombre y el id de todos los objetos coleccionables cuyo atributo ESTACIÓN sea "Verano" :)
+
+for $coleccionable in doc("coleccionables.xml")/coleccionables/coleccionable
+where $coleccionable/@estacion="Verano"
+return ($coleccionable/@id, $coleccionable/@nombre, "-----")
+
+(: CONSULTA 2: Nombre e id de los objetos coleccionables de tipo pez que aparecen en la localización cascada en la estación otoño:)
+for $coleccionable in doc("coleccionables.xml")/coleccionables/coleccionable
+where $coleccionable/@tipoEsp="Pez" and $coleccionable/@localizacion="Cascada" and $coleccionable/@estacion="Otonio"
+return data($coleccionable/@nombre)
+
+(: CONSULTA 3: Equipables de tipo ropa cuyo lugar equipable es el pie:)
+
+let $equipables := doc("Equipables.xml")/equipables/equipable
+
+
+for $equipable in $equipables
+  where $equipable/@tipo = "Ropa"
+  and 
+  $equipable/@lugar_eq = "Pie"
+
+return $equipable
+
+(: CONSULTA 4: Vecinos agrupados por personalidad :)
+
+let $vecinos := doc("Vecinos.xml")/vecinos/vecino
+
+for $vecino in $vecinos
+  let $personalidad :=  $vecino/@personalidad
+
+  group by $personalidad
+
+return $vecino/@personalidad | $vecino/@nombre 
+
+
+(: CONSULTA 5: Ordenar los muebles por tipo, color y precio, en ese orden :)
+let $muebles:=doc("Muebles.xml")
+for $mueble in $muebles/muebles/mueble
+order by $mueble/@tipo,$mueble/@color,$mueble/@precio
+return ($mueble/@nombre, $mueble/@color, $mueble/@precio, "----")
+
+(: CONSULTA 6: Media de los precios de todos los props por tipo:)
+
+let $propArchivo:=doc("Props.xml")
+let $propTipo:= distinct-values($propArchivo/props/prop/@tipo)
+
+for $tipo in $propTipo
+  let $props:= (
+    for $prop in $propArchivo/props/prop
+    where $prop/@tipo = $tipo
+    return $prop/@precio
+  )
+  
+ return element Tipo_media{($tipo,": ",avg($props))}
+
+
+(: CONSULTA 7: Consultar qué objetos equipables, props y muebles tienen un precio inferior a las bayas que tenga un jugador en concreto:)
+let $propsArchivo:=doc("Props.xml")
+let $equipsArchivo:=doc("Equipables.xml")
+let $mueblesArchivo:=doc("Muebles.xml")
+
+let $jugadasArchivo:= doc("Jugadas.xml")
+
+let $jugadorId:="Jugadores.xml#j001"
+
+let $precioMaximo:=(
+  for $jugador in $jugadasArchivo/jugadas/jugada/jugador
+  where $jugador/@id=$jugadorId
+  return $jugador/bayas/number()
+)
+
+let $equipables:=(
+  for $equipable in $equipsArchivo/equipables/equipable
+  where $equipable/@precio >= $precioMaximo
+  return ($equipable/@nombre, $equipable/@precio)
+)
+
+let $props:=(
+  for $prop in $propsArchivo/props/prop
+  where $prop/@precio >= $precioMaximo
+  return ($prop/@nombre, $prop/@precio)
+)
+
+let $muebles:=(
+  for $mueble in $mueblesArchivo/muebles/mueble
+  where $mueble/@precio < $precioMaximo
+  return ($mueble/@nombre, $mueble/@precio)
+)
+
+
+
+return ($precioMaximo, $muebles)
