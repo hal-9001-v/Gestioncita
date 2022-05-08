@@ -9,7 +9,21 @@
     "edificios":[
         {
             "idEdificio": "ed1",
-            "tipo": "Ayuntamiento"
+            "tipo": "Ayuntamiento",
+            "inventarioEdificio":[
+                {
+                    "objetoId": "col1",
+                    "nombre": "Siluro peculiar",
+                    "stack": 1,
+                    "precio": 10000,
+                    "tipo": "Coleccionable",
+                    "tipoEsp": "Pez",
+                    "estacion":"Verano",
+                    "tamanio": 3,
+                    "localizacion": "Estanque",
+                    "rareza": 1
+                }
+            ]
         }
     ],
     "personajes":[
