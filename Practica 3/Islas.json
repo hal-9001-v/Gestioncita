@@ -1,0 +1,88 @@
+{
+    "_id": "is1",
+    "jugador": "j1",
+    "nombre":"AlcorcOn",
+    "hemisferio":  "N",
+    "fecha": "10-5-2022",
+    "hora": "10:22:23",
+    "climatologia": "Soleado",
+    "edificios":[
+        {
+            "idEdificio": "ed1",
+            "tipo": "Ayuntamiento"
+        }
+    ],
+    "personajes":[
+        {
+            "idPersonaje":"pj1",
+            "nombre":"Canela",
+            "edificio":"ed1"
+        }
+    ],
+    "inventarioIsla":[
+        {
+            "objetoId": "mat1",
+            "stack": 30,
+            "precio": 246,
+            "tipo": "Material",
+            "tipoEsp": "Piedra"
+        },
+        
+        {
+            "objetoId": "mu1",
+            "nombre": "Silla Corazon",
+            "stack": 1,
+            "precio": 246,
+            "color": "Rosa",
+            "tipo": "Mueble",
+            "tipoEsp": "Silla",
+            "conjunto": "Corazon"
+        },
+
+        {
+            "objetoId": "prop1",
+            "nombre": "Margarita mariana",
+            "stack": 10,
+            "precio": 2500,
+            "tipo": "Prop",
+            "tipoEsp": "Flor",
+            "comestible": "No"
+        },
+
+        {
+            "objetoId": "equi1",
+            "nombre": "Fedora fantástica",
+            "stack": 1,
+            "precio": 4500,
+            "tipo": "Equipable",
+            "tipoEsp": "Ropa",
+            "lugar_eq": "Cabeza"
+        },
+
+        {
+            "objetoId": "col1",
+            "nombre": "Siluro peculiar",
+            "stack": 1,
+            "precio": 10000,
+            "tipo": "Coleccionable",
+            "tipoEsp": "Pez",
+            "estacion":"Verano",
+            "tamanio": 3,
+            "localizacion": "Estanque",
+            "rareza": 1
+        }
+
+    ],
+    "vecinos":[
+        {
+           "vecinoId": "vec1", 
+           "nombre": "Joshua",
+           "personalidad": "Alegre",
+           "casa": "c6"
+        }
+    ]
+
+
+
+
+}
