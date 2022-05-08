@@ -5,6 +5,7 @@
     "inventarioCasa":[
         {
             "objetoId": "mat1",
+            "nombre" : "Piedra",
             "stack": 30,
             "precio": 246,
             "tipo": "Material",
