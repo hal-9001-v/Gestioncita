@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="26f098bd-66eb-48a4-8949-c2a67bdf7cf0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Json/casas.json" beforeDir="false" afterPath="$PROJECT_DIR$/Json/casas.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Json/islas.json" beforeDir="false" afterPath="$PROJECT_DIR$/Json/islas.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Json/jugadores.json" beforeDir="false" afterPath="$PROJECT_DIR$/Json/jugadores.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongoWriter.py" beforeDir="false" afterPath="$PROJECT_DIR$/mongoWriter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Práctica 2/gestionWritter.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Práctica 2/gestionWritter.py" afterDir="false" />
+    <list default="true" id="c18f2dbf-2567-4072-beb4-cfe3bcea932d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Practica 3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Practica 3/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,10 +12,8 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProjectId" id="28wBlEA7CaBWyTJcPY3jcQ3D4OB" />
+  <component name="ProjectId" id="28wBWrGsTRBzOgzkuXYtFr7J6Jj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -31,10 +21,10 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/mongoWriter.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Practica 3" />
   </component>
   <component name="RunManager">
-    <configuration name="mongoWriter" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="mongoGestion" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -46,7 +36,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mongoWriter.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -59,11 +49,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="26f098bd-66eb-48a4-8949-c2a67bdf7cf0" name="Changes" comment="" />
-      <created>1652117917128</created>
+      <changelist id="c18f2dbf-2567-4072-beb4-cfe3bcea932d" name="Changes" comment="" />
+      <created>1652117801770</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1652117917128</updated>
+      <updated>1652117801770</updated>
     </task>
     <servers />
   </component>
@@ -77,16 +67,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/mongoWriter.py</url>
-          <line>516</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

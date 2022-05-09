@@ -29,9 +29,12 @@ class InventoryObject:
 class MaterialObject:
     def __init__(self, nombre, stack, precio, tipo, tipoEsp):
         global mueble_id_count
+        global all_objects
 
         self.inventoryObject = InventoryObject("mat" + str(mueble_id_count), nombre, stack, precio, tipo, tipoEsp)
         mueble_id_count += 1
+
+        all_objects.append(self.get_dict())
 
     def get_dict(self):
         base_dict = self.inventoryObject.get_dict()
@@ -42,12 +45,15 @@ class MaterialObject:
 class MuebleObject:
     def __init__(self, nombre, stack, precio, tipo, tipoEsp, color, conjunto):
         global mueble_id_count
+        global all_objects
 
         self.inventoryObject = InventoryObject("mu" + str(mueble_id_count), nombre, stack, precio, tipo, tipoEsp)
         mueble_id_count += 1
 
         self.color = color
         self.conjunto = conjunto
+
+        all_objects.append(self.get_dict())
 
     def get_dict(self):
         base_dict = self.inventoryObject.get_dict()
@@ -63,10 +69,14 @@ class MuebleObject:
 class PropObject:
     def __init__(self, nombre, stack, precio, tipo, tipoEsp, comestible):
         global prop_id_count
+        global all_objects
+
         self.inventoryObject = InventoryObject("prop" + str(prop_id_count), nombre, stack, precio, tipo, tipoEsp)
         prop_id_count += 1
 
         self.comestible = comestible
+
+        all_objects.append(self.get_dict())
 
     def get_dict(self):
         base_dict = self.inventoryObject.get_dict()
@@ -81,11 +91,14 @@ class PropObject:
 class EquipableObject:
     def __init__(self, nombre, stack, precio, tipo, tipoEsp, lugar_eq):
         global prop_id_count
+        global all_objects
 
         self.inventoryObject = InventoryObject("equi" + str(prop_id_count), nombre, stack, precio, tipo, tipoEsp)
         prop_id_count += 1
 
         self.lugar_eq = lugar_eq
+
+        all_objects.append(self.get_dict())
 
     def get_dict(self):
         base_dict = self.inventoryObject.get_dict()
@@ -100,6 +113,7 @@ class EquipableObject:
 class ColeccionableObject:
     def __init__(self, nombre, stack, precio, tipo, tipoEsp, estacion, tamanio, localizacion, rareza):
         global coleccionable_id_count
+        global all_objects
 
         self.inventoryObject = InventoryObject("col" + str(coleccionable_id_count), nombre, stack, precio, tipo,
                                                tipoEsp)
@@ -109,6 +123,8 @@ class ColeccionableObject:
         self.tamanio = tamanio
         self.localizacion = localizacion
         self.rareza = rareza
+
+        all_objects.append(self.get_dict())
 
     def get_dict(self):
         base_dict = self.inventoryObject.get_dict()
@@ -129,6 +145,7 @@ file_path = os.path.dirname(__file__) + "\\Json\\"
 casas_path = file_path + "casas.json"
 jugadores_path = file_path + "jugadores.json"
 isla_path = file_path + "islas.json"
+objeto_path = file_path + "objetos.json"
 
 player_id_count = 0
 mueble_id_count = 0
@@ -137,10 +154,20 @@ material_id_count = 0
 prop_id_count = 0
 equipable_id_count = 0
 
+personaje_id_count = 0
+
 casa_id_count = 0
+
+isla_id_count = 0
 
 edificio_id_count = 0
 
+vecino_id_count = 0
+
+all_objects = []
+all_casas = []
+all_jugadores = []
+all_vecinos = []
 
 
 def get_random_color():
@@ -187,7 +214,7 @@ def get_material_dict_list(size):
         tipo = "Material"
         tipoEsp = name
 
-        dict_list.append(MaterialObject(name+ " " + get_adjective(), stack, precio, tipo, tipoEsp).get_dict())
+        dict_list.append(MaterialObject(name + " " + get_adjective(), stack, precio, tipo, tipoEsp).get_dict())
 
     return dict_list
 
@@ -323,7 +350,8 @@ def get_mueble_dict_list(size):
         tipoEsp = name
         conjunto = conjuntos[random.randint(0, len(conjuntos) - 1)]
 
-        dict_list.append(MuebleObject(name+ " " + get_adjective(), stack, precio, tipo, tipoEsp, color, conjunto).get_dict())
+        dict_list.append(
+            MuebleObject(name + " " + get_adjective(), stack, precio, tipo, tipoEsp, color, conjunto).get_dict())
 
     return dict_list
 
@@ -334,71 +362,87 @@ def write_file(file, values):
     file.close()
 
 
-def write_casas(casa_count):
-    global casas_path
+def find_casa_by_id(casa_id):
+    global all_casas
+    casa_index = casa_id.replace('c', "")
+    casa_index = int(casa_index)
 
-    casas = []
-    for i in range(casa_count):
-        casa_dict = {"_id": "c" + str(i),
-                     "colorFachada": get_random_color(),
-                     "colorTejado": get_random_color(),
-
-                     "inventarioCasa": (get_col_dict_list(random.randint(0, 5))
-                                        + get_equip_dict_list(random.randint(0, 5))
-                                        + get_prop_dict_list(random.randint(0, 5))
-                                        + get_material_dict_list(random.randint(0, 5))
-                                        + get_mueble_dict_list(random.randint(0, 5))
-                                        )
-                     }
-        casas.append(casa_dict)
-
-    write_file(casas_path, {"Casas": casas})
+    return all_casas[casa_index]
 
 
-def write_players(size):
+def get_casa():
+    global casa_id_count
+    global casas_list
+    global all_casas
+
+    casa_dict = {"_id": "c" + str(casa_id_count),
+                 "colorFachada": get_random_color(),
+                 "colorTejado": get_random_color(),
+
+                 "inventarioCasa": (get_col_dict_list(random.randint(0, 5))
+                                    + get_equip_dict_list(random.randint(0, 5))
+                                    + get_prop_dict_list(random.randint(0, 5))
+                                    + get_material_dict_list(random.randint(0, 5))
+                                    + get_mueble_dict_list(random.randint(0, 5))
+                                    )
+                 }
+
+    casa_id_count += 1
+    all_casas.append(casa_dict)
+
+    return casa_dict
+
+
+def get_player():
     global jugadores_path
-    if size > 4:
-        size = 4
+    global player_id_count
+    global all_players
+    global all_vecinos
 
     nombres = ["Pepito", "Juana", "Jennifer", "Stella"]
+    name_id = player_id_count % len(nombres)
 
     bayas_list = [1000, 2000, 3000, 12000]
 
-    jugadores = []
-    for i in range(size):
-        player_id = "j" + str(i)
-        nombre = nombres[i]
-        casa = "c" + str(i)
-        bayas = bayas_list[random.randint(0, len(bayas_list) - 1)]
-        millas = bayas_list[random.randint(0, len(bayas_list) - 1)]
+    player_id = "j" + str(player_id_count)
+    player_id_count += 1
+    nombre = nombres[name_id]
 
-        inventario = get_mueble_dict_list(random.randint(0, 3)) + \
-                     get_equip_dict_list(random.randint(0, 10)) + \
-                     get_col_dict_list(random.randint(0, 3)) + \
-                     get_material_dict_list(random.randint(0, 3)) + \
-                     get_prop_dict_list(random.randint(0, 3))
+    casa = get_casa()
 
-        vecinos = []
+    bayas = bayas_list[random.randint(0, len(bayas_list) - 1)]
+    millas = bayas_list[random.randint(0, len(bayas_list) - 1)]
 
-        jugador_dict = {
-            "_id": player_id,
-            "nombre": nombre,
-            "casa": casa,
-            "bayas": bayas,
-            "millas": millas,
+    inventario = get_mueble_dict_list(random.randint(0, 3)) + \
+                 get_equip_dict_list(random.randint(0, 10)) + \
+                 get_col_dict_list(random.randint(0, 3)) + \
+                 get_material_dict_list(random.randint(0, 3)) + \
+                 get_prop_dict_list(random.randint(0, 3))
 
-            "inventarioObjetos": inventario,
-            "vecinos": vecinos
-        }
+    vecinos = []
 
-        jugadores.append(jugador_dict)
+    jugador_dict = {
+        "_id": player_id,
+        "nombre": nombre,
+        "casa": casa["_id"],
+        "bayas": bayas,
+        "millas": millas,
 
-    write_file(jugadores_path, {"Jugadores": jugadores})
+        "inventarioObjetos": inventario,
+        "vecinos": vecinos
+    }
+
+    all_jugadores.append(jugador_dict)
+
+    return jugador_dict
 
 
 def write_islas(isla_count):
     global isla_path
     global edificio_id_count
+    global all_casas
+    global isla_id_count
+    global personaje_id_count
 
     islas = []
     nombres = ["AlcorOn", "SouthPeru", "MostToLess", "TorriHoes", "WestMadriz"]
@@ -407,38 +451,164 @@ def write_islas(isla_count):
     fechas = ["10-5-2022", "9-5-2022", "11-5-2022", "12-5-2022"]
     horas = ["8:22:23", "9:22:23", "10:22:23", "11:22:23", "12:22:23", "13:22:23", "14:22:23"]
     climatologias = ["Nublado", "Soleado", "Tormenta", "Lluvia", "Nieve", "Muy Soleado", "Calima"]
-    edificios = ["Ayuntamiento", "Museo", "Tienda", "Peluqueria"]
-
-    edificios_dict_list = []
-
-    for i in range(len(edificios) - 1):
-        dict = {
-            "idEdificio": "ed" + str(edificio_id_count),
-            "tipo": edificios[i],
-            "inventarioEdificio": get_mueble_dict_list(random.randint(0, 5)) +
-                                  get_col_dict_list(random.randint(0, 5)) +
-                                  get_mueble_dict_list(random.randint(0, 5)) +
-                                  get_prop_dict_list(random.randint(0, 5)) +
-                                  get_material_dict_list(random.randint(0, 5)) +
-                                  get_equip_dict_list(random.randint(0, 2))
-        }
-        edificio_id_count += 1
-        edificios_dict_list.append(dict)
+    edificios = ["Ayuntamiento", "Museo", "Tienda", "Peluqueria", "Aerodromo"]
+    personajes_names = ["Tom Nook", "Canela", "Arquimedes", "Pili y Mili", "Marilin", "Rodri y Rafa"]
 
     for i in range(isla_count):
-        isla_dict = {"_id": "is" + str(i),
-                     "jugador": "j" + str(i),
+        jugadores = []
+        vecinos = []
+        casas_de_isla = []
+        objetos_de_isla = []
+
+        edificios_dict_list = []
+
+        edificios_ids = []
+        for i in range(len(edificios)):
+            dict = {
+                "idEdificio": "ed" + str(edificio_id_count),
+                "tipo": edificios[i],
+                "inventarioEdificio": get_mueble_dict_list(random.randint(0, 5)) +
+                                      get_col_dict_list(random.randint(0, 5)) +
+                                      get_mueble_dict_list(random.randint(0, 5)) +
+                                      get_prop_dict_list(random.randint(0, 5)) +
+                                      get_material_dict_list(random.randint(0, 5)) +
+                                      get_equip_dict_list(random.randint(0, 2))
+            }
+
+            edificios_ids.append(dict["idEdificio"])
+            edificio_id_count += 1
+            edificios_dict_list.append(dict)
+
+        for i in range(random.randint(2, 8)):
+            new_vecino = get_vecino()
+            vecinos.append(new_vecino)
+
+            casa_id = new_vecino["casa"]
+            casas_de_isla.append(casa_id)
+
+            # Find casa
+            casa = find_casa_by_id(casa_id)
+            objetos_de_isla += casa["inventarioCasa"]
+
+        for i in range(random.randint(1, 3)):
+            new_jugador = get_player()
+
+            jugadores.append(new_jugador["_id"])
+
+            casas_de_isla.append(new_jugador["casa"])
+
+            casa = find_casa_by_id(new_jugador["casa"])
+
+            objetos_de_isla.append(casa["inventarioCasa"])
+
+            for j in range(len(vecinos)):
+                all_vecinos_copy = all_vecinos.copy()
+
+                for i in range(2, 5):
+                    random_index = random.randint(0, len(all_vecinos_copy) - 1)
+                    new_vecino = all_vecinos_copy.pop(random_index)
+
+                    new_jugador["vecinos"].append({
+                        "vecinoId": new_vecino["vecinoId"],
+                        "amistad": random.randint(1, 10)
+
+                    })
+
+        personajes_dict = [
+            {
+                "idPersonaje": "pj" + str(personaje_id_count),
+                "nombre": "Tom Nook",
+                "edificioId": edificios_ids[0]
+            },
+            {
+                "idPersonaje": "pj" + str(personaje_id_count + 1),
+                "nombre": "Canela",
+                "edificioId": edificios_ids[0]
+            },
+            {
+                "idPersonaje": "pj" + str(personaje_id_count + 2),
+                "nombre": "Arquimedes",
+                "edificioId": edificios_ids[1]
+            },
+            {
+                "idPersonaje": "pj" + str(personaje_id_count + 3),
+                "nombre": "Pili y Mili",
+                "edificioId": edificios_ids[2]
+            },
+            {
+                "idPersonaje": "pj" + str(personaje_id_count + 4),
+                "nombre": "Marilin",
+                "edificioId": edificios_ids[3]
+            },
+            {
+                "idPersonaje": "pj" + str(personaje_id_count + 5),
+                "nombre": "Rodri y Rafa",
+                "edificioId": edificios_ids[4]
+            }
+        ]
+
+        personaje_id_count += 5
+
+        isla_dict = {"_id": "is" + str(isla_id_count),
+                     "jugadores": jugadores,
                      "nombre": nombres[i % len(nombres)],
                      "hemisferio": hemisferios[random.randint(0, len(hemisferios) - 1)],
                      "fecha": fechas[random.randint(0, len(fechas) - 1)],
                      "hora": horas[random.randint(0, len(fechas) - 1)],
                      "climatologia": climatologias[random.randint(0, len(climatologias) - 1)],
-                     "edificios": edificios_dict_list
-        }
+                     "edificios": edificios_dict_list,
+                     "personajes": personajes_dict,
+                     "inventarioIsla": objetos_de_isla,
+                     "casas": casas_de_isla,
+                     "vecinos": vecinos
+                     }
         islas.append(isla_dict)
+        isla_id_count += 1
 
     write_file(isla_path, {"Islas": islas})
 
-write_players(5)
-write_casas(10)
+
+def get_vecino():
+    global vecino_id_count
+    global all_vecinos
+
+    names = ["Paco", "Joshua", "Patri", "Marcelyn", "Apollo", "Steacy", "Carlos", "Queque", "Ariel",
+             "Narciso", "Munchi", "Morfeo", "Rosezna", "Luna", "Alderia", "Adela", "Agreste", "Alba",
+             "Albino", "Aliste", "Cabriola", "Cabralex", "Cachemir", "Camelio", "Babu", "Bambina", "Bayo",
+             "Bea", "Beelen", "Belinda", "Bella", "Benito", "Deira", "Dentina", "Dori", "Draco", "Dragonio",
+             "Deivid", "Fabiola", "Fardilla", "Fauna", "Feli", "Felipe" "Gabino", "Ganon", "Gaston",
+             "Hanalulu", "Hans", "Harpo", "Isadora", "Jacinto", "Jacobo", "Jaime", "Jairo", "Kabuki",
+             "Kaiman", "Kasandra", "Katia", "Lali", "Lanolina", "Lili", "Madam Rosa", "Magenta", "Marcial",
+             "Nabar", "Nachete", "Nana", "Narciso", "Octavio", "Octoberto", "Ofelia", "Pablo", "Paquito",
+             "Quetzal", "Radiolo", "Ramina", "Sabana", "Saltiago", "Sanson", "Tabita", "Talia", "Tami",
+             "Tania", "Ulises", "Uno", "Vacarena", "Wanda", "Wolfi", "Yuka", "Zapiron", "Zelanda"
+             ]
+
+    personalidades = ["Atletico", "Esnob", "Grunion", "Perezoso", "Alegre", "Dulce", "Presumida", "Normal"]
+
+    casa = get_casa()
+
+    name_id = vecino_id_count
+    if vecino_id_count >= len(names):
+        name_id = name_id % len(names)
+
+        print("Care: Names are repeated!")
+
+    vecino_dict = {
+        "vecinoId": "vec" + str(name_id),
+        "nombre": names[vecino_id_count],
+        "personalidad": personalidades[random.randint(0, len(personalidades) - 1)],
+        "casa": casa["_id"]
+    }
+    vecino_id_count += 1
+
+    all_vecinos.append(vecino_dict)
+
+    return vecino_dict
+
+
 write_islas(3)
+
+write_file(objeto_path, {"Objetos": all_objects})
+write_file(casas_path, {"Casas": all_casas})
+write_file(jugadores_path, {"Jugadores": all_jugadores})

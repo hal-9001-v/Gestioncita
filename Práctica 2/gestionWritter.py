@@ -345,7 +345,7 @@ def create_props():
             prop_counter += 1
 
 
-def create_vecinos():
+def get_vecino():
     # Vecinos
     nombres_vecinos = ["Paco", "Joshua", "Patri", "Marcelyn", "Apollo", "Steacy", "Carlos", "Queque", "Ariel",
                        "Narciso", "Munchi", "Morfeo", "Rosezna", "Luna", "Alderia", "Adela", "Agreste", "Alba",
