@@ -470,27 +470,27 @@ def write_islas(isla_count):
 
         personajes_dict = [
             {
-                "idPersonaje": "pj" + str(personaje_id_count),
+                "_id": "pj" + str(personaje_id_count),
                 "nombre": "Tom Nook",
             },
             {
-                "idPersonaje": "pj" + str(personaje_id_count + 1),
+                "_id": "pj" + str(personaje_id_count + 1),
                 "nombre": "Canela",
             },
             {
-                "idPersonaje": "pj" + str(personaje_id_count + 2),
+                "_id": "pj" + str(personaje_id_count + 2),
                 "nombre": "Arquimedes",
             },
             {
-                "idPersonaje": "pj" + str(personaje_id_count + 3),
+                "_id": "pj" + str(personaje_id_count + 3),
                 "nombre": "Pili y Mili",
             },
             {
-                "idPersonaje": "pj" + str(personaje_id_count + 4),
+                "_id": "pj" + str(personaje_id_count + 4),
                 "nombre": "Marilin",
             },
             {
-                "idPersonaje": "pj" + str(personaje_id_count + 5),
+                "_id": "pj" + str(personaje_id_count + 5),
                 "nombre": "Rodri y Rafa",
             }
         ]
@@ -511,7 +511,7 @@ def write_islas(isla_count):
                 personajes = [personajes_dict[5]]
 
             dict = {
-                "idEdificio": "ed" + str(edificio_id_count),
+                "_id": "ed" + str(edificio_id_count),
                 "tipo": edificios[i],
                 "personajes": personajes,
 
