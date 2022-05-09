@@ -28,11 +28,11 @@ class InventoryObject:
 
 class MaterialObject:
     def __init__(self, nombre, stack, precio, tipo, tipoEsp):
-        global mueble_id_count
+        global material_id_count
         global all_objects
 
         self.inventoryObject = InventoryObject("mat" + str(mueble_id_count), nombre, stack, precio, tipo, tipoEsp)
-        mueble_id_count += 1
+        material_id_count += 1
 
         all_objects.append(self.get_dict())
 
@@ -90,11 +90,11 @@ class PropObject:
 
 class EquipableObject:
     def __init__(self, nombre, stack, precio, tipo, tipoEsp, lugar_eq):
-        global prop_id_count
+        global equipable_id_count
         global all_objects
 
-        self.inventoryObject = InventoryObject("equi" + str(prop_id_count), nombre, stack, precio, tipo, tipoEsp)
-        prop_id_count += 1
+        self.inventoryObject = InventoryObject("equi" + str(equipable_id_count), nombre, stack, precio, tipo, tipoEsp)
+        equipable_id_count += 1
 
         self.lugar_eq = lugar_eq
 
