@@ -399,14 +399,19 @@ def get_player():
     global all_players
     global all_vecinos
 
-    nombres = ["Pepito", "Juana", "Jennifer", "Stella"]
-    name_id = player_id_count % len(nombres)
+    nombres = ["Pepito", "Juana", "Jennifer", "Stella", "Antonio", "Marco", "Marcela", "Diego", "Dolores", "Lola",
+               "Pedrito", "Jose", "Stuart", "John", "Harry",
+               "Constantino", "Miguel", "Carlitos", "Isabela", "Elisa", "Ludwig", "Caluro", "Oscar", "Solaire", "Largo",
+               "Daniel", "Julio", "Alfonso", "Humberto",
+               "Roberto", "Alicia", "Ana", "Dolly", "Yerma", "Eva", "Ivan", "Alejandro",
+               "David", "Elena", "Carmen", "Joseph", "Charlie", "Elias", "Pablito",
+               "Laura", "Carolina", "Adrian", "Francisco", "Sara", "Julia", "Paula", "Sofia", "Dorotea", "Lupita",
+               "Josefa"]
 
     bayas_list = [1000, 2000, 3000, 12000]
 
-    player_id = "j" + str(player_id_count)
     player_id_count += 1
-    nombre = nombres[name_id]
+    nombre = nombres[player_id_count % len(nombres)]
 
     casa = get_casa()
 
@@ -422,8 +427,10 @@ def get_player():
     vecinos = []
 
     jugador_dict = {
-        "_id": player_id,
+        "_id": "j" + str(player_id_count),
         "nombre": nombre,
+        "Cupleanios": str(random.randint(1, 29)) + "/" + str(random.randint(1, 12)) + "/" + str(
+            random.randint(1990, 2005)),
         "casa": casa["_id"],
         "bayas": bayas,
         "millas": millas,
@@ -452,7 +459,6 @@ def write_islas(isla_count):
     horas = ["8:22:23", "9:22:23", "10:22:23", "11:22:23", "12:22:23", "13:22:23", "14:22:23"]
     climatologias = ["Nublado", "Soleado", "Tormenta", "Lluvia", "Nieve", "Muy Soleado", "Calima"]
     edificios = ["Ayuntamiento", "Museo", "Tienda", "Peluqueria", "Aerodromo"]
-    personajes_names = ["Tom Nook", "Canela", "Arquimedes", "Pili y Mili", "Marilin", "Rodri y Rafa"]
 
     for i in range(isla_count):
         jugadores = []
@@ -462,11 +468,51 @@ def write_islas(isla_count):
 
         edificios_dict_list = []
 
-        edificios_ids = []
+        personajes_dict = [
+            {
+                "idPersonaje": "pj" + str(personaje_id_count),
+                "nombre": "Tom Nook",
+            },
+            {
+                "idPersonaje": "pj" + str(personaje_id_count + 1),
+                "nombre": "Canela",
+            },
+            {
+                "idPersonaje": "pj" + str(personaje_id_count + 2),
+                "nombre": "Arquimedes",
+            },
+            {
+                "idPersonaje": "pj" + str(personaje_id_count + 3),
+                "nombre": "Pili y Mili",
+            },
+            {
+                "idPersonaje": "pj" + str(personaje_id_count + 4),
+                "nombre": "Marilin",
+            },
+            {
+                "idPersonaje": "pj" + str(personaje_id_count + 5),
+                "nombre": "Rodri y Rafa",
+            }
+        ]
+        personaje_id_count += 6
+
         for i in range(len(edificios)):
+
+            personajes = []
+            if i == 0:
+                personajes = [personajes_dict[0], personajes_dict[1]]
+            elif i == 1:
+                personajes = [personajes_dict[2]]
+            elif i == 2:
+                personajes = [personajes_dict[3]]
+            elif i == 3:
+                personajes = [personajes_dict[4]]
+
             dict = {
                 "idEdificio": "ed" + str(edificio_id_count),
                 "tipo": edificios[i],
+                "personajes": personajes,
+
                 "inventarioEdificio": get_mueble_dict_list(random.randint(0, 5)) +
                                       get_col_dict_list(random.randint(0, 5)) +
                                       get_mueble_dict_list(random.randint(0, 5)) +
@@ -475,7 +521,6 @@ def write_islas(isla_count):
                                       get_equip_dict_list(random.randint(0, 2))
             }
 
-            edificios_ids.append(dict["idEdificio"])
             edificio_id_count += 1
             edificios_dict_list.append(dict)
 
@@ -501,53 +546,20 @@ def write_islas(isla_count):
 
             objetos_de_isla.append(casa["inventarioCasa"])
 
-            for j in range(len(vecinos)):
-                all_vecinos_copy = all_vecinos.copy()
+            vecinos_copy = vecinos.copy()
 
-                for i in range(2, 5):
-                    random_index = random.randint(0, len(all_vecinos_copy) - 1)
-                    new_vecino = all_vecinos_copy.pop(random_index)
+            for i in range(2, 5):
+                if len(vecinos_copy) == 0:
+                    break
 
-                    new_jugador["vecinos"].append({
-                        "vecinoId": new_vecino["vecinoId"],
-                        "amistad": random.randint(1, 10)
+                random_index = random.randint(0, len(vecinos_copy) - 1)
+                new_vecino = vecinos_copy.pop(random_index)
 
-                    })
+                new_jugador["vecinos"].append({
+                    "vecinoId": new_vecino["vecinoId"],
+                    "amistad": random.randint(1, 10)
 
-        personajes_dict = [
-            {
-                "idPersonaje": "pj" + str(personaje_id_count),
-                "nombre": "Tom Nook",
-                "edificioId": edificios_ids[0]
-            },
-            {
-                "idPersonaje": "pj" + str(personaje_id_count + 1),
-                "nombre": "Canela",
-                "edificioId": edificios_ids[0]
-            },
-            {
-                "idPersonaje": "pj" + str(personaje_id_count + 2),
-                "nombre": "Arquimedes",
-                "edificioId": edificios_ids[1]
-            },
-            {
-                "idPersonaje": "pj" + str(personaje_id_count + 3),
-                "nombre": "Pili y Mili",
-                "edificioId": edificios_ids[2]
-            },
-            {
-                "idPersonaje": "pj" + str(personaje_id_count + 4),
-                "nombre": "Marilin",
-                "edificioId": edificios_ids[3]
-            },
-            {
-                "idPersonaje": "pj" + str(personaje_id_count + 5),
-                "nombre": "Rodri y Rafa",
-                "edificioId": edificios_ids[4]
-            }
-        ]
-
-        personaje_id_count += 5
+                })
 
         isla_dict = {"_id": "is" + str(isla_id_count),
                      "jugadores": jugadores,
@@ -557,7 +569,6 @@ def write_islas(isla_count):
                      "hora": horas[random.randint(0, len(fechas) - 1)],
                      "climatologia": climatologias[random.randint(0, len(climatologias) - 1)],
                      "edificios": edificios_dict_list,
-                     "personajes": personajes_dict,
                      "inventarioIsla": objetos_de_isla,
                      "casas": casas_de_isla,
                      "vecinos": vecinos
