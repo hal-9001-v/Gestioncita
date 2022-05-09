@@ -16,7 +16,7 @@ class InventoryObject:
         return json.dumps(self.getDict())
 
     def get_dict(self):
-        dict_values = {"objetoId": self.objetoId,
+        dict_values = {"_id": self.objetoId,
                        "nombre": self.nombre,
                        "stack": self.stack,
                        "precio": self.precio,
@@ -558,7 +558,7 @@ def write_islas(isla_count):
                 new_vecino = vecinos_copy.pop(random_index)
 
                 new_jugador["vecinos"].append({
-                    "vecinoId": new_vecino["vecinoId"],
+                    "_id": new_vecino["_id"],
                     "amistad": random.randint(1, 10)
 
                 })
@@ -608,7 +608,7 @@ def get_vecino():
         print("Care: Names are repeated!")
 
     vecino_dict = {
-        "vecinoId": "vec" + str(name_id),
+        "_id": "vec" + str(name_id),
         "nombre": names[vecino_id_count],
         "personalidad": personalidades[random.randint(0, len(personalidades) - 1)],
         "casa": casa["_id"]
