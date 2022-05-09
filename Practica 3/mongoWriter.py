@@ -429,7 +429,7 @@ def get_player():
     jugador_dict = {
         "_id": "j" + str(player_id_count),
         "nombre": nombre,
-        "Cupleanios": str(random.randint(1, 29)) + "/" + str(random.randint(1, 12)) + "/" + str(
+        "cumpleanios": str(random.randint(1, 29)) + "-" + str(random.randint(1, 12)) + "-" + str(
             random.randint(1990, 2005)),
         "casa": casa["_id"],
         "bayas": bayas,
@@ -507,6 +507,8 @@ def write_islas(isla_count):
                 personajes = [personajes_dict[3]]
             elif i == 3:
                 personajes = [personajes_dict[4]]
+            elif i == 4:
+                personajes = [personajes_dict[5]]
 
             dict = {
                 "idEdificio": "ed" + str(edificio_id_count),
