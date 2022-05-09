@@ -81,7 +81,7 @@
           "comestible": false
         },
         {
-          "objetoId": "mu12",
+          "objetoId": "mat12",
           "nombre": "Metal Magnifico",
           "stack": 200,
           "precio": 300,
@@ -89,7 +89,7 @@
           "tipoEsp": "Metal"
         },
         {
-          "objetoId": "mu13",
+          "objetoId": "mat13",
           "nombre": "Ceramica de Locos",
           "stack": 20,
           "precio": 200,
@@ -233,7 +233,7 @@
           "comestible": false
         },
         {
-          "objetoId": "mu14",
+          "objetoId": "mat14",
           "nombre": "Cemento muy Especial",
           "stack": 200,
           "precio": 10,
@@ -241,7 +241,7 @@
           "tipoEsp": "Cemento"
         },
         {
-          "objetoId": "mu15",
+          "objetoId": "mat15",
           "nombre": "Ceramica Interesante",
           "stack": 10,
           "precio": 300,
@@ -249,7 +249,7 @@
           "tipoEsp": "Ceramica"
         },
         {
-          "objetoId": "mu16",
+          "objetoId": "mat16",
           "nombre": "Cemento Especial",
           "stack": 20,
           "precio": 200,
@@ -257,7 +257,7 @@
           "tipoEsp": "Cemento"
         },
         {
-          "objetoId": "mu17",
+          "objetoId": "mat17",
           "nombre": "Barro Estilizado",
           "stack": 100,
           "precio": 500,
@@ -265,7 +265,7 @@
           "tipoEsp": "Barro"
         },
         {
-          "objetoId": "mu18",
+          "objetoId": "mat18",
           "nombre": "Ceramica Estilizado",
           "stack": 100,
           "precio": 100,

@@ -93,7 +93,7 @@
           "comestible": false
         },
         {
-          "objetoId": "mu0",
+          "objetoId": "mat0",
           "nombre": "Piedra Magnifico",
           "stack": 200,
           "precio": 250,
@@ -101,7 +101,7 @@
           "tipoEsp": "Piedra Magnifico"
         },
         {
-          "objetoId": "mu1",
+          "objetoId": "mat1",
           "nombre": "Cemento Atractivo",
           "stack": 20,
           "precio": 250,
@@ -109,7 +109,7 @@
           "tipoEsp": "Cemento Atractivo"
         },
         {
-          "objetoId": "mu2",
+          "objetoId": "mat2",
           "nombre": "Cemento Azulado",
           "stack": 10,
           "precio": 100,
@@ -117,7 +117,7 @@
           "tipoEsp": "Cemento Azulado"
         },
         {
-          "objetoId": "mu3",
+          "objetoId": "mat3",
           "nombre": "Madera que da que pensar",
           "stack": 10,
           "precio": 200,
@@ -337,7 +337,7 @@
           "comestible": false
         },
         {
-          "objetoId": "mu10",
+          "objetoId": "mat10",
           "nombre": "Barro Precioso",
           "stack": 300,
           "precio": 10,
@@ -345,7 +345,7 @@
           "tipoEsp": "Barro Precioso"
         },
         {
-          "objetoId": "mu11",
+          "objetoId": "mat11",
           "nombre": "Ceramica muy Cuqui",
           "stack": 200,
           "precio": 250,
@@ -353,7 +353,7 @@
           "tipoEsp": "Ceramica muy Cuqui"
         },
         {
-          "objetoId": "mu12",
+          "objetoId": "mat12",
           "nombre": "Cemento Curioso",
           "stack": 100,
           "precio": 500,
@@ -463,7 +463,7 @@
           "comestible": false
         },
         {
-          "objetoId": "mu15",
+          "objetoId": "mat15",
           "nombre": "Barro Estilizado",
           "stack": 300,
           "precio": 150,
@@ -471,7 +471,7 @@
           "tipoEsp": "Barro Estilizado"
         },
         {
-          "objetoId": "mu16",
+          "objetoId": "mat16",
           "nombre": "Cemento Correcto",
           "stack": 20,
           "precio": 100,
@@ -479,7 +479,7 @@
           "tipoEsp": "Cemento Correcto"
         },
         {
-          "objetoId": "mu17",
+          "objetoId": "mat17",
           "nombre": "Metal Impresionante",
           "stack": 200,
           "precio": 10,
@@ -593,7 +593,7 @@
           "lugar_eq": "Piernas"
         },
         {
-          "objetoId": "mu21",
+          "objetoId": "mat21",
           "nombre": "Cemento Genial",
           "stack": 20,
           "precio": 200,
@@ -601,7 +601,7 @@
           "tipoEsp": "Cemento Genial"
         },
         {
-          "objetoId": "mu22",
+          "objetoId": "mat22",
           "nombre": "Piedra Curioso",
           "stack": 10,
           "precio": 100,
@@ -609,7 +609,7 @@
           "tipoEsp": "Piedra Curioso"
         },
         {
-          "objetoId": "mu23",
+          "objetoId": "mat23",
           "nombre": "Cemento Comun",
           "stack": 100,
           "precio": 500,

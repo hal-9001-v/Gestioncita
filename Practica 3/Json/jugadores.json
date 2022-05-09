@@ -6,6 +6,7 @@
       "casa": "c0",
       "bayas": 2000,
       "millas": 12000,
+      "cumpleanios":"10-05-2000",
       "inventarioObjetos": [
         {
           "objetoId": "equi0",
@@ -92,7 +93,7 @@
           "rareza": 1
         },
         {
-          "objetoId": "mu0",
+          "objetoId": "mat0",
           "nombre": "Cemento Atractivo",
           "stack": 300,
           "precio": 250,
@@ -108,6 +109,7 @@
       "casa": "c1",
       "bayas": 1000,
       "millas": 1000,
+      "cumpleanios":"18-04-2000",
       "inventarioObjetos": [
         {
           "objetoId": "mu1",
@@ -229,6 +231,8 @@
       "casa": "c2",
       "bayas": 12000,
       "millas": 1000,
+      "cumpleanios":"05-10-2000",
+
       "inventarioObjetos": [
         {
           "objetoId": "mu4",
@@ -265,7 +269,7 @@
           "rareza": 10
         },
         {
-          "objetoId": "mu5",
+          "objetoId": "mat5",
           "nombre": "Piedra Pijito",
           "stack": 200,
           "precio": 200,
@@ -273,7 +277,7 @@
           "tipoEsp": "Piedra"
         },
         {
-          "objetoId": "mu6",
+          "objetoId": "mat6",
           "nombre": "Metal Mediocre",
           "stack": 100,
           "precio": 500,
@@ -298,6 +302,8 @@
       "casa": "c3",
       "bayas": 2000,
       "millas": 3000,
+      "cumpleanios":"10-06-2005",
+
       "inventarioObjetos": [
         {
           "objetoId": "mu7",
@@ -423,7 +429,7 @@
           "rareza": 2
         },
         {
-          "objetoId": "mu10",
+          "objetoId": "mat10",
           "nombre": "Ceramica que no esta mal",
           "stack": 20,
           "precio": 500,
@@ -431,7 +437,7 @@
           "tipoEsp": "Ceramica"
         },
         {
-          "objetoId": "mu11",
+          "objetoId": "mat11",
           "nombre": "Metal Atractivo",
           "stack": 200,
           "precio": 500,

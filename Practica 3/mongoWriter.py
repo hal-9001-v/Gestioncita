@@ -30,7 +30,7 @@ class MaterialObject:
     def __init__(self, nombre, stack, precio, tipo, tipoEsp):
         global mueble_id_count
 
-        self.inventoryObject = InventoryObject("mu" + str(mueble_id_count), nombre, stack, precio, tipo, tipoEsp)
+        self.inventoryObject = InventoryObject("mat" + str(mueble_id_count), nombre, stack, precio, tipo, tipoEsp)
         mueble_id_count += 1
 
     def get_dict(self):
@@ -176,7 +176,7 @@ def get_adjective():
 def get_material_dict_list(size):
     dict_list = []
 
-    names = ["Piedra", "Cemento", "Madera", "Ceramica", "Metal", "Barro"]
+    names = ["Piedra", "Pepita de Oro", "Madera", "Madera dura", "Madera blanda", "Hierro"]
     stacks = [10, 20, 100, 200, 300]
     precios = [10, 100, 150, 200, 250, 300, 500]
 

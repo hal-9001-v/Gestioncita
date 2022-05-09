@@ -2,7 +2,9 @@
   "Islas": [
     {
       "_id": "is0",
-      "jugador": "j0",
+      "jugadores": [
+        { "jugador1":"j0"} 
+      ],
       "nombre": "AlcorOn",
       "hemisferio": "N",
       "fecha": "11-5-2022",
@@ -160,7 +162,7 @@
               "comestible": false
             },
             {
-              "objetoId": "mu85",
+              "objetoId": "mat85",
               "nombre": "Ceramica Especial",
               "stack": 20,
               "precio": 200,
@@ -168,7 +170,7 @@
               "tipoEsp": "Ceramica"
             },
             {
-              "objetoId": "mu86",
+              "objetoId": "mat86",
               "nombre": "Barro Correcto",
               "stack": 20,
               "precio": 10,
@@ -197,7 +199,7 @@
         },
         {
           "idEdificio": "ed1",
-          "tipo": "Mueso",
+          "tipo": "Museo",
           "inventarioEdificio": [
             {
               "objetoId": "mu87",
@@ -285,7 +287,7 @@
               "comestible": false
             },
             {
-              "objetoId": "mu91",
+              "objetoId": "mat91",
               "nombre": "Barro Estilizado",
               "stack": 300,
               "precio": 500,
@@ -293,7 +295,7 @@
               "tipoEsp": "Barro"
             },
             {
-              "objetoId": "mu92",
+              "objetoId": "mat92",
               "nombre": "Ceramica Calido",
               "stack": 300,
               "precio": 10,
@@ -301,7 +303,7 @@
               "tipoEsp": "Ceramica"
             },
             {
-              "objetoId": "mu93",
+              "objetoId": "mat93",
               "nombre": "Madera de Buen Gusto",
               "stack": 200,
               "precio": 250,
@@ -481,7 +483,7 @@
               "comestible": false
             },
             {
-              "objetoId": "mu85",
+              "objetoId": "mat85",
               "nombre": "Ceramica Especial",
               "stack": 20,
               "precio": 200,
@@ -489,7 +491,7 @@
               "tipoEsp": "Ceramica"
             },
             {
-              "objetoId": "mu86",
+              "objetoId": "mat86",
               "nombre": "Barro Correcto",
               "stack": 20,
               "precio": 10,
@@ -518,7 +520,7 @@
         },
         {
           "idEdificio": "ed1",
-          "tipo": "Mueso",
+          "tipo": "Museo",
           "inventarioEdificio": [
             {
               "objetoId": "mu87",
@@ -606,7 +608,7 @@
               "comestible": false
             },
             {
-              "objetoId": "mu91",
+              "objetoId": "mat91",
               "nombre": "Barro Estilizado",
               "stack": 300,
               "precio": 500,
@@ -614,7 +616,7 @@
               "tipoEsp": "Barro"
             },
             {
-              "objetoId": "mu92",
+              "objetoId": "mat92",
               "nombre": "Ceramica Calido",
               "stack": 300,
               "precio": 10,
@@ -622,7 +624,7 @@
               "tipoEsp": "Ceramica"
             },
             {
-              "objetoId": "mu93",
+              "objetoId": "mat93",
               "nombre": "Madera de Buen Gusto",
               "stack": 200,
               "precio": 250,
@@ -644,7 +646,10 @@
     },
     {
       "_id": "is2",
-      "jugador": "j2",
+      "jugadores": [
+        { "jugador1":"j2"},
+        { "jugador2":"j3"} 
+      ],
       "nombre": "MostToLess",
       "hemisferio": "N",
       "fecha": "10-5-2022",
@@ -802,7 +807,7 @@
               "comestible": false
             },
             {
-              "objetoId": "mu85",
+              "objetoId": "mat85",
               "nombre": "Ceramica Especial",
               "stack": 20,
               "precio": 200,
@@ -810,7 +815,7 @@
               "tipoEsp": "Ceramica"
             },
             {
-              "objetoId": "mu86",
+              "objetoId": "mat86",
               "nombre": "Barro Correcto",
               "stack": 20,
               "precio": 10,
@@ -839,7 +844,7 @@
         },
         {
           "idEdificio": "ed1",
-          "tipo": "Mueso",
+          "tipo": "Museo",
           "inventarioEdificio": [
             {
               "objetoId": "mu87",
@@ -927,7 +932,7 @@
               "comestible": false
             },
             {
-              "objetoId": "mu91",
+              "objetoId": "mat91",
               "nombre": "Barro Estilizado",
               "stack": 300,
               "precio": 500,
@@ -935,7 +940,7 @@
               "tipoEsp": "Barro"
             },
             {
-              "objetoId": "mu92",
+              "objetoId": "mat92",
               "nombre": "Ceramica Calido",
               "stack": 300,
               "precio": 10,
@@ -943,7 +948,7 @@
               "tipoEsp": "Ceramica"
             },
             {
-              "objetoId": "mu93",
+              "objetoId": "mat93",
               "nombre": "Madera de Buen Gusto",
               "stack": 200,
               "precio": 250,

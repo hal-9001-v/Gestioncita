@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="696f2a7e-72b3-4f0c-a22b-dac37b967345" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Practica 3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Json/islas.json" beforeDir="false" afterPath="$PROJECT_DIR$/Json/islas.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Json/jugadores.json" beforeDir="false" afterPath="$PROJECT_DIR$/Json/jugadores.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Json/text.json" beforeDir="false" afterPath="$PROJECT_DIR$/Json/text.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mongoWriter.py" beforeDir="false" afterPath="$PROJECT_DIR$/mongoWriter.py" afterDir="false" />
     </list>
