@@ -31,7 +31,7 @@ class MaterialObject:
         global material_id_count
         global all_objects
 
-        self.inventoryObject = InventoryObject("mat" + str(mueble_id_count), nombre, stack, precio, tipo, tipoEsp)
+        self.inventoryObject = InventoryObject("mat" + str(material_id_count), nombre, stack, precio, tipo, tipoEsp)
         material_id_count += 1
 
         all_objects.append(self.get_dict())
