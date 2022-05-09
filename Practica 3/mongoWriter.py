@@ -406,8 +406,8 @@ def write_islas(isla_count):
 
     fechas = ["10-5-2022", "9-5-2022", "11-5-2022", "12-5-2022"]
     horas = ["8:22:23", "9:22:23", "10:22:23", "11:22:23", "12:22:23", "13:22:23", "14:22:23"]
-    climatologias = ["Nublado", "Soleado", "Tormenta", "Lluvia", "Niebla", "Muy Soleado"]
-    edificios = ["Ayuntamiento", "Mueso", "Tienda"]
+    climatologias = ["Nublado", "Soleado", "Tormenta", "Lluvia", "Nieve", "Muy Soleado", "Calima"]
+    edificios = ["Ayuntamiento", "Museo", "Tienda", "Peluqueria"]
 
     edificios_dict_list = []
 
