@@ -1,0 +1,445 @@
+{
+  "Jugadores": [
+    {
+      "_id": "j0",
+      "nombre": "Pepito",
+      "casa": "c0",
+      "bayas": 2000,
+      "millas": 12000,
+      "inventarioObjetos": [
+        {
+          "objetoId": "equi0",
+          "nombre": "Lupa Memorable",
+          "stack": 1,
+          "precio": 2000,
+          "tipo": "Equipable",
+          "tipoEsp": "Herramienta",
+          "lugar_eq": "Manos"
+        },
+        {
+          "objetoId": "equi1",
+          "nombre": "Pala Comun",
+          "stack": 1,
+          "precio": 300,
+          "tipo": "Equipable",
+          "tipoEsp": "Herramienta",
+          "lugar_eq": "Manos"
+        },
+        {
+          "objetoId": "equi2",
+          "nombre": "Pico Comun",
+          "stack": 1,
+          "precio": 200,
+          "tipo": "Equipable",
+          "tipoEsp": "Herramienta",
+          "lugar_eq": "Manos"
+        },
+        {
+          "objetoId": "equi3",
+          "nombre": "Chandal para cogerle carinio",
+          "stack": 1,
+          "precio": 100,
+          "tipo": "Equipable",
+          "tipoEsp": "Ropa",
+          "lugar_eq": "Piernas"
+        },
+        {
+          "objetoId": "equi4",
+          "nombre": "Jersey que no esta mal",
+          "stack": 1,
+          "precio": 1000,
+          "tipo": "Equipable",
+          "tipoEsp": "Ropa",
+          "lugar_eq": "Torso"
+        },
+        {
+          "objetoId": "equi5",
+          "nombre": "Pantaloncito corto sin Mas",
+          "stack": 1,
+          "precio": 500,
+          "tipo": "Equipable",
+          "tipoEsp": "Ropa",
+          "lugar_eq": "Piernas"
+        },
+        {
+          "objetoId": "equi6",
+          "nombre": "Cania Atractivo",
+          "stack": 1,
+          "precio": 500,
+          "tipo": "Equipable",
+          "tipoEsp": "Herramienta",
+          "lugar_eq": "Manos"
+        },
+        {
+          "objetoId": "equi7",
+          "nombre": "Sombrero de Ala Correcto",
+          "stack": 1,
+          "precio": 500,
+          "tipo": "Equipable",
+          "tipoEsp": "Ropa",
+          "lugar_eq": "Cabeza"
+        },
+        {
+          "objetoId": "col0",
+          "nombre": "Mero muy Cuqui",
+          "stack": 1,
+          "precio": 2750,
+          "tipo": "Coleccionable",
+          "tipoEsp": "Pez",
+          "estacion": "Primavera",
+          "tamanio": 5,
+          "localizacion": "Cascada",
+          "rareza": 1
+        },
+        {
+          "objetoId": "mu0",
+          "nombre": "Cemento Atractivo",
+          "stack": 300,
+          "precio": 250,
+          "tipo": "Material",
+          "tipoEsp": "Cemento"
+        }
+      ],
+      "vecinos": []
+    },
+    {
+      "_id": "j1",
+      "nombre": "Juana",
+      "casa": "c1",
+      "bayas": 1000,
+      "millas": 1000,
+      "inventarioObjetos": [
+        {
+          "objetoId": "mu1",
+          "nombre": "Mesita Vistosito",
+          "stack": 1,
+          "precio": 200,
+          "tipo": "Mueble",
+          "tipoEsp": "Mesita",
+          "color": "Blanco",
+          "conjunto": "Mariana"
+        },
+        {
+          "objetoId": "mu2",
+          "nombre": "Mesita Genial",
+          "stack": 1,
+          "precio": 500,
+          "tipo": "Mueble",
+          "tipoEsp": "Mesita",
+          "color": "Rosa",
+          "conjunto": "Congelado"
+        },
+        {
+          "objetoId": "mu3",
+          "nombre": "Cama Estilizado",
+          "stack": 1,
+          "precio": 150,
+          "tipo": "Mueble",
+          "tipoEsp": "Cama",
+          "color": "Azul",
+          "conjunto": "Restaurante"
+        },
+        {
+          "objetoId": "equi8",
+          "nombre": "Chandal Calido",
+          "stack": 1,
+          "precio": 1000,
+          "tipo": "Equipable",
+          "tipoEsp": "Ropa",
+          "lugar_eq": "Piernas"
+        },
+        {
+          "objetoId": "equi9",
+          "nombre": "Lupa del Monton",
+          "stack": 1,
+          "precio": 2750,
+          "tipo": "Equipable",
+          "tipoEsp": "Herramienta",
+          "lugar_eq": "Manos"
+        },
+        {
+          "objetoId": "col1",
+          "nombre": "DinoHueso Especial",
+          "stack": 1,
+          "precio": 2000,
+          "tipo": "Coleccionable",
+          "tipoEsp": "Fosil",
+          "estacion": "Verano",
+          "tamanio": 1,
+          "localizacion": "Bajo Tierra",
+          "rareza": 8
+        },
+        {
+          "objetoId": "col2",
+          "nombre": "Hormiguita que no esta mal",
+          "stack": 1,
+          "precio": 6000,
+          "tipo": "Coleccionable",
+          "tipoEsp": "Insecto",
+          "estacion": "Otonio",
+          "tamanio": 1,
+          "localizacion": "Boca del Rio",
+          "rareza": 6
+        },
+        {
+          "objetoId": "col3",
+          "nombre": "Amonites Elegante",
+          "stack": 1,
+          "precio": 1000,
+          "tipo": "Coleccionable",
+          "tipoEsp": "Fosil",
+          "estacion": "Primavera",
+          "tamanio": 3,
+          "localizacion": "Bajo tierra",
+          "rareza": 7
+        },
+        {
+          "objetoId": "prop10",
+          "nombre": "Lavanda Interesante",
+          "stack": 20,
+          "precio": 250,
+          "tipo": "Prop",
+          "tipoEsp": "Arbusto",
+          "comestible": false
+        },
+        {
+          "objetoId": "prop11",
+          "nombre": "Lavanda Impecable",
+          "stack": 20,
+          "precio": 100,
+          "tipo": "Prop",
+          "tipoEsp": "Arbusto",
+          "comestible": false
+        },
+        {
+          "objetoId": "prop12",
+          "nombre": "Pino Hortera",
+          "stack": 100,
+          "precio": 100,
+          "tipo": "Prop",
+          "tipoEsp": "Arbol",
+          "comestible": false
+        }
+      ],
+      "vecinos": []
+    },
+    {
+      "_id": "j2",
+      "nombre": "Jennifer",
+      "casa": "c2",
+      "bayas": 12000,
+      "millas": 1000,
+      "inventarioObjetos": [
+        {
+          "objetoId": "mu4",
+          "nombre": "Silla Curioso",
+          "stack": 1,
+          "precio": 250,
+          "tipo": "Mueble",
+          "tipoEsp": "Silla",
+          "color": "Azul",
+          "conjunto": "Mariana"
+        },
+        {
+          "objetoId": "col4",
+          "nombre": "Pez Sable Mediocre",
+          "stack": 1,
+          "precio": 6000,
+          "tipo": "Coleccionable",
+          "tipoEsp": "Pez",
+          "estacion": "Otonio",
+          "tamanio": 4,
+          "localizacion": "Mar",
+          "rareza": 9
+        },
+        {
+          "objetoId": "col5",
+          "nombre": "Amonites Especial",
+          "stack": 1,
+          "precio": 2000,
+          "tipo": "Coleccionable",
+          "tipoEsp": "Fosil",
+          "estacion": "Otonio",
+          "tamanio": 1,
+          "localizacion": "Bajo tierra",
+          "rareza": 10
+        },
+        {
+          "objetoId": "mu5",
+          "nombre": "Piedra Pijito",
+          "stack": 200,
+          "precio": 200,
+          "tipo": "Material",
+          "tipoEsp": "Piedra"
+        },
+        {
+          "objetoId": "mu6",
+          "nombre": "Metal Mediocre",
+          "stack": 100,
+          "precio": 500,
+          "tipo": "Material",
+          "tipoEsp": "Metal"
+        },
+        {
+          "objetoId": "prop13",
+          "nombre": "Pino sin Mas",
+          "stack": 300,
+          "precio": 100,
+          "tipo": "Prop",
+          "tipoEsp": "Arbol",
+          "comestible": false
+        }
+      ],
+      "vecinos": []
+    },
+    {
+      "_id": "j3",
+      "nombre": "Stella",
+      "casa": "c3",
+      "bayas": 2000,
+      "millas": 3000,
+      "inventarioObjetos": [
+        {
+          "objetoId": "mu7",
+          "nombre": "Cama Magnifico",
+          "stack": 1,
+          "precio": 10,
+          "tipo": "Mueble",
+          "tipoEsp": "Cama",
+          "color": "Rosa",
+          "conjunto": "Dorado"
+        },
+        {
+          "objetoId": "mu8",
+          "nombre": "Mesa muy Cuqui",
+          "stack": 1,
+          "precio": 500,
+          "tipo": "Mueble",
+          "tipoEsp": "Mesa",
+          "color": "Rojo",
+          "conjunto": "Universitario"
+        },
+        {
+          "objetoId": "mu9",
+          "nombre": "Cama muy Cuqui",
+          "stack": 1,
+          "precio": 300,
+          "tipo": "Mueble",
+          "tipoEsp": "Cama",
+          "color": "Blanco",
+          "conjunto": "Restaurante"
+        },
+        {
+          "objetoId": "equi14",
+          "nombre": "Pala de Buen Gusto",
+          "stack": 1,
+          "precio": 2000,
+          "tipo": "Equipable",
+          "tipoEsp": "Herramienta",
+          "lugar_eq": "Manos"
+        },
+        {
+          "objetoId": "equi15",
+          "nombre": "Fedora sin Mas",
+          "stack": 1,
+          "precio": 300,
+          "tipo": "Equipable",
+          "tipoEsp": "Ropa",
+          "lugar_eq": "Cabeza"
+        },
+        {
+          "objetoId": "equi16",
+          "nombre": "Kilt Medio Roto",
+          "stack": 1,
+          "precio": 150,
+          "tipo": "Equipable",
+          "tipoEsp": "Ropa",
+          "lugar_eq": "Piernas"
+        },
+        {
+          "objetoId": "equi17",
+          "nombre": "Pala Medio Roto",
+          "stack": 1,
+          "precio": 300,
+          "tipo": "Equipable",
+          "tipoEsp": "Herramienta",
+          "lugar_eq": "Manos"
+        },
+        {
+          "objetoId": "equi18",
+          "nombre": "Visera Atractivo",
+          "stack": 1,
+          "precio": 10,
+          "tipo": "Equipable",
+          "tipoEsp": "Ropa",
+          "lugar_eq": "Cabeza"
+        },
+        {
+          "objetoId": "equi19",
+          "nombre": "Chaleco Impresionante",
+          "stack": 1,
+          "precio": 5000,
+          "tipo": "Equipable",
+          "tipoEsp": "Ropa",
+          "lugar_eq": "Torso"
+        },
+        {
+          "objetoId": "equi20",
+          "nombre": "Zuecos Correcto",
+          "stack": 1,
+          "precio": 10,
+          "tipo": "Equipable",
+          "tipoEsp": "Ropa",
+          "lugar_eq": "Pies"
+        },
+        {
+          "objetoId": "equi21",
+          "nombre": "Camisa Hawaiana muy Cuqui",
+          "stack": 1,
+          "precio": 100,
+          "tipo": "Equipable",
+          "tipoEsp": "Ropa",
+          "lugar_eq": "Torso"
+        },
+        {
+          "objetoId": "equi22",
+          "nombre": "Chaleco Chachi",
+          "stack": 1,
+          "precio": 2000,
+          "tipo": "Equipable",
+          "tipoEsp": "Ropa",
+          "lugar_eq": "Torso"
+        },
+        {
+          "objetoId": "col6",
+          "nombre": "Hormiguita Genial",
+          "stack": 1,
+          "precio": 2000,
+          "tipo": "Coleccionable",
+          "tipoEsp": "Insecto",
+          "estacion": "Primavera",
+          "tamanio": 5,
+          "localizacion": "Boca del Rio",
+          "rareza": 2
+        },
+        {
+          "objetoId": "mu10",
+          "nombre": "Ceramica que no esta mal",
+          "stack": 20,
+          "precio": 500,
+          "tipo": "Material",
+          "tipoEsp": "Ceramica"
+        },
+        {
+          "objetoId": "mu11",
+          "nombre": "Metal Atractivo",
+          "stack": 200,
+          "precio": 500,
+          "tipo": "Material",
+          "tipoEsp": "Metal"
+        }
+      ],
+      "vecinos": []
+    }
+  ]
+}

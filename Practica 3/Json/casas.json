@@ -1,0 +1,1466 @@
+{
+  "Casas": [
+    {
+      "_id": "c0",
+      "colorFachada": "Rosa",
+      "colorTejado": "Marron",
+      "inventarioCasa": [
+        {
+          "objetoId": "col7",
+          "nombre": "Pez Sable Estilizado",
+          "stack": 1,
+          "precio": 2000,
+          "tipo": "Coleccionable",
+          "tipoEsp": "Pez",
+          "estacion": "Otonio",
+          "tamanio": 5,
+          "localizacion": "Mar",
+          "rareza": 6
+        },
+        {
+          "objetoId": "col8",
+          "nombre": "Escarabajo muy Cuqui",
+          "stack": 1,
+          "precio": 5000,
+          "tipo": "Coleccionable",
+          "tipoEsp": "Insecto",
+          "estacion": "Invierno",
+          "tamanio": 4,
+          "localizacion": "Colina",
+          "rareza": 6
+        },
+        {
+          "objetoId": "col9",
+          "nombre": "Hueso Precioso",
+          "stack": 1,
+          "precio": 5000,
+          "tipo": "Coleccionable",
+          "tipoEsp": "Fosil",
+          "estacion": "Verano",
+          "tamanio": 4,
+          "localizacion": "Tierra",
+          "rareza": 7
+        },
+        {
+          "objetoId": "col10",
+          "nombre": "Hormiguita Magnifico",
+          "stack": 1,
+          "precio": 10000,
+          "tipo": "Coleccionable",
+          "tipoEsp": "Insecto",
+          "estacion": "Otonio",
+          "tamanio": 2,
+          "localizacion": "Boca del Rio",
+          "rareza": 7
+        },
+        {
+          "objetoId": "prop23",
+          "nombre": "Arenisca del Monton",
+          "stack": 100,
+          "precio": 250,
+          "tipo": "Prop",
+          "tipoEsp": "Roca",
+          "comestible": false
+        },
+        {
+          "objetoId": "prop24",
+          "nombre": "Hierbabuena Memorable",
+          "stack": 20,
+          "precio": 300,
+          "tipo": "Prop",
+          "tipoEsp": "Arbusto",
+          "comestible": false
+        },
+        {
+          "objetoId": "prop25",
+          "nombre": "Arenisca sin Mas",
+          "stack": 20,
+          "precio": 500,
+          "tipo": "Prop",
+          "tipoEsp": "Roca",
+          "comestible": false
+        },
+        {
+          "objetoId": "mu12",
+          "nombre": "Metal Magnifico",
+          "stack": 200,
+          "precio": 300,
+          "tipo": "Material",
+          "tipoEsp": "Metal"
+        },
+        {
+          "objetoId": "mu13",
+          "nombre": "Ceramica de Locos",
+          "stack": 20,
+          "precio": 200,
+          "tipo": "Material",
+          "tipoEsp": "Ceramica"
+        }
+      ]
+    },
+    {
+      "_id": "c1",
+      "colorFachada": "Rojo",
+      "colorTejado": "Azul",
+      "inventarioCasa": [
+        {
+          "objetoId": "col11",
+          "nombre": "Pez Sable Memorable",
+          "stack": 1,
+          "precio": 10000,
+          "tipo": "Coleccionable",
+          "tipoEsp": "Pez",
+          "estacion": "Otonio",
+          "tamanio": 3,
+          "localizacion": "Mar",
+          "rareza": 2
+        },
+        {
+          "objetoId": "col12",
+          "nombre": "Hormiguita Calido",
+          "stack": 1,
+          "precio": 2000,
+          "tipo": "Coleccionable",
+          "tipoEsp": "Insecto",
+          "estacion": "Otonio",
+          "tamanio": 3,
+          "localizacion": "Boca del Rio",
+          "rareza": 9
+        },
+        {
+          "objetoId": "col13",
+          "nombre": "DinoHueso de Buen Gusto",
+          "stack": 1,
+          "precio": 1000,
+          "tipo": "Coleccionable",
+          "tipoEsp": "Fosil",
+          "estacion": "Otonio",
+          "tamanio": 4,
+          "localizacion": "Bajo Tierra",
+          "rareza": 10
+        },
+        {
+          "objetoId": "col14",
+          "nombre": "Escararriba sin Mas",
+          "stack": 1,
+          "precio": 1000,
+          "tipo": "Coleccionable",
+          "tipoEsp": "Insecto",
+          "estacion": "Otonio",
+          "tamanio": 1,
+          "localizacion": "Colina",
+          "rareza": 1
+        },
+        {
+          "objetoId": "equi26",
+          "nombre": "Fedora muy Cuqui",
+          "stack": 1,
+          "precio": 100,
+          "tipo": "Equipable",
+          "tipoEsp": "Ropa",
+          "lugar_eq": "Cabeza"
+        },
+        {
+          "objetoId": "equi27",
+          "nombre": "Camisa Hawaiana Comun",
+          "stack": 1,
+          "precio": 300,
+          "tipo": "Equipable",
+          "tipoEsp": "Ropa",
+          "lugar_eq": "Torso"
+        },
+        {
+          "objetoId": "equi28",
+          "nombre": "Chandal Hortera",
+          "stack": 1,
+          "precio": 2750,
+          "tipo": "Equipable",
+          "tipoEsp": "Ropa",
+          "lugar_eq": "Piernas"
+        },
+        {
+          "objetoId": "equi29",
+          "nombre": "Sandalia un poco Hortera",
+          "stack": 1,
+          "precio": 500,
+          "tipo": "Equipable",
+          "tipoEsp": "Ropa",
+          "lugar_eq": "Pies"
+        },
+        {
+          "objetoId": "equi30",
+          "nombre": "Vaqueros Elegante",
+          "stack": 1,
+          "precio": 100,
+          "tipo": "Equipable",
+          "tipoEsp": "Ropa",
+          "lugar_eq": "Piernas"
+        },
+        {
+          "objetoId": "prop31",
+          "nombre": "Manzano muy Cuqui",
+          "stack": 300,
+          "precio": 100,
+          "tipo": "Prop",
+          "tipoEsp": "Arbol",
+          "comestible": false
+        },
+        {
+          "objetoId": "prop32",
+          "nombre": "Arenisca Magnifico",
+          "stack": 100,
+          "precio": 10,
+          "tipo": "Prop",
+          "tipoEsp": "Roca",
+          "comestible": false
+        },
+        {
+          "objetoId": "prop33",
+          "nombre": "Rosa muy Especial",
+          "stack": 10,
+          "precio": 300,
+          "tipo": "Prop",
+          "tipoEsp": "Flor",
+          "comestible": false
+        },
+        {
+          "objetoId": "prop34",
+          "nombre": "Amatista Estilizado",
+          "stack": 300,
+          "precio": 250,
+          "tipo": "Prop",
+          "tipoEsp": "Roca",
+          "comestible": false
+        },
+        {
+          "objetoId": "mu14",
+          "nombre": "Cemento muy Especial",
+          "stack": 200,
+          "precio": 10,
+          "tipo": "Material",
+          "tipoEsp": "Cemento"
+        },
+        {
+          "objetoId": "mu15",
+          "nombre": "Ceramica Interesante",
+          "stack": 10,
+          "precio": 300,
+          "tipo": "Material",
+          "tipoEsp": "Ceramica"
+        },
+        {
+          "objetoId": "mu16",
+          "nombre": "Cemento Especial",
+          "stack": 20,
+          "precio": 200,
+          "tipo": "Material",
+          "tipoEsp": "Cemento"
+        },
+        {
+          "objetoId": "mu17",
+          "nombre": "Barro Estilizado",
+          "stack": 100,
+          "precio": 500,
+          "tipo": "Material",
+          "tipoEsp": "Barro"
+        },
+        {
+          "objetoId": "mu18",
+          "nombre": "Ceramica Estilizado",
+          "stack": 100,
+          "precio": 100,
+          "tipo": "Material",
+          "tipoEsp": "Ceramica"
+        },
+        {
+          "objetoId": "mu19",
+          "nombre": "Armario Impecable",
+          "stack": 1,
+          "precio": 100,
+          "tipo": "Mueble",
+          "tipoEsp": "Armario",
+          "color": "Blanco",
+          "conjunto": "Congelado"
+        },
+        {
+          "objetoId": "mu20",
+          "nombre": "Cama un poco Hortera",
+          "stack": 1,
+          "precio": 200,
+          "tipo": "Mueble",
+          "tipoEsp": "Cama",
+          "color": "Rojo",
+          "conjunto": "Dorado"
+        },
+        {
+          "objetoId": "mu21",
+          "nombre": "Silla Impresionante",
+          "stack": 1,
+          "precio": 100,
+          "tipo": "Mueble",
+          "tipoEsp": "Silla",
+          "color": "Amarillo",
+          "conjunto": "Flores"
+        },
+        {
+          "objetoId": "mu22",
+          "nombre": "Cama un poco Hortera",
+          "stack": 1,
+          "precio": 500,
+          "tipo": "Mueble",
+          "tipoEsp": "Cama",
+          "color": "Blanco",
+          "conjunto": "Dorado"
+        },
+        {
+          "objetoId": "mu23",
+          "nombre": "Estanteria Perfecto",
+          "stack": 1,
+          "precio": 300,
+          "tipo": "Mueble",
+          "tipoEsp": "Estanteria",
+          "color": "Azul",
+          "conjunto": "Mimbre"
+        }
+      ]
+    },
+    {
+      "_id": "c2",
+      "colorFachada": "Azul",
+      "colorTejado": "Rosa",
+      "inventarioCasa": [
+        {
+          "objetoId": "col15",
+          "nombre": "Hueso Vistosito",
+          "stack": 1,
+          "precio": 2750,
+          "tipo": "Coleccionable",
+          "tipoEsp": "Fosil",
+          "estacion": "Verano",
+          "tamanio": 4,
+          "localizacion": "Tierra",
+          "rareza": 8
+        },
+        {
+          "objetoId": "col16",
+          "nombre": "Escarabajo Hortera",
+          "stack": 1,
+          "precio": 5000,
+          "tipo": "Coleccionable",
+          "tipoEsp": "Insecto",
+          "estacion": "Primavera",
+          "tamanio": 5,
+          "localizacion": "Colina",
+          "rareza": 7
+        },
+        {
+          "objetoId": "equi35",
+          "nombre": "Chandal Mediocre",
+          "stack": 1,
+          "precio": 5000,
+          "tipo": "Equipable",
+          "tipoEsp": "Ropa",
+          "lugar_eq": "Piernas"
+        },
+        {
+          "objetoId": "prop36",
+          "nombre": "Tomillo un poco Hortera",
+          "stack": 200,
+          "precio": 10,
+          "tipo": "Prop",
+          "tipoEsp": "Arbusto",
+          "comestible": false
+        },
+        {
+          "objetoId": "prop37",
+          "nombre": "Naranja de Campeones",
+          "stack": 10,
+          "precio": 500,
+          "tipo": "Prop",
+          "tipoEsp": "Fruta",
+          "comestible": true
+        },
+        {
+          "objetoId": "prop38",
+          "nombre": "Romero Medio Roto",
+          "stack": 300,
+          "precio": 200,
+          "tipo": "Prop",
+          "tipoEsp": "Arbusto",
+          "comestible": false
+        },
+        {
+          "objetoId": "prop39",
+          "nombre": "Silex Vistosito",
+          "stack": 300,
+          "precio": 250,
+          "tipo": "Prop",
+          "tipoEsp": "Roca",
+          "comestible": false
+        },
+        {
+          "objetoId": "mu24",
+          "nombre": "Ceramica que da que pensar",
+          "stack": 20,
+          "precio": 100,
+          "tipo": "Material",
+          "tipoEsp": "Ceramica"
+        },
+        {
+          "objetoId": "mu25",
+          "nombre": "Mesita Precioso",
+          "stack": 1,
+          "precio": 300,
+          "tipo": "Mueble",
+          "tipoEsp": "Mesita",
+          "color": "Azul",
+          "conjunto": "Bambu"
+        },
+        {
+          "objetoId": "mu26",
+          "nombre": "Cama que no esta mal",
+          "stack": 1,
+          "precio": 150,
+          "tipo": "Mueble",
+          "tipoEsp": "Cama",
+          "color": "Marron",
+          "conjunto": "Flores"
+        },
+        {
+          "objetoId": "mu27",
+          "nombre": "Mesa muy Especial",
+          "stack": 1,
+          "precio": 500,
+          "tipo": "Mueble",
+          "tipoEsp": "Mesa",
+          "color": "Marron",
+          "conjunto": "Flores"
+        },
+        {
+          "objetoId": "mu28",
+          "nombre": "Estanteria Mediocre",
+          "stack": 1,
+          "precio": 100,
+          "tipo": "Mueble",
+          "tipoEsp": "Estanteria",
+          "color": "Azul",
+          "conjunto": "Bambu"
+        },
+        {
+          "objetoId": "mu29",
+          "nombre": "Estanteria Chismoso",
+          "stack": 1,
+          "precio": 100,
+          "tipo": "Mueble",
+          "tipoEsp": "Estanteria",
+          "color": "Rojo",
+          "conjunto": "Mimbre"
+        }
+      ]
+    },
+    {
+      "_id": "c3",
+      "colorFachada": "Blanco",
+      "colorTejado": "Rojo",
+      "inventarioCasa": [
+        {
+          "objetoId": "col17",
+          "nombre": "Hormiguita Chismoso",
+          "stack": 1,
+          "precio": 2750,
+          "tipo": "Coleccionable",
+          "tipoEsp": "Insecto",
+          "estacion": "Verano",
+          "tamanio": 1,
+          "localizacion": "Boca del Rio",
+          "rareza": 6
+        },
+        {
+          "objetoId": "equi40",
+          "nombre": "Chaleco Atractivo",
+          "stack": 1,
+          "precio": 250,
+          "tipo": "Equipable",
+          "tipoEsp": "Ropa",
+          "lugar_eq": "Torso"
+        },
+        {
+          "objetoId": "equi41",
+          "nombre": "Sandalia Mediocre",
+          "stack": 1,
+          "precio": 300,
+          "tipo": "Equipable",
+          "tipoEsp": "Ropa",
+          "lugar_eq": "Pies"
+        },
+        {
+          "objetoId": "equi42",
+          "nombre": "Visera Azulado",
+          "stack": 1,
+          "precio": 1000,
+          "tipo": "Equipable",
+          "tipoEsp": "Ropa",
+          "lugar_eq": "Cabeza"
+        },
+        {
+          "objetoId": "equi43",
+          "nombre": "Pico Impresionante",
+          "stack": 1,
+          "precio": 200,
+          "tipo": "Equipable",
+          "tipoEsp": "Herramienta",
+          "lugar_eq": "Manos"
+        },
+        {
+          "objetoId": "prop44",
+          "nombre": "Roble Perfecto",
+          "stack": 200,
+          "precio": 150,
+          "tipo": "Prop",
+          "tipoEsp": "Arbol",
+          "comestible": false
+        },
+        {
+          "objetoId": "prop45",
+          "nombre": "Tomate Elegante",
+          "stack": 100,
+          "precio": 100,
+          "tipo": "Prop",
+          "tipoEsp": "Fruta",
+          "comestible": true
+        },
+        {
+          "objetoId": "prop46",
+          "nombre": "Geranio Impecable",
+          "stack": 300,
+          "precio": 500,
+          "tipo": "Prop",
+          "tipoEsp": "Flor",
+          "comestible": false
+        },
+        {
+          "objetoId": "prop47",
+          "nombre": "Ajenjo Chachi",
+          "stack": 100,
+          "precio": 150,
+          "tipo": "Prop",
+          "tipoEsp": "Arbusto",
+          "comestible": false
+        },
+        {
+          "objetoId": "prop48",
+          "nombre": "Margarita Vistosito",
+          "stack": 200,
+          "precio": 200,
+          "tipo": "Prop",
+          "tipoEsp": "Flor",
+          "comestible": false
+        },
+        {
+          "objetoId": "mu30",
+          "nombre": "Barro Especial",
+          "stack": 20,
+          "precio": 500,
+          "tipo": "Material",
+          "tipoEsp": "Barro"
+        },
+        {
+          "objetoId": "mu31",
+          "nombre": "Madera un poco Hortera",
+          "stack": 100,
+          "precio": 10,
+          "tipo": "Material",
+          "tipoEsp": "Madera"
+        },
+        {
+          "objetoId": "mu32",
+          "nombre": "Madera Hortera",
+          "stack": 20,
+          "precio": 250,
+          "tipo": "Material",
+          "tipoEsp": "Madera"
+        },
+        {
+          "objetoId": "mu33",
+          "nombre": "Cemento de Locos",
+          "stack": 300,
+          "precio": 250,
+          "tipo": "Material",
+          "tipoEsp": "Cemento"
+        },
+        {
+          "objetoId": "mu34",
+          "nombre": "Estanteria de Locos",
+          "stack": 1,
+          "precio": 10,
+          "tipo": "Mueble",
+          "tipoEsp": "Estanteria",
+          "color": "Blanco",
+          "conjunto": "Congelado"
+        },
+        {
+          "objetoId": "mu35",
+          "nombre": "Mesa que da que pensar",
+          "stack": 1,
+          "precio": 250,
+          "tipo": "Mueble",
+          "tipoEsp": "Mesa",
+          "color": "Rosa",
+          "conjunto": "Linda"
+        },
+        {
+          "objetoId": "mu36",
+          "nombre": "Estanteria Cuqui",
+          "stack": 1,
+          "precio": 300,
+          "tipo": "Mueble",
+          "tipoEsp": "Estanteria",
+          "color": "Marron",
+          "conjunto": "Universitario"
+        },
+        {
+          "objetoId": "mu37",
+          "nombre": "Armario Cuqui",
+          "stack": 1,
+          "precio": 100,
+          "tipo": "Mueble",
+          "tipoEsp": "Armario",
+          "color": "Marron",
+          "conjunto": "Mariana"
+        }
+      ]
+    },
+    {
+      "_id": "c4",
+      "colorFachada": "Marron",
+      "colorTejado": "Amarillo",
+      "inventarioCasa": [
+        {
+          "objetoId": "col18",
+          "nombre": "Trilobites que da que pensar",
+          "stack": 1,
+          "precio": 2750,
+          "tipo": "Coleccionable",
+          "tipoEsp": "Fosil",
+          "estacion": "Primavera",
+          "tamanio": 2,
+          "localizacion": "Bajo Tierra",
+          "rareza": 4
+        },
+        {
+          "objetoId": "col19",
+          "nombre": "Mero Genial",
+          "stack": 1,
+          "precio": 2000,
+          "tipo": "Coleccionable",
+          "tipoEsp": "Pez",
+          "estacion": "Invierno",
+          "tamanio": 1,
+          "localizacion": "Cascada",
+          "rareza": 9
+        },
+        {
+          "objetoId": "col20",
+          "nombre": "Palometa Calido",
+          "stack": 1,
+          "precio": 2750,
+          "tipo": "Coleccionable",
+          "tipoEsp": "Pez",
+          "estacion": "Otonio",
+          "tamanio": 5,
+          "localizacion": "Mar",
+          "rareza": 8
+        },
+        {
+          "objetoId": "col21",
+          "nombre": "Mariposa Regu",
+          "stack": 1,
+          "precio": 2750,
+          "tipo": "Coleccionable",
+          "tipoEsp": "Insecto",
+          "estacion": "Primavera",
+          "tamanio": 3,
+          "localizacion": "Valle",
+          "rareza": 2
+        },
+        {
+          "objetoId": "col22",
+          "nombre": "Palometa Calido",
+          "stack": 1,
+          "precio": 1000,
+          "tipo": "Coleccionable",
+          "tipoEsp": "Pez",
+          "estacion": "Otonio",
+          "tamanio": 1,
+          "localizacion": "Mar",
+          "rareza": 7
+        },
+        {
+          "objetoId": "equi49",
+          "nombre": "Red Vistosito",
+          "stack": 1,
+          "precio": 5000,
+          "tipo": "Equipable",
+          "tipoEsp": "Herramienta",
+          "lugar_eq": "Manos"
+        },
+        {
+          "objetoId": "equi50",
+          "nombre": "Cania Especial",
+          "stack": 1,
+          "precio": 10,
+          "tipo": "Equipable",
+          "tipoEsp": "Herramienta",
+          "lugar_eq": "Manos"
+        },
+        {
+          "objetoId": "equi51",
+          "nombre": "Kilt Hortera",
+          "stack": 1,
+          "precio": 250,
+          "tipo": "Equipable",
+          "tipoEsp": "Ropa",
+          "lugar_eq": "Piernas"
+        },
+        {
+          "objetoId": "equi52",
+          "nombre": "Red Cuqui",
+          "stack": 1,
+          "precio": 2750,
+          "tipo": "Equipable",
+          "tipoEsp": "Herramienta",
+          "lugar_eq": "Manos"
+        },
+        {
+          "objetoId": "equi53",
+          "nombre": "Gorrita Chismoso",
+          "stack": 1,
+          "precio": 10,
+          "tipo": "Equipable",
+          "tipoEsp": "Ropa",
+          "lugar_eq": "Cabeza"
+        },
+        {
+          "objetoId": "prop54",
+          "nombre": "Margarita Medio Roto",
+          "stack": 20,
+          "precio": 250,
+          "tipo": "Prop",
+          "tipoEsp": "Flor",
+          "comestible": false
+        },
+        {
+          "objetoId": "prop55",
+          "nombre": "Geranio Impresionante",
+          "stack": 300,
+          "precio": 300,
+          "tipo": "Prop",
+          "tipoEsp": "Flor",
+          "comestible": false
+        },
+        {
+          "objetoId": "mu38",
+          "nombre": "Metal muy Cuqui",
+          "stack": 300,
+          "precio": 10,
+          "tipo": "Material",
+          "tipoEsp": "Metal"
+        },
+        {
+          "objetoId": "mu39",
+          "nombre": "Cemento Regu",
+          "stack": 100,
+          "precio": 300,
+          "tipo": "Material",
+          "tipoEsp": "Cemento"
+        },
+        {
+          "objetoId": "mu40",
+          "nombre": "Ceramica de Buen Gusto",
+          "stack": 20,
+          "precio": 10,
+          "tipo": "Material",
+          "tipoEsp": "Ceramica"
+        },
+        {
+          "objetoId": "mu41",
+          "nombre": "Barro Medio Roto",
+          "stack": 100,
+          "precio": 500,
+          "tipo": "Material",
+          "tipoEsp": "Barro"
+        },
+        {
+          "objetoId": "mu42",
+          "nombre": "Piedra del Monton",
+          "stack": 20,
+          "precio": 250,
+          "tipo": "Material",
+          "tipoEsp": "Piedra"
+        },
+        {
+          "objetoId": "mu43",
+          "nombre": "Estanteria Medio Roto",
+          "stack": 1,
+          "precio": 10,
+          "tipo": "Mueble",
+          "tipoEsp": "Estanteria",
+          "color": "Blanco",
+          "conjunto": "Mimbre"
+        },
+        {
+          "objetoId": "mu44",
+          "nombre": "Mesita Estilizado",
+          "stack": 1,
+          "precio": 300,
+          "tipo": "Mueble",
+          "tipoEsp": "Mesita",
+          "color": "Marron",
+          "conjunto": "Veraniego"
+        },
+        {
+          "objetoId": "mu45",
+          "nombre": "Armario Impecable",
+          "stack": 1,
+          "precio": 300,
+          "tipo": "Mueble",
+          "tipoEsp": "Armario",
+          "color": "Marron",
+          "conjunto": "Linda"
+        }
+      ]
+    },
+    {
+      "_id": "c5",
+      "colorFachada": "Rojo",
+      "colorTejado": "Azul",
+      "inventarioCasa": [
+        {
+          "objetoId": "equi56",
+          "nombre": "Gorrita Calido",
+          "stack": 1,
+          "precio": 5000,
+          "tipo": "Equipable",
+          "tipoEsp": "Ropa",
+          "lugar_eq": "Cabeza"
+        },
+        {
+          "objetoId": "equi57",
+          "nombre": "Pico Magnifico",
+          "stack": 1,
+          "precio": 2000,
+          "tipo": "Equipable",
+          "tipoEsp": "Herramienta",
+          "lugar_eq": "Manos"
+        },
+        {
+          "objetoId": "prop58",
+          "nombre": "Tomillo Atractivo",
+          "stack": 20,
+          "precio": 300,
+          "tipo": "Prop",
+          "tipoEsp": "Arbusto",
+          "comestible": false
+        },
+        {
+          "objetoId": "prop59",
+          "nombre": "Hierbabuena Especial",
+          "stack": 20,
+          "precio": 100,
+          "tipo": "Prop",
+          "tipoEsp": "Arbusto",
+          "comestible": false
+        },
+        {
+          "objetoId": "prop60",
+          "nombre": "Pino que da que pensar",
+          "stack": 200,
+          "precio": 300,
+          "tipo": "Prop",
+          "tipoEsp": "Arbol",
+          "comestible": false
+        },
+        {
+          "objetoId": "prop61",
+          "nombre": "Roca Impresionante",
+          "stack": 300,
+          "precio": 10,
+          "tipo": "Prop",
+          "tipoEsp": "Roca",
+          "comestible": false
+        },
+        {
+          "objetoId": "prop62",
+          "nombre": "Geranio Curioso",
+          "stack": 10,
+          "precio": 250,
+          "tipo": "Prop",
+          "tipoEsp": "Flor",
+          "comestible": false
+        },
+        {
+          "objetoId": "mu46",
+          "nombre": "Metal Perfecto",
+          "stack": 300,
+          "precio": 10,
+          "tipo": "Material",
+          "tipoEsp": "Metal"
+        },
+        {
+          "objetoId": "mu47",
+          "nombre": "Piedra Genial",
+          "stack": 20,
+          "precio": 300,
+          "tipo": "Material",
+          "tipoEsp": "Piedra"
+        },
+        {
+          "objetoId": "mu48",
+          "nombre": "Barro Genial",
+          "stack": 20,
+          "precio": 100,
+          "tipo": "Material",
+          "tipoEsp": "Barro"
+        },
+        {
+          "objetoId": "mu49",
+          "nombre": "Madera sin Mas",
+          "stack": 300,
+          "precio": 250,
+          "tipo": "Material",
+          "tipoEsp": "Madera"
+        },
+        {
+          "objetoId": "mu50",
+          "nombre": "Mesita Comun",
+          "stack": 1,
+          "precio": 10,
+          "tipo": "Mueble",
+          "tipoEsp": "Mesita",
+          "color": "Rosa",
+          "conjunto": "Mimbre"
+        },
+        {
+          "objetoId": "mu51",
+          "nombre": "Cama Genial",
+          "stack": 1,
+          "precio": 500,
+          "tipo": "Mueble",
+          "tipoEsp": "Cama",
+          "color": "Rosa",
+          "conjunto": "Flores"
+        }
+      ]
+    },
+    {
+      "_id": "c6",
+      "colorFachada": "Azul",
+      "colorTejado": "Amarillo",
+      "inventarioCasa": [
+        {
+          "objetoId": "col23",
+          "nombre": "Palometa de Buen Gusto",
+          "stack": 1,
+          "precio": 1000,
+          "tipo": "Coleccionable",
+          "tipoEsp": "Pez",
+          "estacion": "Verano",
+          "tamanio": 3,
+          "localizacion": "Mar",
+          "rareza": 9
+        },
+        {
+          "objetoId": "col24",
+          "nombre": "Hormiguita de Campeones",
+          "stack": 1,
+          "precio": 2000,
+          "tipo": "Coleccionable",
+          "tipoEsp": "Insecto",
+          "estacion": "Primavera",
+          "tamanio": 1,
+          "localizacion": "Boca del Rio",
+          "rareza": 2
+        },
+        {
+          "objetoId": "col25",
+          "nombre": "Escararriba Atractivo",
+          "stack": 1,
+          "precio": 5000,
+          "tipo": "Coleccionable",
+          "tipoEsp": "Insecto",
+          "estacion": "Primavera",
+          "tamanio": 5,
+          "localizacion": "Colina",
+          "rareza": 10
+        },
+        {
+          "objetoId": "col26",
+          "nombre": "Escararriba Impecable",
+          "stack": 1,
+          "precio": 10000,
+          "tipo": "Coleccionable",
+          "tipoEsp": "Insecto",
+          "estacion": "Verano",
+          "tamanio": 2,
+          "localizacion": "Colina",
+          "rareza": 9
+        },
+        {
+          "objetoId": "equi63",
+          "nombre": "Vaqueros Curioso",
+          "stack": 1,
+          "precio": 100,
+          "tipo": "Equipable",
+          "tipoEsp": "Ropa",
+          "lugar_eq": "Piernas"
+        },
+        {
+          "objetoId": "equi64",
+          "nombre": "Zuecos que no esta mal",
+          "stack": 1,
+          "precio": 200,
+          "tipo": "Equipable",
+          "tipoEsp": "Ropa",
+          "lugar_eq": "Pies"
+        },
+        {
+          "objetoId": "prop65",
+          "nombre": "Melocotonero sin Mas",
+          "stack": 10,
+          "precio": 500,
+          "tipo": "Prop",
+          "tipoEsp": "Arbol",
+          "comestible": false
+        },
+        {
+          "objetoId": "prop66",
+          "nombre": "Romero Perfecto",
+          "stack": 100,
+          "precio": 500,
+          "tipo": "Prop",
+          "tipoEsp": "Arbusto",
+          "comestible": false
+        },
+        {
+          "objetoId": "prop67",
+          "nombre": "Roca Chachi",
+          "stack": 300,
+          "precio": 100,
+          "tipo": "Prop",
+          "tipoEsp": "Roca",
+          "comestible": false
+        },
+        {
+          "objetoId": "mu52",
+          "nombre": "Piedra de Buen Gusto",
+          "stack": 200,
+          "precio": 500,
+          "tipo": "Material",
+          "tipoEsp": "Piedra"
+        },
+        {
+          "objetoId": "mu53",
+          "nombre": "Cemento muy Cuqui",
+          "stack": 20,
+          "precio": 100,
+          "tipo": "Material",
+          "tipoEsp": "Cemento"
+        },
+        {
+          "objetoId": "mu54",
+          "nombre": "Madera Hortera",
+          "stack": 100,
+          "precio": 300,
+          "tipo": "Material",
+          "tipoEsp": "Madera"
+        },
+        {
+          "objetoId": "mu55",
+          "nombre": "Mesa Pijito",
+          "stack": 1,
+          "precio": 10,
+          "tipo": "Mueble",
+          "tipoEsp": "Mesa",
+          "color": "Blanco",
+          "conjunto": "Flores"
+        }
+      ]
+    },
+    {
+      "_id": "c7",
+      "colorFachada": "Amarillo",
+      "colorTejado": "Amarillo",
+      "inventarioCasa": [
+        {
+          "objetoId": "col27",
+          "nombre": "Craneo Chismoso",
+          "stack": 1,
+          "precio": 1000,
+          "tipo": "Coleccionable",
+          "tipoEsp": "Fosil",
+          "estacion": "Invierno",
+          "tamanio": 2,
+          "localizacion": "Tierra",
+          "rareza": 10
+        },
+        {
+          "objetoId": "col28",
+          "nombre": "Craneo Regu",
+          "stack": 1,
+          "precio": 6000,
+          "tipo": "Coleccionable",
+          "tipoEsp": "Fosil",
+          "estacion": "Verano",
+          "tamanio": 4,
+          "localizacion": "Tierra",
+          "rareza": 4
+        },
+        {
+          "objetoId": "col29",
+          "nombre": "Hueso Vistosito",
+          "stack": 1,
+          "precio": 10000,
+          "tipo": "Coleccionable",
+          "tipoEsp": "Fosil",
+          "estacion": "Verano",
+          "tamanio": 1,
+          "localizacion": "Tierra",
+          "rareza": 1
+        },
+        {
+          "objetoId": "col30",
+          "nombre": "Mero Atractivo",
+          "stack": 1,
+          "precio": 5000,
+          "tipo": "Coleccionable",
+          "tipoEsp": "Pez",
+          "estacion": "Primavera",
+          "tamanio": 5,
+          "localizacion": "Cascada",
+          "rareza": 9
+        },
+        {
+          "objetoId": "col31",
+          "nombre": "Hueso Chismoso",
+          "stack": 1,
+          "precio": 6000,
+          "tipo": "Coleccionable",
+          "tipoEsp": "Fosil",
+          "estacion": "Primavera",
+          "tamanio": 2,
+          "localizacion": "Tierra",
+          "rareza": 3
+        },
+        {
+          "objetoId": "equi68",
+          "nombre": "Jersey de Campeones",
+          "stack": 1,
+          "precio": 5000,
+          "tipo": "Equipable",
+          "tipoEsp": "Ropa",
+          "lugar_eq": "Torso"
+        },
+        {
+          "objetoId": "equi69",
+          "nombre": "Cania Comun",
+          "stack": 1,
+          "precio": 150,
+          "tipo": "Equipable",
+          "tipoEsp": "Herramienta",
+          "lugar_eq": "Manos"
+        },
+        {
+          "objetoId": "prop70",
+          "nombre": "Amatista Curioso",
+          "stack": 200,
+          "precio": 200,
+          "tipo": "Prop",
+          "tipoEsp": "Roca",
+          "comestible": false
+        },
+        {
+          "objetoId": "mu56",
+          "nombre": "Metal muy Cuqui",
+          "stack": 20,
+          "precio": 100,
+          "tipo": "Material",
+          "tipoEsp": "Metal"
+        },
+        {
+          "objetoId": "mu57",
+          "nombre": "Piedra Pijito",
+          "stack": 100,
+          "precio": 250,
+          "tipo": "Material",
+          "tipoEsp": "Piedra"
+        },
+        {
+          "objetoId": "mu58",
+          "nombre": "Madera del Monton",
+          "stack": 10,
+          "precio": 100,
+          "tipo": "Material",
+          "tipoEsp": "Madera"
+        },
+        {
+          "objetoId": "mu59",
+          "nombre": "Metal Regu",
+          "stack": 300,
+          "precio": 250,
+          "tipo": "Material",
+          "tipoEsp": "Metal"
+        },
+        {
+          "objetoId": "mu60",
+          "nombre": "Madera Pijito",
+          "stack": 100,
+          "precio": 300,
+          "tipo": "Material",
+          "tipoEsp": "Madera"
+        },
+        {
+          "objetoId": "mu61",
+          "nombre": "Mesita de Campeones",
+          "stack": 1,
+          "precio": 250,
+          "tipo": "Mueble",
+          "tipoEsp": "Mesita",
+          "color": "Rojo",
+          "conjunto": "Restaurante"
+        },
+        {
+          "objetoId": "mu62",
+          "nombre": "Mesita de Campeones",
+          "stack": 1,
+          "precio": 150,
+          "tipo": "Mueble",
+          "tipoEsp": "Mesita",
+          "color": "Marron",
+          "conjunto": "Setas"
+        },
+        {
+          "objetoId": "mu63",
+          "nombre": "Silla un poco Hortera",
+          "stack": 1,
+          "precio": 150,
+          "tipo": "Mueble",
+          "tipoEsp": "Silla",
+          "color": "Azul",
+          "conjunto": "Veraniego"
+        },
+        {
+          "objetoId": "mu64",
+          "nombre": "Armario un poco Hortera",
+          "stack": 1,
+          "precio": 500,
+          "tipo": "Mueble",
+          "tipoEsp": "Armario",
+          "color": "Marron",
+          "conjunto": "Veraniego"
+        },
+        {
+          "objetoId": "mu65",
+          "nombre": "Estanteria Impecable",
+          "stack": 1,
+          "precio": 250,
+          "tipo": "Mueble",
+          "tipoEsp": "Estanteria",
+          "color": "Rosa",
+          "conjunto": "Dorado"
+        }
+      ]
+    },
+    {
+      "_id": "c8",
+      "colorFachada": "Azul",
+      "colorTejado": "Blanco",
+      "inventarioCasa": [
+        {
+          "objetoId": "col32",
+          "nombre": "Escararriba Comun",
+          "stack": 1,
+          "precio": 10000,
+          "tipo": "Coleccionable",
+          "tipoEsp": "Insecto",
+          "estacion": "Verano",
+          "tamanio": 1,
+          "localizacion": "Colina",
+          "rareza": 5
+        },
+        {
+          "objetoId": "col33",
+          "nombre": "Palometa de Buen Gusto",
+          "stack": 1,
+          "precio": 10000,
+          "tipo": "Coleccionable",
+          "tipoEsp": "Pez",
+          "estacion": "Invierno",
+          "tamanio": 3,
+          "localizacion": "Mar",
+          "rareza": 1
+        },
+        {
+          "objetoId": "equi71",
+          "nombre": "Zapatillas Chachi",
+          "stack": 1,
+          "precio": 5000,
+          "tipo": "Equipable",
+          "tipoEsp": "Ropa",
+          "lugar_eq": "Pies"
+        },
+        {
+          "objetoId": "equi72",
+          "nombre": "Chanclas muy Especial",
+          "stack": 1,
+          "precio": 10,
+          "tipo": "Equipable",
+          "tipoEsp": "Ropa",
+          "lugar_eq": "Pies"
+        },
+        {
+          "objetoId": "equi73",
+          "nombre": "Falda Hortera",
+          "stack": 1,
+          "precio": 10,
+          "tipo": "Equipable",
+          "tipoEsp": "Ropa",
+          "lugar_eq": "Piernas"
+        },
+        {
+          "objetoId": "equi74",
+          "nombre": "Gorrita Hortera",
+          "stack": 1,
+          "precio": 2750,
+          "tipo": "Equipable",
+          "tipoEsp": "Ropa",
+          "lugar_eq": "Cabeza"
+        },
+        {
+          "objetoId": "equi75",
+          "nombre": "Camisa para cogerle carinio",
+          "stack": 1,
+          "precio": 5000,
+          "tipo": "Equipable",
+          "tipoEsp": "Ropa",
+          "lugar_eq": "Torso"
+        },
+        {
+          "objetoId": "mu66",
+          "nombre": "Ceramica Chismoso",
+          "stack": 20,
+          "precio": 250,
+          "tipo": "Material",
+          "tipoEsp": "Ceramica"
+        },
+        {
+          "objetoId": "mu67",
+          "nombre": "Armario muy Cuqui",
+          "stack": 1,
+          "precio": 100,
+          "tipo": "Mueble",
+          "tipoEsp": "Armario",
+          "color": "Rosa",
+          "conjunto": "Setas"
+        },
+        {
+          "objetoId": "mu68",
+          "nombre": "Estanteria Calido",
+          "stack": 1,
+          "precio": 200,
+          "tipo": "Mueble",
+          "tipoEsp": "Estanteria",
+          "color": "Rojo",
+          "conjunto": "Flor de cerezo"
+        }
+      ]
+    },
+    {
+      "_id": "c9",
+      "colorFachada": "Blanco",
+      "colorTejado": "Blanco",
+      "inventarioCasa": [
+        {
+          "objetoId": "equi76",
+          "nombre": "Chaleco Correcto",
+          "stack": 1,
+          "precio": 500,
+          "tipo": "Equipable",
+          "tipoEsp": "Ropa",
+          "lugar_eq": "Torso"
+        },
+        {
+          "objetoId": "mu69",
+          "nombre": "Madera de Buen Gusto",
+          "stack": 10,
+          "precio": 500,
+          "tipo": "Material",
+          "tipoEsp": "Madera"
+        },
+        {
+          "objetoId": "mu70",
+          "nombre": "Piedra Chismoso",
+          "stack": 200,
+          "precio": 200,
+          "tipo": "Material",
+          "tipoEsp": "Piedra"
+        },
+        {
+          "objetoId": "mu71",
+          "nombre": "Piedra Chismoso",
+          "stack": 20,
+          "precio": 100,
+          "tipo": "Material",
+          "tipoEsp": "Piedra"
+        },
+        {
+          "objetoId": "mu72",
+          "nombre": "Piedra Impecable",
+          "stack": 100,
+          "precio": 100,
+          "tipo": "Material",
+          "tipoEsp": "Piedra"
+        },
+        {
+          "objetoId": "mu73",
+          "nombre": "Armario Chismoso",
+          "stack": 1,
+          "precio": 500,
+          "tipo": "Mueble",
+          "tipoEsp": "Armario",
+          "color": "Azul",
+          "conjunto": "Universitario"
+        },
+        {
+          "objetoId": "mu74",
+          "nombre": "Silla para cogerle carinio",
+          "stack": 1,
+          "precio": 300,
+          "tipo": "Mueble",
+          "tipoEsp": "Silla",
+          "color": "Azul",
+          "conjunto": "Veraniego"
+        },
+        {
+          "objetoId": "mu75",
+          "nombre": "Armario Curioso",
+          "stack": 1,
+          "precio": 100,
+          "tipo": "Mueble",
+          "tipoEsp": "Armario",
+          "color": "Rosa",
+          "conjunto": "Bambu"
+        },
+        {
+          "objetoId": "mu76",
+          "nombre": "Mesa muy Especial",
+          "stack": 1,
+          "precio": 250,
+          "tipo": "Mueble",
+          "tipoEsp": "Mesa",
+          "color": "Rojo",
+          "conjunto": "Universitario"
+        }
+      ]
+    }
+  ]
+}

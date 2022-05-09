@@ -126,8 +126,11 @@ class ColeccionableObject:
 # Globals
 file_path = os.path.dirname(__file__) + "\\Json\\"
 
-test_path = file_path + "text.json"
+casas_path = file_path + "casas.json"
+jugadores_path = file_path + "jugadores.json"
+isla_path = file_path + "islas.json"
 
+player_id_count = 0
 mueble_id_count = 0
 coleccionable_id_count = 0
 material_id_count = 0
@@ -135,6 +138,9 @@ prop_id_count = 0
 equipable_id_count = 0
 
 casa_id_count = 0
+
+edificio_id_count = 0
+
 
 
 def get_random_color():
@@ -160,7 +166,9 @@ def get_adjective():
     adjectives = ["Genial", "Mediocre", "del Monton", "Comun", "Impresionante", "muy Cuqui", "Cuqui",
                   "Curioso", "Interesante", "sin Mas", "Correcto", "Atractivo", "Calido", "Precioso",
                   "Azulado", "de Campeones", "Elegante", "Estilizado", "Magnifico", "Chachi", "Medio Roto",
-                  "Memorable", "que da que pensar"]
+                  "Memorable", "que da que pensar", "Pijito", "Chismoso", "de Locos", "Perfecto", "Impecable",
+                  "para cogerle carinio", "Especial", "muy Especial", "Vistosito", "Regu", "que no esta mal",
+                  "un poco Hortera", "Hortera", "de Buen Gusto"]
 
     return adjectives[random.randint(0, len(adjectives) - 1)]
 
@@ -173,13 +181,13 @@ def get_material_dict_list(size):
     precios = [10, 100, 150, 200, 250, 300, 500]
 
     for i in range(size):
-        name = names[random.randint(0, len(names) - 1)] + " " + get_adjective()
+        name = names[random.randint(0, len(names) - 1)]
         stack = stacks[random.randint(0, len(stacks) - 1)]
         precio = precios[random.randint(0, len(precios) - 1)]
         tipo = "Material"
         tipoEsp = name
 
-        dict_list.append(MaterialObject(name, stack, precio, tipo, tipoEsp).get_dict())
+        dict_list.append(MaterialObject(name+ " " + get_adjective(), stack, precio, tipo, tipoEsp).get_dict())
 
     return dict_list
 
@@ -291,7 +299,31 @@ def get_col_dict_list(size):
         localization = localizations[name_i]
         rareza = random.randint(1, 10)
 
-        dict_list.append(ColeccionableObject(name, stack, precio, tipo, tipoEsp, estacion, tamanio, localization, rareza).get_dict())
+        dict_list.append(
+            ColeccionableObject(name, stack, precio, tipo, tipoEsp, estacion, tamanio, localization, rareza).get_dict())
+
+    return dict_list
+
+
+def get_mueble_dict_list(size):
+    dict_list = []
+
+    names = ["Silla", "Mesa", "Mesita", "Armario", "Estanteria", "Cama"]
+    precios = [10, 100, 150, 200, 250, 300, 500]
+    tipo = "Mueble"
+    conjuntos = ["Congelado", "Dorado", "Setas", "Flor de cerezo", "Bambu", "Mimbre", "Restaurante",
+                 "Imperial",
+                 "Flores", "Linda", "Mariana", "Veraniego", "Frutas", "Zodiaco", "Universitario"]
+
+    stack = 1
+    for i in range(size):
+        name = names[random.randint(0, len(names) - 1)]
+        precio = precios[random.randint(0, len(precios) - 1)]
+        color = get_random_color()
+        tipoEsp = name
+        conjunto = conjuntos[random.randint(0, len(conjuntos) - 1)]
+
+        dict_list.append(MuebleObject(name+ " " + get_adjective(), stack, precio, tipo, tipoEsp, color, conjunto).get_dict())
 
     return dict_list
 
@@ -303,16 +335,110 @@ def write_file(file, values):
 
 
 def write_casas(casa_count):
+    global casas_path
+
+    casas = []
     for i in range(casa_count):
-        casa_dict = [{"_id": "c" + str(i),
-                      "colorFachada": get_random_color(),
-                      "colorTejado": get_random_color(),
+        casa_dict = {"_id": "c" + str(i),
+                     "colorFachada": get_random_color(),
+                     "colorTejado": get_random_color(),
 
-                      "inventarioCasa": [
+                     "inventarioCasa": (get_col_dict_list(random.randint(0, 5))
+                                        + get_equip_dict_list(random.randint(0, 5))
+                                        + get_prop_dict_list(random.randint(0, 5))
+                                        + get_material_dict_list(random.randint(0, 5))
+                                        + get_mueble_dict_list(random.randint(0, 5))
+                                        )
+                     }
+        casas.append(casa_dict)
 
-                      ]
-                      }]
+    write_file(casas_path, {"Casas": casas})
 
 
-val = {"Caquita": get_col_dict_list(100)}
-write_file(test_path, val)
+def write_players(size):
+    global jugadores_path
+    if size > 4:
+        size = 4
+
+    nombres = ["Pepito", "Juana", "Jennifer", "Stella"]
+
+    bayas_list = [1000, 2000, 3000, 12000]
+
+    jugadores = []
+    for i in range(size):
+        player_id = "j" + str(i)
+        nombre = nombres[i]
+        casa = "c" + str(i)
+        bayas = bayas_list[random.randint(0, len(bayas_list) - 1)]
+        millas = bayas_list[random.randint(0, len(bayas_list) - 1)]
+
+        inventario = get_mueble_dict_list(random.randint(0, 3)) + \
+                     get_equip_dict_list(random.randint(0, 10)) + \
+                     get_col_dict_list(random.randint(0, 3)) + \
+                     get_material_dict_list(random.randint(0, 3)) + \
+                     get_prop_dict_list(random.randint(0, 3))
+
+        vecinos = []
+
+        jugador_dict = {
+            "_id": player_id,
+            "nombre": nombre,
+            "casa": casa,
+            "bayas": bayas,
+            "millas": millas,
+
+            "inventarioObjetos": inventario,
+            "vecinos": vecinos
+        }
+
+        jugadores.append(jugador_dict)
+
+    write_file(jugadores_path, {"Jugadores": jugadores})
+
+
+def write_islas(isla_count):
+    global isla_path
+    global edificio_id_count
+
+    islas = []
+    nombres = ["AlcorOn", "SouthPeru", "MostToLess", "TorriHoes", "WestMadriz"]
+    hemisferios = ["N", "S"]
+
+    fechas = ["10-5-2022", "9-5-2022", "11-5-2022", "12-5-2022"]
+    horas = ["8:22:23", "9:22:23", "10:22:23", "11:22:23", "12:22:23", "13:22:23", "14:22:23"]
+    climatologias = ["Nublado", "Soleado", "Tormenta", "Lluvia", "Niebla", "Muy Soleado"]
+    edificios = ["Ayuntamiento", "Mueso", "Tienda"]
+
+    edificios_dict_list = []
+
+    for i in range(len(edificios) - 1):
+        dict = {
+            "idEdificio": "ed" + str(edificio_id_count),
+            "tipo": edificios[i],
+            "inventarioEdificio": get_mueble_dict_list(random.randint(0, 5)) +
+                                  get_col_dict_list(random.randint(0, 5)) +
+                                  get_mueble_dict_list(random.randint(0, 5)) +
+                                  get_prop_dict_list(random.randint(0, 5)) +
+                                  get_material_dict_list(random.randint(0, 5)) +
+                                  get_equip_dict_list(random.randint(0, 2))
+        }
+        edificio_id_count += 1
+        edificios_dict_list.append(dict)
+
+    for i in range(isla_count):
+        isla_dict = {"_id": "is" + str(i),
+                     "jugador": "j" + str(i),
+                     "nombre": nombres[i % len(nombres)],
+                     "hemisferio": hemisferios[random.randint(0, len(hemisferios) - 1)],
+                     "fecha": fechas[random.randint(0, len(fechas) - 1)],
+                     "hora": horas[random.randint(0, len(fechas) - 1)],
+                     "climatologia": climatologias[random.randint(0, len(climatologias) - 1)],
+                     "edificios": edificios_dict_list
+        }
+        islas.append(isla_dict)
+
+    write_file(isla_path, {"Islas": islas})
+
+write_players(5)
+write_casas(10)
+write_islas(3)
