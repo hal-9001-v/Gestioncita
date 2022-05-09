@@ -565,7 +565,7 @@ def write_islas(isla_count):
 
         isla_dict = {"_id": "is" + str(isla_id_count),
                      "jugadores": jugadores,
-                     "nombre": nombres[i % len(nombres)],
+                     "nombre": nombres[isla_id_count % len(nombres)],
                      "hemisferio": hemisferios[random.randint(0, len(hemisferios) - 1)],
                      "fecha": fechas[random.randint(0, len(fechas) - 1)],
                      "hora": horas[random.randint(0, len(fechas) - 1)],
@@ -620,7 +620,7 @@ def get_vecino():
     return vecino_dict
 
 
-write_islas(3)
+write_islas(5)
 
 write_file(objeto_path, {"Objetos": all_objects})
 write_file(casas_path, {"Casas": all_casas})
